@@ -12,9 +12,11 @@ def find_ticker_and_exchange(name):
     except BaseException as e:
         raise e
     else:
+        if data is None:
+            raise Exception(f'Company {name} is not found.')
         quotes = data['quotes']
         if len(quotes) == 0:
-            return None
+            raise Exception(f'Ticker/exchange is not found for {name}.')
         symbol = quotes[0]['symbol'] if 'symbol' in quotes[0] else None
         exchange = quotes[0]['exchDisp'] if 'exchDisp' in quotes[0] else None
         return symbol, exchange
@@ -36,7 +38,7 @@ def get_trading_symbols_df(companies):
             dictEntry["Exchange"] = exchange
             output.append(dictEntry)
             cnt += 1
-    print('--->Found ticker for %s of %s companies' % (cnt, len(companies)))
+    print('===>Found ticker for %s of %s companies' % (cnt, len(companies)))
     return pd.DataFrame.from_records(output)
 
 
@@ -56,14 +58,21 @@ def get_and_save_tickers():
     pubCompanyTickersFile = r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir))
     if os.path.exists(pubCompanyTickersFile):
         dfPubCompanyTickers = pd.read_csv(pubCompanyTickersFile)
-        pubCompaniesWithTickers = set(dfPubCompanyTickers['Company'].tolist())
+        if dfPubCompanyTickers is not None and not dfPubCompanyTickers.empty:
+            pubCompaniesWithTickers = set(dfPubCompanyTickers['Company'].tolist())
     # pubCompanies need to find tickers
     pubCompaniesToCheck = pubCompanies - pubCompaniesWithTickers
     pubCompaniesToCheck = [c.strip() for c in pubCompaniesToCheck]
+    print('===>To find tickers for %s companies.' % (len(pubCompaniesToCheck)))
     dfTickers = get_trading_symbols_df(pubCompaniesToCheck)
-    dfPubCompanyTickers = pd.concat([dfPubCompanyTickers, dfTickers]) \
-        if (dfPubCompanyTickers and not dfTickers.empty) else dfTickers
-    dfPubCompanyTickers.to_csv(pubCompanyTickersFile, index=False)
+    # Save the tickers found
+    if dfTickers is not None and not dfTickers.empty:
+        if dfPubCompanyTickers is not None and not dfPubCompanyTickers.empty:
+            dfPubCompanyTickers = pd.concat([dfPubCompanyTickers, dfTickers])
+        else:
+            dfPubCompanyTickers = dfTickers
+        print('===>Save tickers for %s companies.' % (len(dfPubCompanyTickers)))
+        dfPubCompanyTickers.to_csv(pubCompanyTickersFile, index=False)
 
 
 if '__main__' == __name__:

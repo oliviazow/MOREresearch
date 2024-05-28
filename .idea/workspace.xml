@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
+      <change beforePath="$PROJECT_DIR$/.idea/MOREreaserch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MOREreaserch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/yahoo_finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/publicCompanyTickers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyTickers.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +24,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;oliviazow&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/oliviazow/MOREreaserch&quot;,
-    &quot;accountId&quot;: &quot;b94d2584-8ee9-49aa-b66a-18c55bc5e5e6&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
   <component name="ProjectId" id="2h27hk0xM5tPDiX8AXjm3uKYsie" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,30 +31,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.iex_api.executor": "Run",
-    "Python.layoff_data_processor.executor": "Run",
-    "Python.main.executor": "Run",
     "Python.yahoo_finance.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/My Drive/Family.Shared/Georgetown/MOREreaserch",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings sdk-home="$PROJECT_DIR$/venv/Scripts/python.exe" working-directory="$PROJECT_DIR$">
-        <option name="sdk">
-          <Sdk />
-        </option>
         <option name="mySdkHome" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
-        <option name="mySdk">
-          <Sdk />
-        </option>
         <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>
@@ -155,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716829394520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1716840571347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716840571347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +167,11 @@
               </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>

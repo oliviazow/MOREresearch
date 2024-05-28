@@ -24,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2h27hk0xM5tPDiX8AXjm3uKYsie" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,13 +35,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.yahoo_finance.executor": "Run",
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings sdk-home="$PROJECT_DIR$/venv/Scripts/python.exe" working-directory="$PROJECT_DIR$">
+      <console-settings module-name="MOREreaserch" sdk-home="$PROJECT_DIR$/venv/Scripts/python.exe" working-directory="$PROJECT_DIR$">
+        <option name="sdk">
+          <Sdk />
+        </option>
         <option name="mySdkHome" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
+        <option name="mySdk">
+          <Sdk />
+        </option>
+        <option name="myModuleName" value="MOREreaserch" />
         <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>

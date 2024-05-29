@@ -87,6 +87,7 @@ def convert2df(data):
 
 if '__main__' == __name__:
     df = convert2df(data)
+    df["Company"] = df["Company"].apply(lambda x: x.strip())
     df.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
     publicCos = df[df["Stage"] == "Post-IPO"][["Company"]].drop_duplicates()
     publicCos.to_csv(r"%s\data\publicCompanies.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)

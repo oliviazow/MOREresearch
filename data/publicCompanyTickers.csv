@@ -2,18 +2,18 @@ Company,Ticker,Exchange
 PropertyGuru,PGRU,NYSE
 LivePerson,LPSN,NASDAQ
 NuScale Power,SMR,NYSE
-SenseTime,0020.HK,Hong Kong
+SenseTime,0020.HK,HK
 Affirm,AFRM,NASDAQ
 Warby Parker,WRBY,NYSE
-Enjoy,1755.HK,Hong Kong
+Enjoy,1755.HK,HK
 Thoughtworks,TWKS,NASDAQ
 Oracle,ORCL,NYSE
 Roblox,RBLX,NYSE
 Otovo,NO0010809783.SG,Stuttgart
 Canoo,GOEV,NASDAQ
-Funding Circle,FCA.F,Frankfurt
+Funding Circle,FCA.F,FRA
 Rivian,RIVN,NASDAQ
-Latch,LTCH,OTC Markets
+Latch,LTCH,OTCMKTS
 Upwork,UPWK,NASDAQ
 Cue Health,HLTH,NASDAQ
 GoodRx,GDRX,NASDAQ
@@ -40,24 +40,24 @@ Eventbrite,EB,NYSE
 Synopsys,SNPS,NASDAQ
 Shopify,SHOP,NYSE
 Wayfair,W,NYSE
-SmileDirectClub,SDCCQ,OTC Markets
+SmileDirectClub,SDCCQ,OTCMKTS
 Intuit,ISRG,NASDAQ
 Kaltura,KLTR,NASDAQ
 Leafly,LFLY,NASDAQ
-Sinch,SINCH.ST,Stockholm
-Just Eat Takeaway,TKWY.AS,Amsterdam
+Sinch,SINCH.ST,SSO
+Just Eat Takeaway,TKWY.AS,AMS
 ZoomInfo,ZI,NASDAQ
 UiPath,PATH,NYSE
 Taboola,TBLA,NASDAQ
 Century Therapeutics,IPSC,NASDAQ
 RingCentral,RNG,NYSE
 Mogo,MOGO,NASDAQ
-Volta,VOLLF.BO,Bombay
+Volta,VOLLF.BO,BOM
 Lemonade,LMND,NYSE
 IBM,IBM,NYSE
 Netflix,NFLX,NASDAQ
 VTEX,VTEX,NYSE
-Maven,96W.F,Frankfurt
+Maven,96W.F,FRA
 DigitalOcean,DOCN,NYSE
 Zebra Technologies,ZBRA,NASDAQ
 Palantir,PLTR,NYSE
@@ -73,8 +73,8 @@ Playtika,PLTK,NASDAQ
 Grab,GRAB,NASDAQ
 Megaport,MP1.XA,CXA
 Apple,AAPL,NASDAQ
-Tencent,0700.HK,Hong Kong
-Babylon,BPP.AX,Australian
+Tencent,0700.HK,HK
+Babylon,BPP.AX,NSX
 GoDaddy,GDDY,NYSE
 Pinterest,PINS,NYSE
 Juniper Networks,JNPR,NYSE
@@ -82,8 +82,8 @@ Bark,BARK,NYSE
 Lam Research,LRCX,NASDAQ
 Atlassian,TEAM,NASDAQ
 Similarweb,SMWB,NYSE
-NanoString Technologies,NSTGQ,OTC Markets
-Starry,603520.SS,Shanghai
+NanoString Technologies,NSTGQ,OTCMKTS
+Starry,603520.SS,FCZ
 Autodesk,ADSK,NASDAQ
 Butterfly Network,BFLY,NYSE
 EverBridge,EVBG,NASDAQ
@@ -112,7 +112,7 @@ Cimpress,CMPR,NASDAQ
 Fiverr,FVRR,NYSE
 Microsoft,MSFT,NASDAQ
 AudioCodes,AUDC,NASDAQ
-NanoString,NSTGQ,OTC Markets
+NanoString,NSTGQ,OTCMKTS
 Zoom,ZM,NASDAQ
 Fate Therapeutics,FATE,NASDAQ
 F5,FFIV,NASDAQ
@@ -123,16 +123,16 @@ Guardant Health,GH,NASDAQ
 Take-Two,TTWO,NASDAQ
 Software AG,BSS.BE,Berlin
 IAC,IAC,NASDAQ
-NCSoft,036570.KS,Korea
+NCSoft,036570.KS,SEO
 MeridianLink,MLNK,NYSE
 Match Group,MTCH,NASDAQ
 CS Disco,LAW,NYSE
-Pear Therapeutics ,PEARQ,OTC Markets
-Invitae,NVTAQ,OTC Markets
+Pear Therapeutics ,PEARQ,OTCMKTS
+Invitae,NVTAQ,OTCMKTS
 Twist Bioscience,TWST,NASDAQ
 Micron,MU,NASDAQ
 Doma,DOMA,NYSE
-Vista Group,VGL.NZ,New Zealand
+Vista Group,VGL.NZ,WEL
 Chewy,CHWY,NYSE
 AEye,AEYE,NASDAQ
 Markforged,MKFG,NYSE
@@ -169,11 +169,11 @@ PagSeguro,PAGS,NYSE
 Bird,BIRD,NASDAQ
 XP,XP,NASDAQ
 Fortinet,FTNT,NASDAQ
-Pear Therapeutics,PEARQ,OTC Markets
-Cyren,CYRNQ,OTC Markets
-Better Therapeutics,BTTX,OTC Markets
-Life360,LIFX,OTC Markets
-Block,BLK=F,Chicago Mercantile Exchange
+Pear Therapeutics,PEARQ,OTCMKTS
+Cyren,CYRNQ,OTCMKTS
+Better Therapeutics,BTTX,OTCMKTS
+Life360,LIFX,OTCMKTS
+Block,BLK=F,CME
 Stitch Fix,SFIX,NASDAQ
 Philips,PHG,NYSE
 NIO,NIO,NYSE
@@ -181,31 +181,31 @@ Perion,PERI,NASDAQ
 Inspirato,ISPO,NASDAQ
 Twilio,TWLO,NYSE
 LiveRamp,RAMP,NYSE
-NCC Group,NZB.F,Frankfurt
+NCC Group,NZB.F,FRA
 Arm Holdings,ARM,NASDAQ
 Amdocs,DOX,NASDAQ
 Sezzle,SEZL,NASDAQ
 Outbrain,OB,NASDAQ
-Samsung,005930.KS,Korea
+Samsung,005930.KS,SEO
 LendingTree,TREE,NASDAQ
 TaskUs,TASK,NASDAQ
-New Work SE,NWSE.VI,Vienna
+New Work SE,NWSE.VI,VIE
 Skillz,SKLZ,NYSE
-Arrival,ARVLF,OTC Markets
+Arrival,ARVLF,OTCMKTS
 TrueCar,TRUE,NASDAQ
 Adaptive Biotechnologies,ADPT,NASDAQ
 Varonis,VRNS,NASDAQ
 Intel,INTC,NASDAQ
-Mode Global,0P0001LJX6.F,Frankfurt
+Mode Global,0P0001LJX6.F,FRA
 Accolade,4NE1.MU,Munich
 10X Genomics,TXG,NASDAQ
 Marqeta,MQ,NASDAQ
-Ericsson,ERIC-B.ST,Stockholm
+Ericsson,ERIC-B.ST,SSO
 Proterra,PTRA,NASDAQ
 Coherent,COHR,NYSE
 Lightspeed Commerce,LSPD,NYSE
-Boozt,BOK.F,Frankfurt
-Xiaomi,1810.HK,Hong Kong
+Boozt,BOK.F,FRA
+Xiaomi,1810.HK,HK
 Qualcomm,QCOM,NASDAQ
 Viant,DSP,NASDAQ
 BuzzFeed,BZFD,NASDAQ
@@ -216,13 +216,13 @@ Synlogic,SYBX,NASDAQ
 Criteo,CRTO,NASDAQ
 Ouster,OUST,NYSE
 Wallbox,WBX,NYSE
-Wejo,WEJOF,OTC Markets
+Wejo,WEJOF,OTCMKTS
 Tesla,TSLA,NASDAQ
-Lenovo,0992.HK,Hong Kong
-Fisker,FSRN,OTC Markets
+Lenovo,0992.HK,HK
+Fisker,FSRN,OTCMKTS
 Viasat,VSAT,NASDAQ
 Sprinklr,CXM,NYSE
-View,VRAYQ,OTC Markets
+View,VRAYQ,OTCMKTS
 Wix,WIX,NASDAQ
 Impinj,PI,NASDAQ
 Talis Biomedical,TLIS,NASDAQ
@@ -242,11 +242,11 @@ Enphase Energy,ENPH,NASDAQ
 Owlet,OWLT,NYSE
 Personalis,PSNL,NASDAQ
 Wish,WISH,NASDAQ
-VerticalScope,7E9.F,Frankfurt
+VerticalScope,7E9.F,FRA
 Allbirds,BIRD,NASDAQ
 Cardlytics,CDLX,NASDAQ
 Cazoo,CZOO,NYSE
-Springbig,SBIGW,OTC Markets
+Springbig,SBIGW,OTCMKTS
 Oatly,OTLY,NASDAQ
 Blend,BLND,NYSE
 Lucid Diagnostics,LUCD,NASDAQ
@@ -259,30 +259,29 @@ eBay,EBAY,NASDAQ
 Quanterix,QTRX,NASDAQ
 Dropbox,DBX,NASDAQ
 Selina,SLNA,NASDAQ
-Bill.com,0A75.L,London
-Legible,D0T.F,Frankfurt
+Bill.com,0A75.L,XLON
+Legible,D0T.F,FRA
 EQRx,EQRXW,NASDAQ
 Bilibili,BILI,NASDAQ
 nCino,NCNO,NASDAQ
 Acast,ACST,NASDAQ
 Compass,COMP,NYSE
 Cue,CUE,NASDAQ
-Westwing,WEW.F,Frankfurt
+Westwing,WEW.F,FRA
 SoFi,SOFI,NASDAQ
 Cisco,CSCO,NASDAQ
 Redfin,RDFN,NASDAQ
 WalkMe,WKME,NASDAQ
 PayPal,PYPL,NASDAQ
-F-Secure,FSECURE.HE,HEL
 Nerdy,NRDY,NYSE
-Titan Medical,TMDIF,OTC Markets
+Titan Medical,TMDIF,OTCMKTS
 Pegasystems,PEGA,NASDAQ
 GitLab,GTLB,NASDAQ
 Astra,AZN,NASDAQ
 Delivery Hero,DHER.DE,XETRA
-ContraFect,CFRXQ,OTC Markets
+ContraFect,CFRXQ,OTCMKTS
 Natera,NTRA,NASDAQ
-Oportun,0P00000W2P.F,Frankfurt
+Oportun,0P00000W2P.F,FRA
 Matterport,MTTR,NASDAQ
 SoundHound,SOUN,NASDAQ
 Stone,STNE,NASDAQ
@@ -310,9 +309,9 @@ Capital One,COF,NYSE
 Digimarc,DMRC,NASDAQ
 Yext,YEXT,NYSE
 Sage Therapeutics,SAGE,NASDAQ
-Tempo Automation,TMPOQ,OTC Markets
+Tempo Automation,TMPOQ,OTCMKTS
 HelloFresh,HFG.DE,XETRA
-TuSimple,TSPH,OTC Markets
+TuSimple,TSPH,OTCMKTS
 Illumina,ILMN,NASDAQ
 Google,GOOG,NASDAQ
 Rent the Runway,RENT,NASDAQ
@@ -320,13 +319,13 @@ DoorDash,DASH,NASDAQ
 Aurora,ACB,NASDAQ
 Zscaler,ZS,NASDAQ
 Expedia,EXPE,NASDAQ
-SQZ Biotech,SQZB,OTC Markets
-WeWork,WEWKQ,OTC Markets
+SQZ Biotech,SQZB,OTCMKTS
+WeWork,WEWKQ,OTCMKTS
 Akerna,KERNW,NASDAQ
 Workday,WDAY,NASDAQ
 Teladoc Health,TDOC,NYSE
-Appgate,APGTQ,OTC Markets
-AppGate,APGTQ,OTC Markets
+Appgate,APGTQ,OTCMKTS
+AppGate,APGTQ,OTCMKTS
 DocuSign,DOCU,NASDAQ
 BM Technologies,BMTX,NYSE MKT
 Brightcove,BCOV,NASDAQ
@@ -336,7 +335,7 @@ Coursera,COUR,NYSE
 Electronic Arts,EA,NASDAQ
 Blackbaud,BLKB,NASDAQ
 Roku,ROKU,NASDAQ
-Kogan,KGN.AX,Australian
+Kogan,KGN.AX,NSX
 F-Secure,FSECURE.HE,HEL
 Coinbase,COIN,NASDAQ
 Jamf,JAMF,NASDAQ
@@ -344,9 +343,9 @@ Guidewire,GWRE,NYSE
 Innoviz,INVZ,NASDAQ
 Yelp,YELP,NYSE
 Offerpad,OPAD,NYSE
-Kaspien,KSPN,OTC Markets
+Kaspien,KSPN,OTCMKTS
 Marvell,MRVL,NASDAQ
-Storytel,DST.F,Frankfurt
+Storytel,DST.F,FRA
 Chegg,CHGG,NYSE
 Nikola,NKLA,NASDAQ
 Amplitude,AMPL,NASDAQ
@@ -355,18 +354,16 @@ ZipRecruiter,ZIP,NYSE
 Bumble,BMBL,NASDAQ
 Udemy,UDMY,NASDAQ
 OnDeck,7360.T,Tokyo Stock Exchange
-WeWork,WEWKQ,OTC Markets
 Western Digital,WDC,NASDAQ
 Airbnb,ABNB,NASDAQ
 Domo,DOMO,NASDAQ
 EVgo,EVGO,NASDAQ
 SAP,SAP,NYSE
-Deliveroo,ROO.L,London
+Deliveroo,ROO.L,XLON
 Magnite,MGNI,NASDAQ
-F-Secure,FSECURE.HE,HEL
 Casper,CSPR-USD,CCC
 Aptiv,APTV,NYSE
-D2L,D2L.F,Frankfurt
+D2L,D2L.F,FRA
 Salesforce,CRM,NYSE
 Vroom,VRM,NASDAQ
 Nextdoor,KIND,NYSE
@@ -374,9 +371,7 @@ Unity,U,NYSE
 Nevro,NVRO,NYSE
 ThredUp,TDUP,NASDAQ
 BigCommerce,BIGC,NASDAQ
-WeWork,WEWKQ,OTC Markets
 AppFolio,APPF,NASDAQ
-F-Secure,FSECURE.HE,HEL
 Analog Devices,ADI,NASDAQ
-888,8885.KL,Kuala Lumpur Stock Exchange
+888,8885.KL,KUL
 Sonos,SONO,NASDAQ

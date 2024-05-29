@@ -94,35 +94,62 @@ def join_trading_symbols_df(dataframe):
     joinedDf.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
 
 
-def get_prices(stock, startdate):
+def get_prices(stock, layoffdate):
     symbol = Ticker(stock)
-    symbolPrices = symbol.history(interval="1d", start=startdate, end= startdate + datetime.timedelta(days=17))
+    symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=6),
+                                  end=layoffdate + datetime.timedelta(days=7))
     symbolPrices.reset_index(level="symbol", inplace=True)
-    symbolPrices.drop(columns=["symbol"], inplace=True)
-
-    # startdateIndex = symbolPrices.index.get_loc(startdate.strftime("%Y-%m-%d"))
-    # print(startdateIndex)
-    # symbolPrices = symbolPrices.iloc[startdateIndex - 3:startdateIndex + 4]
+    # symbolPrices.drop(columns=["symbol"], inplace=True)
+    if layoffdate in symbolPrices.index:
+        layoffdateIndex = symbolPrices.index.get_loc(layoffdate)
+    else:
+        dateToCheck = layoffdate
+        while dateToCheck not in symbolPrices.index:
+            dateToCheck += datetime.timedelta(days=1)
+        layoffdateIndex = symbolPrices.index.get_loc(dateToCheck)
+    # print(layoffdateIndex)
+    symbolPrices = symbolPrices.iloc[layoffdateIndex - 3:layoffdateIndex + 5]
+    # print(symbolPrices)
     return symbolPrices
 
-def get_daily_returns_1wk(pricesdf, startdate):
-    dates = pricesdf["date"]
-    dates = dates[(dates.index(startdate) - 3):(dates.index(startdate) + 3)]
+
+def get_daily_returns_1wk(pricesdf):
+    keynames = ["Stock Return 3 Days Before t", "Stock Return 2 Days Before t",
+                "Stock Return 1 Day Before t", "Stock Return On Trading Date Closest To Announcement (t)",
+                "Stock Return 1 Day After t", "Stock Return 2 Days After t",
+                "Stock Return 3 Days After t"]
     adjcloses = pricesdf["adjclose"]
     dailyReturns = [((adjcloses.iloc[x + 1]/adjcloses.iloc[x]) - 1) for x in range(len(adjcloses)) if x < (len(adjcloses) - 1)]
-    dateReturnMap = dict(zip(dates, dailyReturns))
+    dateReturnMap = dict(zip(keynames, dailyReturns))
+    dateReturnMap["Ticker"] = pricesdf["symbol"].iloc[0]
+
     return dateReturnMap
+
+def get_returns_dataframe(dataframe):
+    returns = []
+    tickers = dataframe["Ticker"].tolist()
+    for count, ticker in enumerate(tickers):
+        dictEntry = get_daily_returns_1wk(get_prices(ticker, datetime.datetime.strptime(
+            dataframe.iat[count, 5], f"%Y-%m-%d").date()))
+        returns.append(dictEntry)
+    returnsdf = pd.DataFrame.from_records(returns)
+    colnames = returnsdf.columns.tolist()
+    temp = colnames.pop(3)
+    colnames.insert(0, temp)
+    temp = colnames.pop(7)
+    colnames.insert(0, temp)
+    returnsdf = returnsdf[colnames]
+
+    return returnsdf
+
 
 if '__main__' == __name__:
     # get_and_save_tickers()
     df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     # join_trading_symbols_df(df)
 
-    publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"])].head(5)
-    publicSampleTickers = publicSample["Ticker"].tolist()
-
-    # for ticker in publicSampleTickers:
-    #     pprint(get_prices(ticker))
-    googleHist = get_prices("GOOG", datetime.datetime.strptime(df.at[10, "Date of Layoff"], "%Y-%m-%d").date() -
-                            datetime.timedelta(days=5))
-    pprint(googleHist.index)
+    publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
+    # pprint(publicSample)
+    returnsdf = get_returns_dataframe(publicSample)
+    df = pd.merge(df, returnsdf, how="left", left_on="Ticker", right_on="Ticker")
+    df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))

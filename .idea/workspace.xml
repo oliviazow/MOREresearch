@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/yahoo_finance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.exchangeAbb.executor": "Run",
+    "Python.iex_api.executor": "Run",
     "Python.layoff_data_processor.executor": "Run",
     "Python.yahoo_finance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +69,7 @@
       <recent name="G:\My Drive\Family.Shared\Georgetown\MOREreaserch\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yahoo_finance">
+  <component name="RunManager" selected="Python.iex_api">
     <configuration name="exchangeAbb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
@@ -80,6 +84,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/exchangeAbb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iex_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MOREreaserch" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iex_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iex_api" />
         <item itemvalue="Python.yahoo_finance" />
         <item itemvalue="Python.layoff_data_processor" />
         <item itemvalue="Python.exchangeAbb" />
@@ -204,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717019025506</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1717028272005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717028272005</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,21 +286,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit from o.zhao.0001@gmail.com" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit from o.zhao.0001@gmail.com" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/yahoo_finance.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/yahoo_finance.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

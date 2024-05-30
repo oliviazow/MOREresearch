@@ -1,4 +1,5 @@
-/docs/~$IEX.docx
+/docs/$IEX.docx
+/src/iex_api.py
 
 *.ini
 */*.ini

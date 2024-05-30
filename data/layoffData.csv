@@ -1258,7 +1258,7 @@ Palantir,True,Denver,Data,75.0,2023-02-27,https://www.cnbc.com/2023/02/27/palant
 Outreach,True,Seattle,Sales,70.0,2023-02-27,https://www.geekwire.com/2023/sales-startup-outreach-to-lay-off-70-employees-7-of-workforce-and-slow-office-expansion/,489.0,Series G,United States,0.07,,
 Stytch,True,SF Bay Area,Security,19.0,2023-02-27,https://www.bizjournals.com/sanfrancisco/inno/stories/news/2023/02/27/s-f-startup-stytch-lays-off-25-of-staff.html,126.0,Series B,United States,0.25,,
 BitSight,False,Tel Aviv,Security,40.0,2023-02-26,https://www.calcalistech.com/ctechnews/article/r1zxrmkri,401.0,Unknown,Israel,,,
-Twitter,True,SF Bay Area,Consumer,200.0,2023-02-25,https://www.nytimes.com/2023/02/26/technology/twitter-layoffs.html,12900.0,Post-IPO,United States,0.1,EBT-USD,CCC
+Twitter,True,SF Bay Area,Consumer,200.0,2023-02-25,https://www.nytimes.com/2023/02/26/technology/twitter-layoffs.html,12900.0,Post-IPO,United States,0.1,,
 Ericsson,False,Stockholm,Other,8500.0,2023-02-24,https://www.reuters.com/business/media-telecom/ericsson-lay-off-8500-employees-memo-2023-02-24/,663.0,Post-IPO,Sweden,0.08,ERIC-B.ST,SSO
 SAP Labs,False,Bengaluru,Other,300.0,2023-02-24,https://economictimes.indiatimes.com/tech/technology/sap-labs-lays-off-300-staffers-in-india/articleshow/98189199.cms,1300.0,Subsidiary,India,,,
 Velodyne Lidar,True,SF Bay Area,Transportation,220.0,2023-02-24,https://www.mercurynews.com/2023/02/24/tech-biotech-job-cut-san-jose-san-mateo-pleasanton-layoff-covid/,575.0,Acquired,United States,,,
@@ -1678,7 +1678,7 @@ SoundHound,True,SF Bay Area,Other,200.0,2023-01-05,https://gizmodo.com/soundhoun
 Socure,True,Reno,Finance,104.0,2023-01-05,https://www.biometricupdate.com/202301/socure-slashes-workforce,646.0,Series E,United States,0.19,,
 Genesis,True,New York City,Crypto,60.0,2023-01-05,https://www.cnbc.com/2023/01/05/crypto-lender-genesis-trading-lays-off-30percent-of-workforce.html,,Series A,United States,0.3,,
 Moglix,True,Singapore,Retail,40.0,2023-01-05,https://inc42.com/buzz/b2b-ecommerce-unicorn-moglix-layoff-spree-fires-40-employees/,472.0,Series F,Singapore,0.02,,
-Twitter,True,SF Bay Area,Consumer,40.0,2023-01-05,https://www.theinformation.com/articles/musk-lays-off-twitter-engineers-working-on-advertising-as-ad-revenue-shrinks,12900.0,Post-IPO,United States,,EBT-USD,CCC
+Twitter,True,SF Bay Area,Consumer,40.0,2023-01-05,https://www.theinformation.com/articles/musk-lays-off-twitter-engineers-working-on-advertising-as-ad-revenue-shrinks,12900.0,Post-IPO,United States,,,
 Everlane,True,SF Bay Area,Retail,30.0,2023-01-05,https://www.theinformation.com/articles/everlane-slashes-17-of-corporate-employees,176.0,Unknown,United States,0.17,,
 Pecan AI,False,Tel Aviv,Data,30.0,2023-01-05,https://www.calcalistech.com/ctechnews/article/hkrgrqvqo,116.0,Series C,Israel,0.25,,
 Personetics,True,New York City,Support,30.0,2023-01-05,https://www.calcalistech.com/ctechnews/article/sjlizvvcs,178.0,Private Equity,United States,0.08,,
@@ -2030,7 +2030,7 @@ Domino Data Lab,True,SF Bay Area,Data,,2022-11-07,https://docs.google.com/spread
 Varonis,True,New York City,Security,110.0,2022-11-06,https://www.calcalistech.com/ctechnews/article/hjfkkmrbo,30.0,Post-IPO,United States,0.05,VRNS,NASDAQ
 Brainly,False,Krakow,Education,25.0,2022-11-06,https://www.newindianexpress.com/lifestyle/tech/2022/nov/06/poland-based-ed-tech-platform-brainly-fires-nearly-all-staff-in-india-2515584.html,148.0,Series D,Poland,,,
 Practically,False,Hyderabad,Education,,2022-11-06,https://www.moneycontrol.com/news/business/startup/k-12-edtech-firm-practically-lays-off-staffers-holds-salaries-citing-funds-crunch-9457711.html,14.0,Unknown,India,,,
-Twitter,True,SF Bay Area,Consumer,3700.0,2022-11-04,https://www.nytimes.com/2022/11/04/technology/elon-musk-twitter-layoffs.html,12900.0,Post-IPO,United States,0.5,EBT-USD,CCC
+Twitter,True,SF Bay Area,Consumer,3700.0,2022-11-04,https://www.nytimes.com/2022/11/04/technology/elon-musk-twitter-layoffs.html,12900.0,Post-IPO,United States,0.5,TWTR,NYSE
 Udaan,False,Bengaluru,Retail,350.0,2022-11-04,https://inc42.com/buzz/udaan-fires-350-employees-in-second-wave-of-layoffs-this-year/,1500.0,Unknown,India,,,
 Planetly,False,Berlin,Other,200.0,2022-11-04,https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting,5.0,Acquired,Germany,1.0,,
 KoinWorks,False,Jakarta,Finance,70.0,2022-11-04,https://www.techinasia.com/koinworks-layoff-2022,180.0,Unknown,Indonesia,0.08,,
@@ -2564,7 +2564,7 @@ Next Insurance,True,SF Bay Area,Finance,150.0,2022-07-07,https://www.calcalistec
 Adwerx,True,Durham,Marketing,40.0,2022-07-07,https://www.inman.com/2022/07/08/adwerx-lays-off-40-employees-as-company-slows-new-initiatives/,20.0,Unknown,United States,,,
 Emotive,True,Los Angeles,Marketing,30.0,2022-07-07,https://dot.la/emotive-layoffs-2657628462.html,78.0,Series B,United States,0.18,,
 Cedar,True,New York City,Healthcare,,2022-07-07,https://www.businessinsider.com/cedar-layoffs-workers-jobs-cut-healthcare-market-downturn-2022-7,351.0,Series D,United States,0.24,,
-Twitter,True,SF Bay Area,Consumer,,2022-07-07,https://www.wsj.com/articles/twitter-lays-off-third-of-talent-team-11657227105,5700.0,Post-IPO,United States,,EBT-USD,CCC
+Twitter,True,SF Bay Area,Consumer,,2022-07-07,https://www.wsj.com/articles/twitter-lays-off-third-of-talent-team-11657227105,5700.0,Post-IPO,United States,,TWTR,NYSE
 Remote,True,SF Bay Area,HR,100.0,2022-07-06,https://www.publico.pt/2022/07/06/economia/noticia/crise-chega-tecnologicas-portugal-remote-despede-9-2012650,496.0,Series C,United States,0.09,,
 Shopify,False,Ottawa,Retail,50.0,2022-07-06,https://www.theglobeandmail.com/business/article-shopify-compensation-hiring-plans/,122.0,Post-IPO,Canada,,SHOP,NYSE
 Anodot,False,Tel Aviv,Data,35.0,2022-07-06,https://www.calcalistech.com/ctechnews/article/sypfe11ms5,64.0,Series C,United States,0.27,,

@@ -29,6 +29,7 @@ def test_get_tickers():
     company_names = ["BMW", "Capital One"]
     return get_trading_symbols_df(company_names)
 
+
 def get_trading_symbols_df(companies):
     output = []
     count = 0
@@ -37,7 +38,7 @@ def get_trading_symbols_df(companies):
         dictEntry = {}
         try:
             ticker, exchange = find_ticker_and_exchange(co)
-        except BaseException as e:
+        except Exception as e:
             print("Exception: " + str(e))
         else:
             dictEntry["Company"] = co
@@ -80,6 +81,7 @@ def get_and_save_tickers():
         dfPubCompaniesWithoutTickers.to_csv(r"%s\data\publicCompanyNoTicker.csv" % os.path.normpath(os.path.join(
             os.getcwd(), os.pardir)), index=False)
 
+
 def clean_exchange_names():
     df = pd.read_csv(r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     df["Exchange"] = df["Exchange"].apply(lambda x: abb_reversed[x] if x in abb_reversed.keys() else x)
@@ -98,8 +100,9 @@ def get_prices(stock, layoffdate):
     symbol = Ticker(stock)
     symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=6),
                                   end=layoffdate + datetime.timedelta(days=7))
+    if symbolPrices.empty:
+        raise Exception(f"Historical prices for {stock} not found.")
     symbolPrices.reset_index(level="symbol", inplace=True)
-    # symbolPrices.drop(columns=["symbol"], inplace=True)
     if layoffdate in symbolPrices.index:
         layoffdateIndex = symbolPrices.index.get_loc(layoffdate)
     else:
@@ -125,13 +128,18 @@ def get_daily_returns_1wk(pricesdf):
 
     return dateReturnMap
 
+
 def get_returns_dataframe(dataframe):
     returns = []
     tickers = dataframe["Ticker"].tolist()
     for count, ticker in enumerate(tickers):
-        dictEntry = get_daily_returns_1wk(get_prices(ticker, datetime.datetime.strptime(
-            dataframe.iat[count, 5], f"%Y-%m-%d").date()))
-        returns.append(dictEntry)
+        print(ticker)
+        try:
+            dictEntry = get_daily_returns_1wk(get_prices(ticker, datetime.datetime.strptime(dataframe.iat[count, 5],
+                                                                                        f"%Y-%m-%d").date()))
+            returns.append(dictEntry)
+        except BaseException as e:
+            print("Exception: " + str(e))
     returnsdf = pd.DataFrame.from_records(returns)
     colnames = returnsdf.columns.tolist()
     temp = colnames.pop(3)
@@ -149,7 +157,12 @@ if '__main__' == __name__:
     # join_trading_symbols_df(df)
 
     publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
-    # pprint(publicSample)
-    returnsdf = get_returns_dataframe(publicSample)
-    df = pd.merge(df, returnsdf, how="left", left_on="Ticker", right_on="Ticker")
-    df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+
+    test = publicSample.iloc[85:]
+    stockReturnsdf = get_returns_dataframe(test)
+
+    # tsph = Ticker("TSPH")
+    # tsphPrices = tsph.history(interval="1d", start=datetime.date(2024, 1, 10))
+
+    # df = pd.merge(df, stockReturnsdf, how="left", left_on="Ticker", right_on="Ticker")
+    # df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))

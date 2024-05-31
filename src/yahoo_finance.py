@@ -92,8 +92,8 @@ def clean_exchange_names():
 
 def join_trading_symbols_df(dataframe):
     tradingDf = pd.read_csv(r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    joinedDf = pd.merge(dataframe, tradingDf, how="left")
-    joinedDf.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    joinedDf = pd.merge(dataframe, tradingDf, how="left", on="Company")
+    joinedDf.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
 
 
 def get_prices(stock, layoffdate):
@@ -137,18 +137,17 @@ def get_returns_dataframe(dataframe):
     for count, ticker in enumerate(tickers):
         print(ticker)
         try:
-            dictEntry = get_daily_returns_1wk(get_prices(ticker, datetime.datetime.strptime(dataframe.iat[count, 5],
-                                                                                        f"%Y-%m-%d").date()))
+            dictEntry = get_daily_returns_1wk(get_prices(ticker, dataframe.iat[count, 5]))
             returns.append(dictEntry)
         except BaseException as e:
             print("Exception: " + str(e))
     returnsdf = pd.DataFrame.from_records(returns)
     colnames = returnsdf.columns.tolist()
-    temp = colnames.pop(3)
+    temp = colnames.pop(3)  # Add "Stock Return On Closest Trading Date Post-Announcement (t)" to front
     colnames.insert(0, temp)
-    temp = colnames.pop(8)
+    temp = colnames.pop(7)  # Add "Ticker" to front
     colnames.insert(0, temp)
-    temp = colnames.pop(8)
+    temp = colnames.pop(8)  # Add "Date of Layoff to front
     colnames.insert(0, temp)
     returnsdf = returnsdf[colnames]
 
@@ -158,11 +157,14 @@ def get_returns_dataframe(dataframe):
 if '__main__' == __name__:
     # get_and_save_tickers()
     df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
+    df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
     # join_trading_symbols_df(df)
 
     publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
+    # test = publicSample.head(10)
     stockReturnsdf = get_returns_dataframe(publicSample)
+    stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
 
-    df = pd.merge(df, stockReturnsdf, how="left", left_on=["Ticker", "Date of Layoff"],
-                  right_on=["Ticker", "Date of Layoff"])
+    df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
     df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))

@@ -1,3 +1,6 @@
+import pandas as pd
+import os
+
 abb = {
     "AMEX": "American Stock Exchange",
     "AMS": "Euronext Amsterdam",
@@ -15,7 +18,7 @@ abb = {
     "FRA": "Frankfurt Stock Exchange",
     "HAM": "Hamburg Stock Exchange",
     "HAN": "Hannover Stock Exchange",
-    "HK": "Hong Kong Stock Exchange",
+    "HKSE": "Hong Kong Stock Exchange",
     "IDX": "Indonesia Stock Exchange",
     "JASDAQ": "JASDAQ Securities Exchange",
     "JNET": "Osaka Securities Exchange",
@@ -37,6 +40,7 @@ abb = {
     "STU":	"Boerse Stuttgart",
     "TAI":	"Taiwan Stock Exchange",
     "TOK":	"Tokyo Stock Exchange",
+    "TSX": "Toronto Stock Exchange",
     "VIE":	"Vienna Stock Exchange",
     "WEL":	"New Zealand Stock Exchange",
     "XETRA": "Deutsche Boerse AG",

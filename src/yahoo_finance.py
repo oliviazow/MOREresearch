@@ -98,8 +98,8 @@ def join_trading_symbols_df(dataframe):
 
 def get_prices(stock, layoffdate):
     symbol = Ticker(stock)
-    symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=6),
-                                  end=layoffdate + datetime.timedelta(days=7))
+    symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=7),
+                                  end=layoffdate + datetime.timedelta(days=6))
     if symbolPrices.empty:
         raise Exception(f"Historical prices for {stock} not found.")
     symbolPrices.reset_index(level="symbol", inplace=True)
@@ -111,7 +111,7 @@ def get_prices(stock, layoffdate):
             dateToCheck += datetime.timedelta(days=1)
         layoffdateIndex = symbolPrices.index.get_loc(dateToCheck)
     # print(layoffdateIndex)
-    symbolPrices = symbolPrices.iloc[layoffdateIndex - 3:layoffdateIndex + 5]
+    symbolPrices = symbolPrices.iloc[layoffdateIndex - 4:layoffdateIndex + 5]
     # print(symbolPrices)
     symbolPrices["Date of Layoff"] = [layoffdate] * len(symbolPrices.index)
     return symbolPrices
@@ -123,7 +123,7 @@ def get_daily_returns_1wk(pricesdf):
                 "Stock Return 1 Day After t", "Stock Return 2 Days After t",
                 "Stock Return 3 Days After t"]
     adjcloses = pricesdf["adjclose"]
-    dailyReturns = [((adjcloses.iloc[x + 1]/adjcloses.iloc[x]) - 1) for x in range(len(adjcloses)) if x < (len(adjcloses) - 1)]
+    dailyReturns = [((adjcloses.iloc[x]/adjcloses.iloc[x - 1]) - 1) for x in range(len(adjcloses)) if x > 0]
     dateReturnMap = dict(zip(keynames, dailyReturns))
     dateReturnMap["Ticker"] = pricesdf["symbol"].iloc[0]
     dateReturnMap["Date of Layoff"] = pricesdf["Date of Layoff"].iloc[0]
@@ -142,13 +142,10 @@ def get_returns_dataframe(dataframe):
         except BaseException as e:
             print("Exception: " + str(e))
     returnsdf = pd.DataFrame.from_records(returns)
-    colnames = returnsdf.columns.tolist()
-    temp = colnames.pop(3)  # Add "Stock Return On Closest Trading Date Post-Announcement (t)" to front
-    colnames.insert(0, temp)
-    temp = colnames.pop(7)  # Add "Ticker" to front
-    colnames.insert(0, temp)
-    temp = colnames.pop(8)  # Add "Date of Layoff to front
-    colnames.insert(0, temp)
+    colnames = ["Date of Layoff", "Ticker", "Stock Return On Closest Trading Date Post-Announcement (t)",
+                "Stock Return 3 Days Before t", "Stock Return 2 Days Before t", "Stock Return 1 Day Before t",
+                "Stock Return 1 Day After t", "Stock Return 2 Days After t",
+                "Stock Return 3 Days After t"]
     returnsdf = returnsdf[colnames]
 
     return returnsdf
@@ -157,14 +154,14 @@ def get_returns_dataframe(dataframe):
 if '__main__' == __name__:
     # get_and_save_tickers()
     df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
-    df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
-    # join_trading_symbols_df(df)
+    df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
+    # df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
+    join_trading_symbols_df(df)
 
-    publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
-    # test = publicSample.head(10)
-    stockReturnsdf = get_returns_dataframe(publicSample)
-    stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-
-    df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
-    df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    # publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
+    # test = publicSample.head(5)
+    # stockReturnsdf = get_returns_dataframe(test)
+    # # stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    #
+    # df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
+    # df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))

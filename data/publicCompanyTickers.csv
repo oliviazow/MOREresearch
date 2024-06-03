@@ -275,14 +275,14 @@ Nerdy,NRDY,NYSE,False
 Titan Medical,TMDIF,OTCMKTS,False
 Pegasystems,PEGA,NASDAQ,False
 GitLab,GTLB,NASDAQ,False
-Astra,AZN,NASDAQ,False
+Astra,ASTR,NASDAQ,False
 Delivery Hero,DHER.DE,XETRA,False
 ContraFect,CFRXQ,OTCMKTS,False
 Natera,NTRA,NASDAQ,False
-Oportun,0P00000W2P.F,FRA,False
+Oportun,OPRT,NASDAQGs,False
 Matterport,MTTR,NASDAQ,False
 SoundHound,SOUN,NASDAQ,False
-Stone,STNE,NASDAQ,False
+StoneCo,STNE,NASDAQ,False
 GoHealth,GOCO,NASDAQ,False
 LegalZoom,LZ,NASDAQ,False
 Amazon,AMZN,NASDAQ,False
@@ -298,7 +298,7 @@ SWVL,SWVL,NASDAQ,False
 Snap,SNAP,NYSE,False
 iSpecimen,ISPC,NASDAQ,False
 Zalando,ZAL.DE,XETRA,False
-TomTom,0MKS.IL,International Orderbook - London,False
+TomTom,0MKS.IL,IOB,False
 Dell,DELL,NYSE,False
 Quantum SI,QSI,NASDAQ,False
 Freightos,CRGO,NASDAQ,False
@@ -314,16 +314,15 @@ Illumina,ILMN,NASDAQ,False
 Google,GOOG,NASDAQ,False
 Rent the Runway,RENT,NASDAQ,False
 DoorDash,DASH,NASDAQ,False
-Aurora,ACB,NASDAQ,False
+Aurora Innovation,AUR,NASDAQ,False
 Zscaler,ZS,NASDAQ,False
 Expedia,EXPE,NASDAQ,False
 SQZ Biotech,SQZB,OTCMKTS,False
-WeWork,WEWKQ,OTCMKTS,False
-Akerna,KERNW,NASDAQ,False
+WeWork,WEWKQ,OTCMKTS,True
+Akerna,KERNW,NASDAQGs,False
 Workday,WDAY,NASDAQ,False
 Teladoc Health,TDOC,NYSE,False
 Appgate,APGTQ,OTCMKTS,False
-AppGate,APGTQ,OTCMKTS,False
 DocuSign,DOCU,NASDAQ,False
 BM Technologies,BMTX,NYSE MKT,False
 Brightcove,BCOV,NASDAQ,False
@@ -333,7 +332,7 @@ Coursera,COUR,NYSE,False
 Electronic Arts,EA,NASDAQ,False
 Blackbaud,BLKB,NASDAQ,False
 Roku,ROKU,NASDAQ,False
-Kogan,KGN.AX,NSX,False
+Kogan,KGN.AX,ASX,False
 F-Secure,FSECURE.HE,HEL,False
 Coinbase,COIN,NASDAQ,False
 Jamf,JAMF,NASDAQ,False
@@ -341,7 +340,7 @@ Guidewire,GWRE,NYSE,False
 Innoviz,INVZ,NASDAQ,False
 Yelp,YELP,NYSE,False
 Offerpad,OPAD,NYSE,False
-Kaspien,KSPN,OTCMKTS,False
+Kaspien,KSPN,OTCMKTS,True
 Marvell,MRVL,NASDAQ,False
 Storytel,DST.F,FRA,False
 Chegg,CHGG,NYSE,False
@@ -351,17 +350,17 @@ Rubicon Technologies,RBT,NYSE,False
 ZipRecruiter,ZIP,NYSE,False
 Bumble,BMBL,NASDAQ,False
 Udemy,UDMY,NASDAQ,False
-OnDeck,7360.T,Tokyo Stock Exchange,False
+OnDeck,ENVA,NYSE,False
 Western Digital,WDC,NASDAQ,False
 Airbnb,ABNB,NASDAQ,False
 Domo,DOMO,NASDAQ,False
 EVgo,EVGO,NASDAQ,False
 SAP,SAP,NYSE,False
-Deliveroo,ROO.L,XLON,False
+Deliveroo,ROO.L,LSE,False
 Magnite,MGNI,NASDAQ,False
-Casper,CSPR-USD,CCC,False
+Casper,CSPR,NYSE,True
 Aptiv,APTV,NYSE,False
-D2L,D2L.F,FRA,False
+D2L,DTOL.TO,TSX,False
 Salesforce,CRM,NYSE,False
 Vroom,VRM,NASDAQ,False
 Nextdoor,KIND,NYSE,False
@@ -371,5 +370,5 @@ ThredUp,TDUP,NASDAQ,False
 BigCommerce,BIGC,NASDAQ,False
 AppFolio,APPF,NASDAQ,False
 Analog Devices,ADI,NASDAQ,False
-888,8885.KL,KUL,False
+888,EVOK.L,LSE,False
 Sonos,SONO,NASDAQ,False

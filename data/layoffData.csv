@@ -232,7 +232,7 @@ Jamf,True,Minneapolis,Other,,1/25/2024,https://www.streetinsider.com/dr/news.php
 Cult.fit,False,Bengaluru,Fitness,100.0,1/24/2024,https://economictimes.indiatimes.com/tech/startups/zomato-backed-fitness-startup-cult-fit-lays-off-over-100-employees/articleshow/107089694.cms?from=mdr,635.0,Series F,India,,,,
 Personio,False,Munich,HR,100.0,1/24/2024,Internal memo,724.0,Series E,Germany,,,,
 Storytel,False,Stockholm,Media,80.0,1/24/2024,https://investors.storytel.com/en/storytel-sharpens-focus-on-profitability-on-the-back-of-strong-q4-2023-earnings-and-upgrades-mid-term-financial-targets-announces-efficiency-initiative-and-write-downs/,275.0,Post-IPO,Sweden,0.13,DST.F,FRA,False
-Aurora,True,Pittsburgh,Transportation,,1/24/2024,https://techcrunch.com/2024/01/24/self-driving-vehicle-company-aurora-cuts-3-of-its-workforce/,3700.0,Post-IPO,United States,0.03,ACB,NASDAQ,False
+Aurora Innovation,True,Pittsburgh,Transportation,,1/24/2024,https://techcrunch.com/2024/01/24/self-driving-vehicle-company-aurora-cuts-3-of-its-workforce/,3700.0,Post-IPO,United States,0.03,AUR,NASDAQ,False
 Desktop Metal,True,Boston,Other,,1/24/2024,https://ir.desktopmetal.com/news/press-releases/detail/175/desktop-metal-intensifies-cost-reduction-plan-and-ongoing,811.0,Post-IPO,United States,0.2,DM,NYSE,False
 HubSpot,True,Boston,Marketing,,1/24/2024,https://www.linkedin.com/posts/jcolman_hubspot-content-designers-open-to-work-activity-7156050968306991105-917M/,100.0,Post-IPO,United States,,HUBS,NYSE,False
 SAP,False,Walldorf,Other,8000.0,1/23/2024,https://www.cnbc.com/2024/01/23/sap-plans-job-changes-or-buyouts-for-8000-employees-in-restructuring-plan.html,1300.0,Post-IPO,Germany,0.07,SAP,NYSE,False
@@ -275,7 +275,7 @@ Audible,True,New York City,Media,100.0,1/11/2024,https://variety.com/2024/digita
 7Shifts,False,Saskatoon,Food,68.0,1/11/2024,https://betakit.com/7shifts-cuts-19-percent-of-staff-in-new-layoffs-to-start-2024/,131.0,Series C,Canada,0.19,,,
 Sisense,True,New York City,Data,60.0,1/11/2024,https://www.calcalistech.com/ctechnews/article/ryujxxtoa,274.0,Series F,United States,0.13,,,
 Cloudflare,True,SF Bay Area,Security,40.0,1/11/2024,https://twitter.com/eastdakota/status/1745697840180191501,332.0,Post-IPO,United States,,NET,NYSE,False
-888,False,Tel Aviv,Consumer,,1/11/2024,https://www.calcalistech.com/ctechnews/article/skbqy9a00p,,Post-IPO,Israel,,8885.KL,KUL,False
+888,False,Tel Aviv,Consumer,,1/11/2024,https://www.calcalistech.com/ctechnews/article/skbqy9a00p,,Post-IPO,Israel,,EVOK.L,LSE,False
 Certinia,True,SF Bay Area,Other,,1/11/2024,https://www.kron4.com/news/bay-area/bay-area-based-software-company-conducts-layoffs/,194.0,Unknown,United States,,,,
 Chief,True,New York City,HR,,1/11/2024,https://updates.chief.com/2024/01/11/an-organization-update-to-our-team/,140.0,Series B,United States,,,,
 Dextrous Robotics,True,Memphis,Logistics,,1/11/2024,https://www.therobotreport.com/dextrous-robotics-shuts-down/,,Unknown,United States,1.0,,,
@@ -329,7 +329,7 @@ Hyperloop One,True,Los Angeles,Transportation,,12/21/2023,https://www.bloomberg.
 Palmetto Clean Technology,True,Charleston,Energy,,12/21/2023,https://www.bizjournals.com/charlotte/inno/stories/news/2023/12/21/clean-tech-unicorn-startup-palmetto-layoff-rounds.html,628.0,Private Equity,United States,,,,
 ShareChat,False,Bengaluru,Consumer,200.0,12/20/2023,https://entrackr.com/2023/12/sharechat-lays-off-15-of-its-workforce/,1700.0,Series H,India,0.15,,,
 InSightec,False,Haifa,Healthcare,100.0,12/19/2023,https://www.calcalistech.com/ctechnews/article/bkmqvekv6,733.0,Unknown,United States,0.2,,,
-Kaspien,True,Seattle,Retail,,12/19/2023,https://www.geekwire.com/2023/kaspien-a-e-commerce-company-previously-known-as-etailz-is-shutting-down/,52.0,Post-IPO,United States,1.0,KSPN,OTCMKTS,False
+Kaspien,True,Seattle,Retail,,12/19/2023,https://www.geekwire.com/2023/kaspien-a-e-commerce-company-previously-known-as-etailz-is-shutting-down/,52.0,Post-IPO,United States,1.0,KSPN,OTCMKTS,True
 Enphase Energy,True,SF Bay Area,Energy,350.0,12/18/2023,https://enphase.com/blog/employees/dec-2023-message-from-our-ceo,116.0,Post-IPO,United States,0.1,ENPH,NASDAQ,False
 Udaan,False,Bengaluru,Retail,100.0,12/18/2023,https://startupstorymedia.com/insights-udaan-despite-340-million-funding-implements-layoffs-cuts-10-of-workforce/,1500.0,Unknown,India,0.1,,,
 Checkout.com,False,London,Finance,80.0,12/18/2023,https://enphase.com/blog/employees/dec-2023-message-from-our-ceo,1800.0,Series D,United Kingdom,,,,
@@ -353,7 +353,7 @@ ForgeRock,True,SF Bay Area,Other,109.0,12/13/2023,https://www.sfchronicle.com/ba
 Flex,True,SF Bay Area,Manufacturing,31.0,12/13/2023,https://www.siliconvalley.com/2023/12/13/tech-job-cut-layoff-san-jose-economy-sports-google-facebook-nextdoor/,,Unknown,United States,,,,
 FourKites,True,Chicago,Logistics,,12/13/2023,https://www.freightwaves.com/news/fourkites-confirms-15-cut-in-global-workforce-dismisses-key-exec,241.0,Unknown,United States,0.15,,,
 Sojern,True,SF Bay Area,Marketing,,12/13/2023,https://skift.com/2023/12/13/sojern-lays-off-20-of-staff-to-reduce-expenses/,172.0,Unknown,United States,0.2,,,
-TomTom,False,Lodz,Transportation,45.0,12/12/2023,https://businessinsider.com.pl/wiadomosci/tomtom-oglosil-zwolnienia-grupowe-wszystko-przez-sztuczna-inteligencje/czlqpyz,,Post-IPO,Poland,,0MKS.IL,International Orderbook - London,False
+TomTom,False,Lodz,Transportation,45.0,12/12/2023,https://businessinsider.com.pl/wiadomosci/tomtom-oglosil-zwolnienia-grupowe-wszystko-przez-sztuczna-inteligencje/czlqpyz,,Post-IPO,Poland,,0MKS.IL,IOB,False
 Chipper Cash,True,SF Bay Area,Finance,15.0,12/11/2023,https://techcabal.com/2023/12/11/chipper-cash-cuts-15-jobs/,302.0,Series C,United States,0.33,,,
 Jungle Scout,True,Austin,Retail,,12/9/2023,https://www.linkedin.com/feed/update/urn:li:activity:7138998837737648130/,110.0,Private Equity,United States,,,,
 SmileDirectClub,True,Nashville,Healthcare,,12/9/2023,https://www.cnn.com/2023/12/09/business/smiledirectclub-shutdown-bankruptcy/index.html,694.0,Post-IPO,United States,1.0,SDCCQ,OTCMKTS,False
@@ -432,7 +432,7 @@ Amazon,True,Seattle,Retail,,11/8/2023,https://www.reuters.com/technology/amazon-
 BigCommerce,True,Austin,Retail,,11/8/2023,https://www.pymnts.com/news/ecommerce/2023/bigcommerce-cuts-staff-amid-ecommerce-headwinds/,224.0,Post-IPO,United States,0.07,BIGC,NASDAQ,False
 CloudKitchens,True,Los Angeles,Real Estate,,11/8/2023,https://www.businessinsider.com/travis-kalanick-cloudkitchens-startup-cuts-jobs-2023-11,1300.0,Unknown,United States,,,,
 Google,True,SF Bay Area,Consumer,,11/8/2023,https://www.theinformation.com/briefings/google-lays-off-some-user-support-staff,26.0,Post-IPO,United States,,GOOG,NASDAQ,False
-Oportun,True,SF Bay Area,Finance,185.0,11/7/2023,https://finance.yahoo.com/news/oportun-lay-off-18-corporate-021807823.html,766.0,Post-IPO,United States,0.07,0P00000W2P.F,FRA,False
+Oportun,True,SF Bay Area,Finance,185.0,11/7/2023,https://finance.yahoo.com/news/oportun-lay-off-18-corporate-021807823.html,766.0,Post-IPO,United States,0.07,OPRT,NASDAQGs,False
 Zillow,True,Seattle,Real Estate,23.0,11/7/2023,https://www.realestatenews.com/2023/11/07/zillow-confirms-layoffs-affecting-a-small-number-of-roles,97.0,Post-IPO,United States,,Z,NASDAQ,False
 Nextdoor,True,SF Bay Area,Consumer,,11/7/2023,https://investors.nextdoor.com/news/news-details/2023/Nextdoor-Reports-Third-Quarter-2023-Results/,736.0,Post-IPO,United States,0.25,KIND,NYSE,False
 Zeus Living,True,SF Bay Area,Real Estate,,11/7/2023,https://www.theinformation.com/articles/airbnb-backed-real-estate-startup-zeus-living-to-shut-down,151.0,Series C,United States,1.0,,,
@@ -521,7 +521,7 @@ Arrival,False,London,Transportation,,10/5/2023,https://techcrunch.com/2023/10/10
 Ledger,False,Paris,Crypto,,10/5/2023,https://www.bloomberg.com/news/articles/2023-10-05/french-crypto-wallet-maker-ledger-lays-off-12-of-staff,577.0,Series C,France,0.12,,,
 Qualtrics,True,Salt Lake City,Other,780.0,10/4/2023,https://www.geekwire.com/2023/qualtrics-cuts-780-jobs-about-14-of-workforce-citing-complexity-from-rapid-hiring/,400.0,Acquired,United States,0.14,,,
 Hopper,False,Montreal,Travel,250.0,10/4/2023,https://skift.com/2023/10/04/hopper-cuts-30-of-staff-in-bid-to-get-profitable/,730.0,Unknown,Canada,0.3,,,
-Bird,True,Los Angeles,Transportation,,10/4/2023,https://techcrunch.com/2023/10/04/bird-lays-off-staff-after-spin-acquisition-to-reduce-redundancies/,916.0,Post-IPO,United States,,BRDS,NYSE,False
+Bird,True,Los Angeles,Transportation,,10/4/2023,https://techcrunch.com/2023/10/04/bird-lays-off-staff-after-spin-acquisition-to-reduce-redundancies/,916.0,Post-IPO,United States,,BRDS,NYSE,True
 Block,True,SF Bay Area,Finance,,10/4/2023,https://www.afr.com/technology/afterpay-s-block-begins-layoffs-after-stock-crashes-20231004-p5e9pe,150.0,Post-IPO,United States,,SQ,NYSE,False
 Meta,True,SF Bay Area,Consumer,,10/4/2023,https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/,26000.0,Post-IPO,United States,,META,NASDAQ,False
 Dare,False,London,Energy,,10/3/2023,https://www.linkedin.com/posts/wearedare_activity-7114953772254011392-4EY6/,,Unknown,United Kingdom,,,,
@@ -678,7 +678,7 @@ Verse,False,Barcelona,Finance,,8/7/2023,https://www.finextra.com/newsarticle/427
 Qomplx,True,Washington D.C.,AI,60.0,8/4/2023,https://www.bizjournals.com/washington/news/2023/08/04/tysons-qomplx-layoffs-spac.html,107.0,Series A,United States,,,,
 CodeClan,False,Edinburgh,Education,57.0,8/4/2023,https://www.edinburghnews.scotsman.com/news/people/codeclan-crowdfunder-launched-to-help-students-after-tech-training-academy-goes-into-administration-4245811,,Seed,United Kingdom,1.0,,,
 Top Hat,False,Toronto,Education,42.0,8/4/2023,https://betakit.com/canadian-startup-struggles-continue-as-silofit-closes-up-shop-top-hat-and-fable-cut-staff/,234.0,Series E,Canada,0.07,,,
-Astra,True,SF Bay Area,Aerospace,,8/4/2023,https://techcrunch.com/2023/08/04/astra-lays-off-25-of-workforce-reallocates-engineers-in-an-effort-to-fight-dwindling-cash-reserves/,300.0,Post-IPO,United States,0.25,AZN,NASDAQ,False
+Astra,True,SF Bay Area,Aerospace,,8/4/2023,https://techcrunch.com/2023/08/04/astra-lays-off-25-of-workforce-reallocates-engineers-in-an-effort-to-fight-dwindling-cash-reserves/,300.0,Post-IPO,United States,0.25,ASTR,NASDAQ,False
 Big Cabal Media,False,Lagos,Media,,8/4/2023,https://www.benjamindada.com/big-cabal-media-lays-off-workforce/,3.0,Seed,Nigeria,0.19,,,
 Discord,True,SF Bay Area,Consumer,37.0,8/3/2023,https://www.theinformation.com/briefings/discord-lays-off-4-of-workforce,995.0,Series H,United States,0.04,,,
 Bardee,False,Melbourne,Food,30.0,8/3/2023,https://www.businessnewsaustralia.com/articles/bardee-lets-go-staff-to-make-its-food-waste-revolution-profitable.html,5.0,Seed,Australia,,,,
@@ -1101,6 +1101,7 @@ Nori,True,Seattle,Energy,10.0,4/10/2023,https://www.geekwire.com/2023/carbon-rem
 Simpl,False,Bengaluru,Finance,150.0,4/9/2023,https://entrackr.com/2023/04/exclusive-bnpl-startup-simpl-layoffs-over-150-employees/,71.0,Series B,India,0.25,,,
 Practo,False,Bengaluru,Healthcare,41.0,4/8/2023,https://inc42.com/buzz/practo-fires-41-employees-over-performance-issues/?utm_source=ActiveCampaign&utm_medium=email&utm_content=Insurance-Dekho+s+LIC+Playbook+%7C+Layoffs+At+Practo%2C+ZestMoney+%7C+Online+Betting+Ads+Under+Govt+s+Radar&utm_campaign=Morning+Newsletter+-+New+Template+8+April&vgo_ee=PV2n3HwtkpF6%2FSWkTE%2BLbU2PnrHTL7zklbRFWZn49c8%2FivNE%2BQ%3D%3D%3AjFxYJjNMz0p5NucAgOKx1lsiGYMyZigG,222.0,Series D,India,,,,
 Pear Therapeutics,True,Boston,Healthcare,170.0,4/7/2023,https://www.statnews.com/2023/04/07/pear-therapeutics-bankruptcy-stock-sale/,409.0,Post-IPO,United States,0.92,PEARQ,OTCMKTS,False
+Pear Therapeutics,True,Boston,Healthcare,170.0,4/7/2023,https://www.statnews.com/2023/04/07/pear-therapeutics-bankruptcy-stock-sale/,409.0,Post-IPO,United States,0.92,PEARQ,OTCMKTS,False
 Workit Health,True,Ann Arbor,Healthcare,100.0,4/7/2023,https://bhbusiness.com/2023/04/07/virtual-sud-provider-workit-lays-off-100-employees-in-anticipation-of-dea-crackdown/,138.0,Series C,United States,,,,
 ZestMoney,False,Bengaluru,Finance,100.0,4/7/2023,https://www.moneycontrol.com/news/business/announcements/zestmoney-weighs-layoffs-as-deal-with-phonepe-falls-through-10342251.html,120.0,Series C,India,0.2,,,
 Absolute Software,False,Vancouver,Security,40.0,4/6/2023,https://www.absolute.com/company/press-releases/2023/absolute-software-announces-workforce-restructuring/,,Post-IPO,Canada,0.05,,,
@@ -1114,7 +1115,7 @@ Finder,False,Sydney,Retail,40.0,4/4/2023,https://www.smh.com.au/technology/finde
 Boost,True,New York City,Finance,15.0,4/4/2023,https://boostinsurance.com/blog/a-message-from-boost-ceo-alex-maffeo/,37.0,Series B,United States,0.2,,,
 Cin7,False,Auckland,Retail,,4/4/2023,https://www.nzherald.co.nz/business/post-pandemic-hangover-auckland-based-e-tail-specialist-cin7-culls-staff/3ZF4L4NA2RCSZCO3LHPKOZBNYQ/,,Private Equity,New Zealand,,,,
 Hyland Software,True,Cleveland,Other,1000.0,4/3/2023,https://www.cleveland.com/news/2023/04/westlake-based-hyland-software-will-layoff-1000-employees-20-of-workforce.html?outputType=amp,,Acquired,United States,0.2,,,
-View,True,SF Bay Area,Other,170.0,4/3/2023,https://therealdeal.com/national/2023/04/03/view-cuts-23-of-staff-seeks-funds-to-survive-2023/,2300.0,Post-IPO,United States,0.23,VIEW,NASDAQ,False
+View,True,SF Bay Area,Other,170.0,4/3/2023,https://therealdeal.com/national/2023/04/03/view-cuts-23-of-staff-seeks-funds-to-survive-2023/,2300.0,Post-IPO,United States,0.23,VIEW,NASDAQ,True
 Guideline,True,SF Bay Area,Finance,48.0,4/3/2023,https://layoffstracker.com/guideline-to-lay-off-48-employees-11-workforce/,339.0,Series E,United States,0.11,,,
 Textio,True,Seattle,Recruiting,15.0,4/3/2023,https://www.geekwire.com/2020/textio-lays-off-30-amid-covid-19-seattle-startup-hopes-ai-writing-tech-will-aid-job-seekers/,42.0,Unknown,United States,0.12,,,
 Apple,True,SF Bay Area,Retail,,4/3/2023,https://www.bloomberg.com/news/articles/2023-04-03/apple-to-make-small-number-of-job-cuts-in-some-corporate-retail-teams#xj4y7vzkg,6200.0,Post-IPO,United States,,AAPL,NASDAQ,False
@@ -1258,7 +1259,7 @@ Palantir,True,Denver,Data,75.0,2/27/2023,https://www.cnbc.com/2023/02/27/palanti
 Outreach,True,Seattle,Sales,70.0,2/27/2023,https://www.geekwire.com/2023/sales-startup-outreach-to-lay-off-70-employees-7-of-workforce-and-slow-office-expansion/,489.0,Series G,United States,0.07,,,
 Stytch,True,SF Bay Area,Security,19.0,2/27/2023,https://www.bizjournals.com/sanfrancisco/inno/stories/news/2023/02/27/s-f-startup-stytch-lays-off-25-of-staff.html,126.0,Series B,United States,0.25,,,
 BitSight,False,Tel Aviv,Security,40.0,2/26/2023,https://www.calcalistech.com/ctechnews/article/r1zxrmkri,401.0,Unknown,Israel,,,,
-Twitter,True,SF Bay Area,Consumer,200.0,2/25/2023,https://www.nytimes.com/2023/02/26/technology/twitter-layoffs.html,12900.0,Post-IPO,United States,0.1,TWTR,NYSE,False
+Twitter,True,SF Bay Area,Consumer,200.0,2/25/2023,https://www.nytimes.com/2023/02/26/technology/twitter-layoffs.html,12900.0,Post-IPO,United States,0.1,TWTR,NYSE,True
 Ericsson,False,Stockholm,Other,8500.0,2/24/2023,https://www.reuters.com/business/media-telecom/ericsson-lay-off-8500-employees-memo-2023-02-24/,663.0,Post-IPO,Sweden,0.08,ERIC-B.ST,SSO,False
 SAP Labs,False,Bengaluru,Other,300.0,2/24/2023,https://economictimes.indiatimes.com/tech/technology/sap-labs-lays-off-300-staffers-in-india/articleshow/98189199.cms,1300.0,Subsidiary,India,,,,
 Velodyne Lidar,True,SF Bay Area,Transportation,220.0,2/24/2023,https://www.mercurynews.com/2023/02/24/tech-biotech-job-cut-san-jose-san-mateo-pleasanton-layoff-covid/,575.0,Acquired,United States,,,,
@@ -1348,9 +1349,9 @@ Rigetti Computing,True,SF Bay Area,Hardware,,2/10/2023,https://www.marketwatch.c
 Wonderschool,True,SF Bay Area,Education,,2/10/2023,https://docs.google.com/spreadsheets/d/1mbU0_yDWVexaz-zjeE5i6sDwx8NqWZd2Ru4ZdQxxYxQ/edit#gid=0,24.0,Series A,United States,,,,
 Yahoo,True,SF Bay Area,Consumer,1600.0,2/9/2023,https://www.axios.com/2023/02/09/yahoo-layoffs-2023-tech-media-companies,6.0,Acquired,United States,0.2,,,
 Misfits Market,True,Philadelphia,Food,649.0,2/9/2023,https://www.bizjournals.com/philadelphia/inno/stories/news/2023/02/09/misfits-market-layoffs-delanco-philadelphia.html,526.0,Series C,United States,0.33,,,
-Deliveroo,False,London,Food,350.0,2/9/2023,https://news.sky.com/story/deliveroo-to-cut-hundreds-of-jobs-globally-and-uk-to-be-worst-hit-12806890,1700.0,Post-IPO,United Kingdom,0.09,ROO.L,XLON,False
+Deliveroo,False,London,Food,350.0,2/9/2023,https://news.sky.com/story/deliveroo-to-cut-hundreds-of-jobs-globally-and-uk-to-be-worst-hit-12806890,1700.0,Post-IPO,United Kingdom,0.09,ROO.L,LSE,False
 Olive AI,True,Columbus,Healthcare,215.0,2/9/2023,https://www.axios.com/pro/health-tech-deals/2023/02/09/olive-ai-lays-off-third-company,856.0,Series H,United States,0.35,,,
-Oportun,True,SF Bay Area,Finance,155.0,2/9/2023,https://seekingalpha.com/news/3934558-oportun-financial-to-lay-off-10-of-headcount-reports-q4-prelim-results,566.0,Post-IPO,United States,0.1,0P00000W2P.F,FRA,False
+Oportun,True,SF Bay Area,Finance,155.0,2/9/2023,https://seekingalpha.com/news/3934558-oportun-financial-to-lay-off-10-of-headcount-reports-q4-prelim-results,566.0,Post-IPO,United States,0.1,OPRT,NASDAQGs,False
 GitLab,True,SF Bay Area,Product,130.0,2/9/2023,https://www.cnbc.com/2023/02/09/gitlab-layoffs-company-to-cut-7percent-of-staff-or-about-130-employees.html,413.0,Post-IPO,United States,0.07,GTLB,NASDAQ,False
 Bark,True,New York City,Retail,126.0,2/9/2023,https://investors.bark.co/news/news-details/2023/BARK-Reports-Third-Quarter-Fiscal-Year-2023-Results/default.aspx,,Post-IPO,United States,0.12,BARK,NYSE,False
 Veriff,False,Tallinn,Security,66.0,2/9/2023,https://digipro.geenius.ee/rubriik/uudis/veriff-koondab-66-tootajat-kotkas-meie-kasvuplaan-oli-oluliselt-ambitsioonikam/,192.0,Series C,Estonia,0.12,,,
@@ -1531,7 +1532,7 @@ TikTok,True,Los Angeles,Consumer,,1/20/2023,https://www.businessinsider.com/tikt
 Zappos,True,Las Vegas,Retail,,1/20/2023,https://www.reviewjournal.com/business/zappos-implements-another-round-of-layoffs-2715896/,62.0,Acquired,United States,,,,
 Capital One,True,Washington D.C.,Finance,1100.0,1/19/2023,https://www.reuters.com/technology/capital-one-scraps-1100-tech-positions-source-2023-01-19/,,Post-IPO,United States,,COF,NYSE,False
 Proterra,True,SF Bay Area,Transportation,300.0,1/19/2023,https://news.yahoo.com/proterra-cut-jobs-merge-electric-232932585.html,1200.0,Post-IPO,United States,,PTRA,NASDAQ,False
-WeWork,True,New York City,Real Estate,300.0,1/19/2023,https://investors.wework.com/news-and-events/press-releases/financial-releases-details/2023/WeWork-Announces-Date-of-Fourth-Quarter-and-Full-Year-2022-Results-Conference-Call/default.aspx,22200.0,Post-IPO,United States,,WEWKQ,OTCMKTS,False
+WeWork,True,New York City,Real Estate,300.0,1/19/2023,https://investors.wework.com/news-and-events/press-releases/financial-releases-details/2023/WeWork-Announces-Date-of-Fourth-Quarter-and-Full-Year-2022-Results-Conference-Call/default.aspx,22200.0,Post-IPO,United States,,WEWKQ,OTCMKTS,True
 Hubilo,True,SF Bay Area,Other,115.0,1/19/2023,https://inc42.com/buzz/hubilo-fires-35-of-its-workforce-in-second-round-of-layoffs-within-6-months/,153.0,Series B,United States,0.35,,,
 Saks.com,True,New York City,Retail,100.0,1/19/2023,https://wwd.com/business-news/retail/saks-com-triggering-layoffs-1235484907/,965.0,Unknown,United States,0.05,,,
 CS Disco,True,Austin,Legal,62.0,1/19/2023,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001625641/f8a9ad04-6c29-4631-b07d-b08d849fbcfa.pdf,233.0,Post-IPO,United States,0.09,LAW,NYSE,False
@@ -1557,7 +1558,7 @@ Benevity,False,Calgary,Other,137.0,1/18/2023,https://benevity.com/message-kelly-
 Inspirato,True,Denver,Travel,109.0,1/18/2023,https://sports.yahoo.com/inspirato-announces-plan-streamline-operations-233000003.html,179.0,Post-IPO,United States,0.12,ISPO,NASDAQ,False
 Jumpcloud,True,Boulder,Security,100.0,1/18/2023,https://jumpcloud.com/blog/jumpcloud-restructuring,416.0,Series F,United States,0.12,,,
 nCino,True,Wilmington,Finance,100.0,1/18/2023,https://portcitydaily.com/local-news/2023/01/18/ncino-lays-off-7-of-workforce-cites-challenges-in-global-economy/,1100.0,Post-IPO,United States,0.07,NCNO,NASDAQ,False
-Starry,True,Boston,Other,100.0,1/18/2023,https://seekingalpha.com/news/3925492-starry-group-announces-24-job-cuts,260.0,Post-IPO,United States,0.24,STRY,NYSE,False
+Starry,True,Boston,Other,100.0,1/18/2023,https://seekingalpha.com/news/3925492-starry-group-announces-24-job-cuts,260.0,Post-IPO,United States,0.24,STRY,NYSE,True
 Hootsuite,False,Vancouver,Marketing,70.0,1/18/2023,https://www.theglobeandmail.com/business/article-hootsuite-replaces-ceo-announces-layoffs/,300.0,Series C,Canada,0.07,,,
 Clue,False,Berlin,Healthcare,31.0,1/18/2023,https://www.businessinsider.de/gruenderszene/business/fruchtbarkeits-startup-clue-entlaesst-viertel-der-belegschaft-a/,47.0,Unknown,Germany,0.31,,,
 Addepar,True,SF Bay Area,Finance,20.0,1/18/2023,https://fortune.com/2023/01/17/addepar-a-wealth-management-startup-launched-by-the-co-founder-of-palantir-is-the-latest-fintech-to-cut-jobs/,491.0,Series F,United States,0.03,,,
@@ -1678,7 +1679,7 @@ SoundHound,True,SF Bay Area,Other,200.0,1/5/2023,https://gizmodo.com/soundhound-
 Socure,True,Reno,Finance,104.0,1/5/2023,https://www.biometricupdate.com/202301/socure-slashes-workforce,646.0,Series E,United States,0.19,,,
 Genesis,True,New York City,Crypto,60.0,1/5/2023,https://www.cnbc.com/2023/01/05/crypto-lender-genesis-trading-lays-off-30percent-of-workforce.html,,Series A,United States,0.3,,,
 Moglix,True,Singapore,Retail,40.0,1/5/2023,https://inc42.com/buzz/b2b-ecommerce-unicorn-moglix-layoff-spree-fires-40-employees/,472.0,Series F,Singapore,0.02,,,
-Twitter,True,SF Bay Area,Consumer,40.0,1/5/2023,https://www.theinformation.com/articles/musk-lays-off-twitter-engineers-working-on-advertising-as-ad-revenue-shrinks,12900.0,Post-IPO,United States,,TWTR,NYSE,False
+Twitter,True,SF Bay Area,Consumer,40.0,1/5/2023,https://www.theinformation.com/articles/musk-lays-off-twitter-engineers-working-on-advertising-as-ad-revenue-shrinks,12900.0,Post-IPO,United States,,TWTR,NYSE,True
 Everlane,True,SF Bay Area,Retail,30.0,1/5/2023,https://www.theinformation.com/articles/everlane-slashes-17-of-corporate-employees,176.0,Unknown,United States,0.17,,,
 Pecan AI,False,Tel Aviv,Data,30.0,1/5/2023,https://www.calcalistech.com/ctechnews/article/hkrgrqvqo,116.0,Series C,Israel,0.25,,,
 Personetics,True,New York City,Support,30.0,1/5/2023,https://www.calcalistech.com/ctechnews/article/sjlizvvcs,178.0,Private Equity,United States,0.08,,,
@@ -1727,7 +1728,7 @@ Xiaomi,False,Beijing,Consumer,,12/19/2022,https://technode.com/2022/12/19/chines
 YourGrocer,False,Melbourne,Food,,12/19/2022,https://www.startupdaily.net/topic/business/melbourne-delivery-service-yourgrocer-is-the-latest-startup-to-go-under/,2.0,Unknown,Australia,1.0,,,
 Tomorrow,False,Hamburg,Finance,30.0,12/16/2022,https://www.businessinsider.de/gruenderszene/fintech/tomorrow-kundigt-viertel-seines-teams/,29.0,Unknown,Germany,0.25,,,
 Revelate,False,Montreal,Data,24.0,12/16/2022,https://betakit.com/layoffs-persist-at-canadian-tech-companies-amid-bleak-outlook-for-2023/,26.0,Series A,Canada,0.3,,,
-E Inc.,False,Toronto,Transportation,,12/16/2022,https://betakit.com/layoffs-persist-at-canadian-tech-companies-amid-bleak-outlook-for-2023/,,Post-IPO,Canada,,EINC,TSX,False
+E Inc.,False,Toronto,Transportation,,12/16/2022,https://betakit.com/layoffs-persist-at-canadian-tech-companies-amid-bleak-outlook-for-2023/,,Post-IPO,Canada,,EINC,TSX,True
 Autograph,True,Los Angeles,Crypto,,12/16/2022,https://www.businessinsider.com/tom-brady-nft-company-autograph-layoffs-sam-bankman-fried-2022-12,205.0,Series B,United States,,,,
 FreshBooks,False,Toronto,Finance,,12/16/2022,https://betakit.com/layoffs-persist-at-canadian-tech-companies-amid-bleak-outlook-for-2023/,331.0,Unknown,Canada,,,,
 Improbable,False,London,Other,,12/16/2022,https://news.sky.com/story/softbank-backed-metaverse-creator-improbable-lays-off-staff-12769306,704.0,Unknown,United Kingdom,0.1,,,
@@ -1939,7 +1940,8 @@ Salsify,True,Boston,Retail,90.0,11/16/2022,https://www.bizjournals.com/boston/in
 Lokalise,True,Dover,Other,76.0,11/16/2022,https://lokalise.com/blog/changes-at-lokalise/,56.0,Series B,United States,0.23,,,
 Yotpo,True,New York City,Marketing,70.0,11/16/2022,https://www.calcalistech.com/ctechnews/article/hy00chefus,436.0,Unknown,United States,0.09,,,
 Pear Therapeutics,True,Boston,Healthcare,59.0,11/16/2022,https://www.fiercebiotech.com/medtech/pear-therapeutics-trims-workforce-another-22,409.0,Post-IPO,United States,0.22,PEARQ,OTCMKTS,False
-D2L,False,Waterloo,Education,,11/16/2022,https://www.d2l.com/newsroom/a-note-from-d2l-leadership/,168.0,Post-IPO,Canada,0.05,D2L.F,FRA,False
+Pear Therapeutics,True,Boston,Healthcare,59.0,11/16/2022,https://www.fiercebiotech.com/medtech/pear-therapeutics-trims-workforce-another-22,409.0,Post-IPO,United States,0.22,PEARQ,OTCMKTS,False
+D2L,False,Waterloo,Education,,11/16/2022,https://www.d2l.com/newsroom/a-note-from-d2l-leadership/,168.0,Post-IPO,Canada,0.05,DTOL.TO,TSX,False
 Dance,False,Berlin,Transportation,,11/16/2022,https://www.linkedin.com/feed/update/activity:6998722842930356225/,63.0,Unknown,Germany,0.16,,,
 Homeward,True,Austin,Real Estate,,11/16/2022,https://www.linkedin.com/feed/update/urn:li:activity:6998764085748101121/,501.0,Unknown,United States,0.25,,,
 Hopin,False,London,Other,,11/16/2022,https://www.exhibitionworld.co.uk/hopin-announces-new-layoffs-and-a-transformation-with-new-product-launches,1000.0,Series D,United Kingdom,0.17,,,
@@ -1972,6 +1974,7 @@ Ribbon,True,New York City,Real Estate,170.0,11/14/2022,https://www.businessinsid
 Pipedrive,False,Tallinn,Sales,143.0,11/14/2022,https://digipro.geenius.ee/rubriik/uudis/tehnoloogiasektori-koondamislaine-joudis-ka-eestisse-pipedrive-laseb-lahti-143-tootajat/,90.0,Private Equity,Estonia,0.15,,,
 Intercom,True,SF Bay Area,Support,124.0,11/14/2022,https://www.siliconrepublic.com/business/intercom-job-cuts-ireland-global,240.0,Series D,United States,0.13,,,
 Science 37,True,Los Angeles,Healthcare,90.0,11/14/2022,https://www.bizjournals.com/triangle/news/2022/11/14/science-37-layoffs-biotech-clinical-headwinds.html,347.0,Post-IPO,United States,,,,
+Pear Therapeutics,True,Boston,Healthcare,59.0,11/14/2022,https://peartherapeutics.com/pear-therapeutics-reports-third-quarter-2022-results/,409.0,Post-IPO,United States,0.22,PEARQ,OTCMKTS,False
 Pear Therapeutics,True,Boston,Healthcare,59.0,11/14/2022,https://peartherapeutics.com/pear-therapeutics-reports-third-quarter-2022-results/,409.0,Post-IPO,United States,0.22,PEARQ,OTCMKTS,False
 Cardlytics,True,Atlanta,Marketing,51.0,11/14/2022,https://www.marketscreener.com/quote/stock/CARDLYTICS-INC-40680969/news/Cardlytics-to-Terminate-51-Employees-Appoints-John-Balen-Chairman-Shares-up-After-Hours-42312731/,212.0,Post-IPO,United States,,CDLX,NASDAQ,False
 Cloudinary,True,SF Bay Area,Media,40.0,11/14/2022,"https://www.calcalistech.com/ctechnews/article/h1sioa1li#:~:text=Israeli%20unicorn%20Cloudinary%2C%20which%20has,total%20of%20around%2040%20employees.",100.0,Unknown,United States,0.08,,,
@@ -2017,7 +2020,7 @@ RingCentral,True,SF Bay Area,Other,,11/9/2022,https://www.barrons.com/articles/r
 Spotify,False,Stockholm,Media,,11/9/2022,https://www.digitalmusicnews.com/2022/11/09/spotify-layoffs-november-2022/,2100.0,Post-IPO,Sweden,,SPOT,NYSE,False
 EverBridge,True,Boston,Other,200.0,11/8/2022,https://www.bizjournals.com/boston/news/2022/11/08/everbridge-to-lay-off-200-workers.html,476.0,Post-IPO,United States,,EVBG,NASDAQ,False
 Repertoire Immune Medicines,True,Boston,Healthcare,65.0,11/8/2022,https://www.bizjournals.com/boston/news/2022/11/07/repertoire-immune-medicines-layoffs-2022-biotech.html,257.0,Series B,United States,0.5,,,
-Astra,True,SF Bay Area,Aerospace,,11/8/2022,https://www.linkedin.com/posts/chrisckemp_today-we-made-the-difficult-decision-to-activity-6995868932138033153-knfZ/,300.0,Post-IPO,United States,0.16,AZN,NASDAQ,False
+Astra,True,SF Bay Area,Aerospace,,11/8/2022,https://www.linkedin.com/posts/chrisckemp_today-we-made-the-difficult-decision-to-activity-6995868932138033153-knfZ/,300.0,Post-IPO,United States,0.16,ASTR,NASDAQ,False
 Beat,False,Athens,Transportation,,11/8/2022,https://www.linkedin.com/posts/thebeatapp_hello-from-beat-we-would-like-to-share-activity-6995832143574622208--0fX/,6.0,Series B,Greece,,,,
 NanoString,True,Seattle,Healthcare,,11/8/2022,https://www.genomeweb.com/business-news/nanostring-technologies-delivers-underwhelming-q3-lays-10-percent-workforce#.Y3MWTuzMK58,731.0,Post-IPO,United States,0.1,NSTGQ,OTCMKTS,False
 SADA,True,Los Angeles,Other,,11/8/2022,https://www.linkedin.com/posts/safoian_today-we-say-goodbye-to-11-of-our-sada-activity-6995835385201213440-MTMJ/,,Acquired,United States,0.11,,,
@@ -2030,7 +2033,7 @@ Domino Data Lab,True,SF Bay Area,Data,,11/7/2022,https://docs.google.com/spreads
 Varonis,True,New York City,Security,110.0,11/6/2022,https://www.calcalistech.com/ctechnews/article/hjfkkmrbo,30.0,Post-IPO,United States,0.05,VRNS,NASDAQ,False
 Brainly,False,Krakow,Education,25.0,11/6/2022,https://www.newindianexpress.com/lifestyle/tech/2022/nov/06/poland-based-ed-tech-platform-brainly-fires-nearly-all-staff-in-india-2515584.html,148.0,Series D,Poland,,,,
 Practically,False,Hyderabad,Education,,11/6/2022,https://www.moneycontrol.com/news/business/startup/k-12-edtech-firm-practically-lays-off-staffers-holds-salaries-citing-funds-crunch-9457711.html,14.0,Unknown,India,,,,
-Twitter,True,SF Bay Area,Consumer,3700.0,11/4/2022,https://www.nytimes.com/2022/11/04/technology/elon-musk-twitter-layoffs.html,12900.0,Post-IPO,United States,0.5,TWTR,NYSE,False
+Twitter,True,SF Bay Area,Consumer,3700.0,11/4/2022,https://www.nytimes.com/2022/11/04/technology/elon-musk-twitter-layoffs.html,12900.0,Post-IPO,United States,0.5,TWTR,NYSE,True
 Udaan,False,Bengaluru,Retail,350.0,11/4/2022,https://inc42.com/buzz/udaan-fires-350-employees-in-second-wave-of-layoffs-this-year/,1500.0,Unknown,India,,,,
 Planetly,False,Berlin,Other,200.0,11/4/2022,https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting,5.0,Acquired,Germany,1.0,,,
 KoinWorks,False,Jakarta,Finance,70.0,11/4/2022,https://www.techinasia.com/koinworks-layoff-2022,180.0,Unknown,Indonesia,0.08,,,
@@ -2111,14 +2114,14 @@ Khoros,True,Austin,Sales,120.0,10/21/2022,https://www.bizjournals.com/austin/inn
 F5,True,Seattle,Security,100.0,10/21/2022,https://www.geekwire.com/2022/f5-cutting-fewer-than-100-jobs-due-to-current-macroeconomic-environment/,,Post-IPO,United States,0.01,FFIV,NASDAQ,False
 Elinvar,False,Berlin,Finance,43.0,10/21/2022,https://financefwd.com/de/elinvar-entlassungen-funding/,30.0,Unknown,Germany,0.33,,,
 Synapsica,False,New Delhi,Healthcare,30.0,10/21/2022,https://yourstory.com/2022/10/healthtech-startup-synapsica-layoffs-30-people-workforce/amp,4.0,Series A,India,0.3,,,
-Volta,True,SF Bay Area,Transportation,,10/21/2022,https://investors.voltacharging.com/news/news-details/2022/Volta-Provides-Update-on-Business-Realignment/default.aspx,575.0,Post-IPO,United States,0.54,VLTA,NYSE,False
+Volta,True,SF Bay Area,Transportation,,10/21/2022,https://investors.voltacharging.com/news/news-details/2022/Volta-Provides-Update-on-Business-Realignment/default.aspx,575.0,Post-IPO,United States,0.54,VLTA,NYSE,True
 Hotmart,False,Belo Horizonte,Marketing,227.0,10/20/2022,https://www.bloomberglinea.com/english/brazils-tcv-backed-hotmart-cuts-12-of-staff-amid-drop-in-operational-efficiency/,127.0,Series C,Brazil,0.12,,,
 Zeus Living,True,SF Bay Area,Real Estate,64.0,10/20/2022,https://www.bizjournals.com/sanfrancisco/news/2022/10/20/zeus-living-egomotion-layoffs-flexliving-startup.html,151.0,Series C,United States,0.46,,,
 Loom,True,SF Bay Area,Product,23.0,10/20/2022,https://www.sfgate.com/bayarea/article/sf-based-loom-video-tech-unicorn-layoffs-17522993.php,203.0,Series C,United States,0.11,,,
 Sales Boomerang,True,Baltimore,Sales,20.0,10/20/2022,https://www.housingwire.com/articles/layoffs-hit-sales-boomerang-mortgage-coach/,5.0,Private Equity,United States,,,,
 Arrival,False,London,Transportation,,10/20/2022,https://www.ft.com/content/5278ba4a-49c0-4e99-bed1-68adfa658c62,629.0,Post-IPO,United Kingdom,,ARVLF,OTCMKTS,False
 Roofstock,True,SF Bay Area,Real Estate,,10/20/2022,https://www.sfgate.com/realestate/article/Controversial-Bay-Area-real-estate-unicorn-17525874.php,365.0,Series E,United States,0.2,,,
-Starry,True,Boston,Other,,10/20/2022,https://investors.starry.com/news/news-details/2022/Starry-Announces-Strong-Third-Quarter-2022-Operational-Results-Takes-Cost-Cutting-Measures-to-Conserve-Capital-as-It-Explores-Strategic-Options/default.aspx,260.0,Post-IPO,United States,0.5,STRY,NYSE,False
+Starry,True,Boston,Other,,10/20/2022,https://investors.starry.com/news/news-details/2022/Starry-Announces-Strong-Third-Quarter-2022-Operational-Results-Takes-Cost-Cutting-Measures-to-Conserve-Capital-as-It-Explores-Strategic-Options/default.aspx,260.0,Post-IPO,United States,0.5,STRY,NYSE,True
 Gopuff,True,Philadelphia,Food,250.0,10/19/2022,https://www.bloomberg.com/news/articles/2022-10-19/gopuff-fires-hundreds-more-staff-in-third-round-of-layoffs,3400.0,Series H,United States,,,,
 AtoB,True,SF Bay Area,Finance,32.0,10/19/2022,https://www.sfgate.com/bayarea/article/atob-lays-off-30-staff-17518327.php,177.0,Series B,United States,0.3,,,
 InfoSum,False,London,Security,20.0,10/19/2022,https://www.businessinsider.com/infosum-lays-off-approximately-20-staff-amid-economic-uncertainty-2022-10,88.0,Series B,United Kingdom,0.12,,,
@@ -2192,7 +2195,7 @@ Solarisbank,False,Berlin,Finance,,9/29/2022,https://www.businessinsider.de/gruen
 Zenjob,False,Berlin,HR,,9/29/2022,https://www.linkedin.com/posts/zenjob_to-our-network-we-want-to-actively-support-activity-6981580028253773824-JBZM/,107.0,Series D,Germany,,,,
 DocuSign,True,SF Bay Area,Sales,671.0,9/28/2022,https://www.sfgate.com/news/article/san-francisco-tech-company-docusign-layoffs-17473918.php,536.0,Post-IPO,United States,0.09,DOCU,NASDAQ,False
 Front,True,SF Bay Area,Support,,9/28/2022,Internal memo,203.0,Series D,United States,,,,
-Volta,True,SF Bay Area,Transportation,,9/28/2022,https://investors.voltacharging.com/news/news-details/2022/Volta-Realigns-Organization-to-Reduce-Costs-and-Drive-Strategic-Priorities/default.aspx,575.0,Post-IPO,United States,0.1,VLTA,NYSE,False
+Volta,True,SF Bay Area,Transportation,,9/28/2022,https://investors.voltacharging.com/news/news-details/2022/Volta-Realigns-Organization-to-Reduce-Costs-and-Drive-Strategic-Priorities/default.aspx,575.0,Post-IPO,United States,0.1,VLTA,NYSE,True
 Divvy Homes,True,SF Bay Area,Real Estate,40.0,9/27/2022,https://www.theinformation.com/articles/andreessen-backed-divvy-homes-lays-off-12-of-staff-as-rates-rise,180.0,Series B,United States,0.12,,,
 Graphcore,False,Bristol,Data,,9/27/2022,https://www.eenewseurope.com/en/ai-unicorn-graphcore-set-to-cut-jobs/,692.0,Unknown,United Kingdom,,,,
 Instacart,True,SF Bay Area,Food,,9/24/2022,https://www.theinformation.com/articles/instacart-cuts-staff-curbs-hiring-in-run-up-to-ipo,2900.0,Unknown,United States,,,,
@@ -2313,7 +2316,7 @@ Q4,False,Toronto,Other,50.0,8/23/2022,https://www.theglobeandmail.com/business/a
 Skedulo,True,SF Bay Area,HR,31.0,8/23/2022,Internal memo,114.0,Series C,United States,0.08,,,
 Plato,True,SF Bay Area,HR,29.0,8/23/2022,Company exec,3.0,Seed,United States,0.5,,,
 DataRobot,True,Boston,Data,,8/23/2022,https://www.theinformation.com/briefings/datarobot-lays-off-26-as-business-challenges-mount,1000.0,Series G,United States,0.26,,,
-Kogan,False,Melbourne,Retail,,8/23/2022,https://www.smartcompany.com.au/industries/retail/kogan-financial-report-losses-e-commerce-online-shopping/,,Post-IPO,Australia,,KGN.AX,NSX,False
+Kogan,False,Melbourne,Retail,,8/23/2022,https://www.smartcompany.com.au/industries/retail/kogan-financial-report-losses-e-commerce-online-shopping/,,Post-IPO,Australia,,KGN.AX,ASX,False
 Skillshare,True,New York City,Education,,8/23/2022,Internal memo,136.0,Unknown,United States,,,,
 Mr. Yum,False,Melbourne,Food,,8/22/2022,https://www.linkedin.com/feed/update/urn:li:activity:6967423162909130752/,73.0,Series A,United States,0.17,,,
 ShopX,False,Bengaluru,Retail,,8/22/2022,https://entrackr.com/2022/08/exclusive-nandan-nilekani-backed-shopx-shuts-shop/,56.0,Unknown,India,1.0,,,
@@ -2471,6 +2474,7 @@ Dover,True,SF Bay Area,Recruiting,23.0,7/26/2022,https://blog.dover.io/changes-t
 Immutable,False,Sydney,Crypto,20.0,7/26/2022,https://www.cnet.com/tech/gaming/crypto-star-immutable-creator-of-nft-game-gods-unchained-lays-off-over-20-staff/,279.0,Series C,Australia,0.06,,,
 Zymergen,True,SF Bay Area,Other,80.0,7/25/2022,https://www.bizjournals.com/sanfrancisco/news/2022/07/25/zymergen-ginkgo-bioworks-zyme-dna-merger-job-cuts.html,974.0,Acquired,United States,,,,
 Pear Therapeutics,True,Boston,Healthcare,25.0,7/25/2022,https://www.massdevice.com/pear-therapeutics-announces-layoffs/,409.0,Post-IPO,United States,0.09,PEARQ,OTCMKTS,False
+Pear Therapeutics,True,Boston,Healthcare,25.0,7/25/2022,https://www.massdevice.com/pear-therapeutics-announces-layoffs/,409.0,Post-IPO,United States,0.09,PEARQ,OTCMKTS,False
 Included Health,True,SF Bay Area,Healthcare,,7/25/2022,https://www.fiercehealthcare.com/digital-health/digital-health-company-included-health-cuts-workforce-part-restructuring-move,272.0,Series E,United States,0.06,,,
 Soluto,False,Tel Aviv,Support,120.0,7/24/2022,https://www.calcalistech.com/ctechnews/article/s1xemk935,18.0,Acquired,Israel,1.0,,,
 Eucalyptus,False,Sydney,Healthcare,50.0,7/22/2022,https://www.news.com.au/finance/business/other-industries/australian-healthcare-startup-fires-20-per-cent-of-staff/news-story/c582a96f5cc55a99962c2c79aa7033a9,69.0,Series C,United States,0.2,,,
@@ -2484,7 +2488,7 @@ People.ai,True,SF Bay Area,Sales,,7/22/2022,LinkedIn,200.0,Series D,United State
 Wizeline,True,SF Bay Area,Product,,7/22/2022,Internal memo,62.0,Acquired,United States,,,,
 Blockchain.com,False,London,Crypto,150.0,7/21/2022,https://www.coindesk.com/business/2022/07/21/blockchaincom-cuts-25-workforce-amid-crypto-bear-market/,490.0,Series D,United Kingdom,0.25,,,
 Callisto Media,True,SF Bay Area,Media,140.0,7/21/2022,https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/89897-callisto-media-promising-to-act-swiftly-and-decisively-lays-off-35-of-workforce.html,,Series D,United States,0.35,,,
-AppGate,True,Miami,Security,130.0,7/21/2022,https://m.marketscreener.com/quote/stock/APPGATE-INC-128303647/news/APPGATE-INC-Costs-Associated-with-Exit-or-Disposal-Activities-form-8-K-41078857/,,Post-IPO,United States,0.22,APGTQ,OTCMKTS,False
+Appgate,True,Miami,Security,130.0,7/21/2022,https://m.marketscreener.com/quote/stock/APPGATE-INC-128303647/news/APPGATE-INC-Costs-Associated-with-Exit-or-Disposal-Activities-form-8-K-41078857/,,Post-IPO,United States,0.22,APGTQ,OTCMKTS,False
 WHOOP,True,Boston,Fitness,95.0,7/21/2022,https://frontofficesports.com/fitness-company-whoop-slashes-workforce-by-15/,404.0,Series F,United States,0.15,,,
 Rad Power Bikes,True,Seattle,Transportation,63.0,7/21/2022,https://www.geekwire.com/2022/rad-power-bikes-cuts-about-10-of-staff-citing-economic-uncertainty-and-rising-operating-costs/,329.0,Series D,United States,0.1,,,
 Lunchbox,True,New York City,Food,60.0,7/21/2022,https://www.businessinsider.com/lunchbox-lays-off-employees-as-food-tech-startups-face-downturn-2022-7,72.0,Series B,United States,0.33,,,
@@ -2564,7 +2568,7 @@ Next Insurance,True,SF Bay Area,Finance,150.0,7/7/2022,https://www.calcalistech.
 Adwerx,True,Durham,Marketing,40.0,7/7/2022,https://www.inman.com/2022/07/08/adwerx-lays-off-40-employees-as-company-slows-new-initiatives/,20.0,Unknown,United States,,,,
 Emotive,True,Los Angeles,Marketing,30.0,7/7/2022,https://dot.la/emotive-layoffs-2657628462.html,78.0,Series B,United States,0.18,,,
 Cedar,True,New York City,Healthcare,,7/7/2022,https://www.businessinsider.com/cedar-layoffs-workers-jobs-cut-healthcare-market-downturn-2022-7,351.0,Series D,United States,0.24,,,
-Twitter,True,SF Bay Area,Consumer,,7/7/2022,https://www.wsj.com/articles/twitter-lays-off-third-of-talent-team-11657227105,5700.0,Post-IPO,United States,,TWTR,NYSE,False
+Twitter,True,SF Bay Area,Consumer,,7/7/2022,https://www.wsj.com/articles/twitter-lays-off-third-of-talent-team-11657227105,5700.0,Post-IPO,United States,,TWTR,NYSE,True
 Remote,True,SF Bay Area,HR,100.0,7/6/2022,https://www.publico.pt/2022/07/06/economia/noticia/crise-chega-tecnologicas-portugal-remote-despede-9-2012650,496.0,Series C,United States,0.09,,,
 Shopify,False,Ottawa,Retail,50.0,7/6/2022,https://www.theglobeandmail.com/business/article-shopify-compensation-hiring-plans/,122.0,Post-IPO,Canada,,SHOP,NYSE,False
 Anodot,False,Tel Aviv,Data,35.0,7/6/2022,https://www.calcalistech.com/ctechnews/article/sypfe11ms5,64.0,Series C,United States,0.27,,,
@@ -2749,7 +2753,7 @@ Cazoo,False,London,Transportation,750.0,6/7/2022,https://news.sky.com/story/car-
 Cazoo,False,London,Transportation,750.0,6/7/2022,https://sifted.eu/articles/cazoo-layoffs-european-union/,2000.0,Post-IPO,United Kingdom,0.15,CZOO,NYSE,False
 Rupeek,False,Bengaluru,Finance,180.0,6/7/2022,https://www.moneycontrol.com/news/business/startup/gold-loan-platform-rupeek-lays-off-over-180-of-its-employees-8653571.html,172.0,Unknown,India,0.15,,,
 Lummo,False,Jakarta,Marketing,150.0,6/7/2022,https://www.moneycontrol.com/news/business/startup/jeff-bezos-sequoia-capital-backed-saas-startup-lummo-lays-off-50-60-employees-from-its-bengaluru-office-8663251.html,149.0,Series C,Indonesia,,,,
-Bird,True,Los Angeles,Transportation,138.0,6/7/2022,Internal memo,783.0,Post-IPO,United States,0.23,BRDS,NYSE,False
+Bird,True,Los Angeles,Transportation,138.0,6/7/2022,Internal memo,783.0,Post-IPO,United States,0.23,BRDS,NYSE,True
 ID.me,True,Washington D.C.,Security,130.0,6/7/2022,https://www.businessinsider.com/idme-identity-verification-irs-unemployment-facial-recognition-staff-layoffs-economy-2022-6,275.0,Unknown,United States,,,,
 KiwiCo,True,SF Bay Area,Retail,40.0,6/7/2022,Internal memo,11.0,Unknown,United States,,,,
 Bond,True,SF Bay Area,Finance,,6/7/2022,Internal memo,42.0,Series A,United States,,,,
@@ -2780,7 +2784,7 @@ IRL,True,SF Bay Area,Consumer,25.0,6/2/2022,https://techcrunch.com/2022/06/02/ir
 Esme Learning,True,Boston,Education,,6/2/2022,https://esmelearning.com/blogs/news/esmes-new-horizon,37.0,Unknown,United States,,,,
 Kaodim,False,Selangor,Consumer,,6/2/2022,"https://www.thestar.com.my/tech/tech-news/2022/06/02/malaysian-startup-kaodim-to-shut-down-on-july-1-cites-rising-costs-among-challenges#:~:text=Kaodim%20has%20announced%20that%20its,operational%20from%20July%201%2C%202022",17.0,Series B,United States,1.0,,,
 Rain,False,Manama,Finance,,6/2/2022,https://www.bloomberg.com/news/articles/2022-06-02/coinbase-backed-rain-cuts-jobs-amid-cryptocurrency-selloff?srnd=technology-vp#xj4y7vzkg,202.0,Series B,Bahrain,,,,
-TomTom,False,Amsterdam,Transportation,500.0,6/1/2022,https://www.businessinsider.com/tomtom-gps-navigation-tech-layoffs-employees-maps-unit-2022-6,,Post-IPO,Netherlands,0.1,0MKS.IL,International Orderbook - London,False
+TomTom,False,Amsterdam,Transportation,500.0,6/1/2022,https://www.businessinsider.com/tomtom-gps-navigation-tech-layoffs-employees-maps-unit-2022-6,,Post-IPO,Netherlands,0.1,0MKS.IL,IOB,False
 Cybereason,True,Boston,Security,100.0,6/1/2022,https://www.calcalistech.com/ctechnews/article/s1zg60v005,750.0,Series F,United States,0.06,,,
 Udayy,False,Gurugram,Education,100.0,6/1/2022,https://www.moneycontrol.com/news/business/startup/info-edge-backed-edtech-startup-udayy-shuts-down-lays-off-all-employees-8621551.html,2.0,Seed,India,1.0,,,
 2TM,False,Sao Paulo,Crypto,90.0,6/1/2022,"https://www.terra.com.br/noticias/tecnologia/2tm-dono-do-mercado-bitcoin-demite-90-funcionarios,9ce67613ba7b79292f03bc2027ceb77e9uw5hy0w.html",250.0,Unknown,Brazil,0.12,,,
@@ -2804,7 +2808,7 @@ Tempus Ex,True,SF Bay Area,Data,,5/30/2022,Internal memo,36.0,Unknown,United Sta
 FrontRow,False,Bengaluru,Education,145.0,5/27/2022,https://inc42.com/buzz/exclusive-lightspeed-backed-frontrow-lays-off-145-employees-cut-cost/,17.0,Series A,India,0.3,,,
 Daloopa,False,New Delhi,Data,40.0,5/27/2022,https://www.moneycontrol.com/news/business/daloopa-lays-off-40-employees-noida-8620121.html,23.0,Series A,India,,,,
 Uncapped,False,London,Finance,29.0,5/27/2022,https://sifted.eu/articles/startup-tech-company-layoffs/,118.0,Unknown,United Kingdom,0.26,,,
-Akerna,True,Denver,Logistics,,5/27/2022,https://news.yahoo.com/akerna-announces-corporate-restructuring-213000829.html,46.0,Unknown,United States,,KERNW,NASDAQ,False
+Akerna,True,Denver,Logistics,,5/27/2022,https://news.yahoo.com/akerna-announces-corporate-restructuring-213000829.html,46.0,Unknown,United States,,KERNW,NASDAQGs,False
 Terminus,True,Atlanta,Marketing,,5/27/2022,https://www.bizjournals.com/atlanta/inno/stories/news/2022/05/27/terminus-atlanta-startup-layoffs.html,120.0,Series C,United States,,,,
 Terminus,True,Atlanta,Marketing,,5/27/2022,https://www.bizjournals.com/atlanta/inno/stories/news/2022/05/27/terminus-atlanta-startup-layoffs.html,192.0,Unknown,United States,,,,
 VTEX,False,Sao Paulo,Retail,200.0,5/26/2022,https://www.bloomberglinea.com.br/2022/05/26/inverno-chegou-unicornios-vtex-e-bitso-fazem-demissao-em-massa/,365.0,Post-IPO,Brazil,0.13,VTEX,NYSE,False
@@ -2945,7 +2949,7 @@ Zymergen,True,SF Bay Area,Other,120.0,9/23/2021,https://www.bizjournals.com/sanf
 Imperfect Foods,True,SF Bay Area,Food,,9/22/2021,https://www.businessinsider.com/imperfect-foods-employees-executives-flee-the-grocery-startup-2021-9,229.0,Series D,United States,,,,
 Genius,True,New York City,Consumer,,9/15/2021,https://www.bloomberg.com/news/articles/2021-09-16/former-startup-darling-genius-sells-assets-for-80-million,78.0,Acquired,United States,,,,
 Treehouse,True,Portland,Education,41.0,9/14/2021,https://www.oregonlive.com/silicon-forest/2021/09/online-coding-school-treehouse-formerly-based-in-portland-lays-off-most-of-its-staff.html,12.0,Series B,United States,0.9,,,
-Casper,True,New York City,Retail,,9/14/2021,https://techcrunch.com/2021/09/14/casper-cuts-its-cmo-cto-and-coo-amid-further-layoffs/,339.0,Post-IPO,United States,,CSPR-USD,CCC,False
+Casper,True,New York City,Retail,,9/14/2021,https://techcrunch.com/2021/09/14/casper-cuts-its-cmo-cto-and-coo-amid-further-layoffs/,339.0,Post-IPO,United States,,CSPR,NYSE,True
 Tanium,True,Seattle,Security,30.0,8/30/2021,https://www.businessinsider.com/tanium-layoffs-senior-product-marketing-2021-8,1000.0,Unknown,United States,,,,
 Flockjay,True,SF Bay Area,Education,37.0,8/24/2021,https://techcrunch.com/2021/08/24/flockjay-cuts-at-least-half-of-its-workforce-as-it-pivots-away-from-bootcamps-into-b2b-saas/,14.0,Series A,United States,0.5,,,
 Bytedance,False,Shanghai,Consumer,1800.0,8/5/2021,https://www.reuters.com/world/china/bytedance-lay-off-staff-close-businesses-over-china-tutoring-clampdown-sources-2021-08-05/,9400.0,Unknown,China,,,,
@@ -3005,7 +3009,7 @@ Chef,True,Seattle,Infrastructure,,10/8/2020,https://www.geekwire.com/2020/progre
 Alto Pharmacy,True,SF Bay Area,Healthcare,47.0,9/29/2020,https://layoffs.fyi/2020/10/07/alto-pharmacy-lays-off-47-employees/,356.0,Series D,United States,0.06,,,
 TheWrap,True,Los Angeles,Media,,9/29/2020,https://nypost.com/2020/09/29/ex-hollywood-reporter-billboard-exec-lynne-segall-lands-at-the-wrap/,3.5,Series B,United States,,,,
 HumanForest,False,London,Transportation,,9/25/2020,https://techcrunch.com/2020/09/25/humanforest-suspends-london-e-bike-sharing-service-cuts-jobs-after-customer-accident/,1.54,Private Equity,United Kingdom,,,,
-WeWork,False,Shenzen,Real Estate,,9/23/2020,https://techcrunch.com/2020/09/23/wework-sells-majority-stake-in-chinese-entity-seeks-localization/,19500.0,Series H,China,,WEWKQ,OTCMKTS,False
+WeWork,False,Shenzen,Real Estate,,9/23/2020,https://techcrunch.com/2020/09/23/wework-sells-majority-stake-in-chinese-entity-seeks-localization/,19500.0,Series H,China,,WEWKQ,OTCMKTS,True
 Air,True,New York City,Marketing,,9/16/2020,https://air.inc/blog/series-a,18.0,Series A,United States,0.16,,,
 NS8,True,Las Vegas,Data,240.0,9/11/2020,https://twitter.com/VitalVegas/status/1304355796008853506,157.9,Series A,United States,0.95,,,
 Bleacher Report,False,London,Media,20.0,9/11/2020,https://awfulannouncing.com/br/more-layoffs-in-works-at-bleacher-report.html,40.5,Acquired,United Kingdom,,,,
@@ -3013,7 +3017,7 @@ HubHaus,True,SF Bay Area,Real Estate,,9/11/2020,https://www.theinformation.com/a
 Waze,True,SF Bay Area,Transportation,30.0,9/9/2020,https://www.theverge.com/2020/9/9/21428907/waze-layoff-pandemic-google-navigation-driving,67.0,Acquired,United States,0.054,,,
 Ouster,True,SF Bay Area,Transportation,,9/8/2020,https://techcrunch.com/2020/09/08/lidar-startup-ouster-raises-42m-in-push-to-grow-sales-diversify-products/,132.0,Series B,United States,0.1,OUST,NYSE,False
 Swing Education,True,SF Bay Area,Education,,9/5/2020,https://www.sfchronicle.com/business/article/Bay-Area-startups-connect-families-teachers-for-15544289.php,22.8,Series B,United States,,,,
-Akerna,True,Denver,Logistics,,9/2/2020,https://mjbizdaily.com/cannabis-tech-platform-akernas-ample-organics-acquisition-spurs-layoffs-leadership-changes/,,Post-IPO,United States,,KERNW,NASDAQ,False
+Akerna,True,Denver,Logistics,,9/2/2020,https://mjbizdaily.com/cannabis-tech-platform-akernas-ample-organics-acquisition-spurs-layoffs-leadership-changes/,,Post-IPO,United States,,KERNW,NASDAQGs,False
 Awok,False,Dubai,Retail,,9/2/2020,https://www.menabytes.com/awok-shuts-down/,30.0,Series A,United Arab Emirates,1.0,,,
 Big Fish Games,True,Seattle,Media,250.0,9/1/2020,https://venturebeat.com/2020/09/01/big-fish-games-cuts-250-jobs-and-streamlines-mobile-game-operations/,95.2,Acquired,United States,,,,
 GoBear,False,Singapore,Finance,22.0,9/1/2020,https://layoffs.fyi/2020/09/13/gobear-launches-talent-directory-after-laying-off-22-employees/,97.0,Unknown,Singapore,0.11,,,
@@ -3058,7 +3062,7 @@ Bizongo,False,Mumbai,Logistics,140.0,7/10/2020,https://www.startupnews.fyi/post/
 Zilingo,False,Singapore,Retail,100.0,7/9/2020,https://zilingotrade.com/en-th/blog/BLGCOMPANYANNOUNCEMENT,307.0,Series D,Singapore,0.12,,,
 PaySense,False,Mumbai,Finance,40.0,7/9/2020,https://tech.economictimes.indiatimes.com/news/startups/naspers-owned-payu-lays-off-staff-at-credit-lending-unit-paysense/76872229,25.6,Acquired,India,,,,
 Funding Circle,False,London,Finance,85.0,7/8/2020,https://www.altfi.com/article/6790_funding-circle-joins-bounce-back-loan-scheme-as-it-cuts-us-headcount-by-85,746.0,Post-IPO,United States,,FCH.L,LSE,False
-OnDeck,True,New York City,Finance,,7/8/2020,https://debanked.com/2020/07/layoffs-at-ondeck/,1200.0,Post-IPO,United States,,7360.T,Tokyo Stock Exchange,False
+OnDeck,True,New York City,Finance,,7/8/2020,https://debanked.com/2020/07/layoffs-at-ondeck/,1200.0,Post-IPO,United States,,ENVA,NYSE,False
 The Wing,True,New York City,Real Estate,56.0,7/1/2020,https://commercialobserver.com/2020/07/the-wing-lays-off-another-56-employees/,117.0,Series C,United States,,,,
 Sharethrough,True,SF Bay Area,Marketing,18.0,7/1/2020,https://blog.sharethrough.com/post/adapting-to-covid-19-evolving-to-a-unified-revenue-team-at-sharethrough,38.0,Series D,United States,,,,
 Kongregate,True,SF Bay Area,Media,12.0,7/1/2020,https://www.forbes.com/sites/lizlanier/2020/07/01/kongregate-shift-in-focus-brings-layoffs-closes-portal-to-new-games/#148558087323,19.0,Series C,United States,,,,
@@ -3080,7 +3084,7 @@ Gojek,False,Jakarta,Transportation,430.0,6/23/2020,https://layoffs.fyi/2020/08/0
 ScaleFactor,True,Austin,Finance,90.0,6/23/2020,https://www.forbes.com/sites/davidjeans/2020/06/23/scalefactor-fintech-startup-shuts-down-bessemer-coatue-canaan/#2bef45cf4901,103.0,Series C,United States,0.9,,,
 Dark,True,SF Bay Area,Product,6.0,6/23/2020,https://layoffs.fyi/2020/06/29/programming-service-dark-releases-layoff-list/,3.0,Seed,United States,1.0,,,
 Intuit,True,SF Bay Area,Finance,715.0,6/22/2020,https://intuitblog.com/news-social/a-message-from-intuit-ceo-sasan-goodarzi-to-intuit-employees/,18.0,Post-IPO,United States,0.07,ISRG,NASDAQ,False
-WeWork,False,London,Real Estate,200.0,6/19/2020,https://www.wired.co.uk/article/wework-redundancies-uk-restructure,19500.0,Series H,United Kingdom,,WEWKQ,OTCMKTS,False
+WeWork,False,London,Real Estate,200.0,6/19/2020,https://www.wired.co.uk/article/wework-redundancies-uk-restructure,19500.0,Series H,United Kingdom,,WEWKQ,OTCMKTS,True
 Atlas Obscura,True,New York City,Media,15.0,6/18/2020,https://www.poynter.org/?locally=atlas-obscura-laid-off-15-including-five-in-editorial-the-company-confirmed-to-poynter,32.0,Series B,United States,,,,
 Navi,False,Bengaluru,Finance,40.0,6/17/2020,https://inc42.com/buzz/sachin-bansals-navi-general-insurance-lays-off-40-employees/,582.0,Private Equity,India,0.25,,,
 PaisaBazaar,False,Gurugram,Finance,1500.0,6/16/2020,https://thetechportal.com/2020/06/16/policybazaar-paisabazaar-lay-offs/,496.0,Series G,India,0.5,,,
@@ -3143,7 +3147,7 @@ Divvy,True,Salt Lake City,Finance,,5/19/2020,LinkedIn,252.0,Series C,United Stat
 Uber,True,SF Bay Area,Transportation,3000.0,5/18/2020,https://layoffs.fyi/2020/05/18/uber-lays-off-3000-more-employees-on-top-of-the-3700-laid-off-earlier-this-month/,24700.0,Post-IPO,United States,0.13,UBER,NYSE,False
 Agoda,False,Singapore,Travel,1500.0,5/18/2020,https://layoffs.fyi/2020/05/24/agoda-laid-off-1500-employees-launches-public-alumni-directory/,,Acquired,Singapore,0.25,,,
 Swiggy,False,Bengaluru,Food,1100.0,5/18/2020,https://www.nytimes.com/reuters/2020/05/18/technology/18reuters-india-swiggy-layoffs.html,1600.0,Series I,India,0.14,,,
-WeWork,False,New Delhi,Real Estate,100.0,5/18/2020,https://www.newindianexpress.com/business/2020/may/18/tough-step-needed-for-sustainable-structure-wework-india-lays-off-20-per-cent-staff-amid-covid-19-2144959.html,19500.0,Series H,India,0.2,WEWKQ,OTCMKTS,False
+WeWork,False,New Delhi,Real Estate,100.0,5/18/2020,https://www.newindianexpress.com/business/2020/may/18/tough-step-needed-for-sustainable-structure-wework-india-lays-off-20-per-cent-staff-amid-covid-19-2144959.html,19500.0,Series H,India,0.2,WEWKQ,OTCMKTS,True
 Rubrik,True,SF Bay Area,Infrastructure,57.0,5/18/2020,https://www.bizjournals.com/sanfrancisco/news/2020/04/16/exclusive-a-comprehensive-guide-to-locallayoffs.html,553.0,Series E,United States,,,,
 Intapp,True,SF Bay Area,Legal,45.0,5/18/2020,https://news.bloomberglaw.com/us-law-week/intapp-cuts-5-of-workforce-due-to-coronavirus-crisis,,Private Equity,United States,0.05,,,
 Checkmarx,False,Tel Aviv,Security,,5/18/2020,"https://www.calcalistech.com/ctech/articles/0,7340,L-3824253,00.html",92.0,Acquired,Israel,,,,
@@ -3169,7 +3173,7 @@ Mode Analytics,True,SF Bay Area,Data,17.0,5/13/2020,https://www.linkedin.com/pos
 BetterCloud,True,New York City,Security,,5/13/2020,LinkedIn,111.0,Series E,United States,,,,
 WeFit,False,Hanoi,Fitness,,5/13/2020,https://beamstart.com/content/127302/Vietnamese_startup_WeFit_files_for_bankruptcy,1.0,Seed,Vietnam,1.0,,,
 Zymergen,True,SF Bay Area,Other,,5/13/2020,LinkedIn,574.0,Series C,United States,0.1,,,
-Stone,False,Sao Paulo,Finance,1300.0,5/12/2020,https://www.reuters.com/article/us-stoneco-layoff/brazilian-card-processor-stoneco-lays-off-20-of-workforce-1300-employees-idUSKBN22O31N,,Post-IPO,Brazil,0.2,STNE,NASDAQ,False
+StoneCo,False,Sao Paulo,Finance,1300.0,5/12/2020,https://www.reuters.com/article/us-stoneco-layoff/brazilian-card-processor-stoneco-lays-off-20-of-workforce-1300-employees-idUSKBN22O31N,,Post-IPO,Brazil,0.2,STNE,NASDAQ,False
 Zeus Living,True,SF Bay Area,Real Estate,73.0,5/12/2020,https://www.businessinsider.com/zeus-living-cuts-50-of-staff-after-raising-a-downround-2020-5,79.0,Series B,United States,0.5,,,
 Mixpanel,True,SF Bay Area,Data,65.0,5/12/2020,https://www.bizjournals.com/sanfrancisco/news/2020/05/12/sf-analytics-company-yc-graduate-cuts-65-obs.html?iana=hpmvp_sfbt_news_headline,77.0,Series B,United States,0.19,,,
 Hireology,True,Chicago,Recruiting,36.0,5/12/2020,https://www.americaninno.com/chicago/inno-news-chicago/hireology-lays-off-17-of-its-staff/,52.0,Series D,United States,0.17,,,
@@ -3229,7 +3233,7 @@ Cohesity,True,SF Bay Area,Data,,4/30/2020,https://www.bizjournals.com/sanjose/ne
 Fandom,True,SF Bay Area,Media,,4/30/2020,https://community.fandom.com/wiki/User_blog:Perkinsmt/Fandom_Staffing_Update,145.0,Series E,United States,0.14,,,
 PicoBrew,True,Seattle,Food,,4/30/2020,https://thespoon.tech/rest-in-peace-picobrew/,15.0,Series A,United States,1.0,,,
 Lyft,True,SF Bay Area,Transportation,982.0,4/29/2020,https://layoffs.fyi/2020/04/30/lyft-laid-off-982-employees/,4900.0,Post-IPO,United States,0.17,LYFT,NASDAQ,False
-WeWork,True,SF Bay Area,Real Estate,300.0,4/29/2020,https://news.crunchbase.com/news/wework-lays-off-staff-as-part-of-a-realignment/,2250.0,Series H,United States,,WEWKQ,OTCMKTS,False
+WeWork,True,SF Bay Area,Real Estate,300.0,4/29/2020,https://news.crunchbase.com/news/wework-lays-off-staff-as-part-of-a-realignment/,2250.0,Series H,United States,,WEWKQ,OTCMKTS,True
 Kayak / OpenTable,True,Stamford,Travel,160.0,4/29/2020,https://skift.com/2020/04/29/kayak-and-opentable-layoffs-and-furloughs-impact-400-employees/,229.0,Acquired,United States,0.08,,,
 Kitopi,True,New York City,Food,124.0,4/29/2020,https://commercialobserver.com/2020/04/ghost-kitchen-kitopi-cuts-124-new-york-city-employees/,89.0,Series B,United States,,,,
 Lime,True,SF Bay Area,Transportation,80.0,4/29/2020,https://layoffs.fyi/2020/05/04/lime-laid-off-80-employees/,765.0,Series D,United States,0.13,,,
@@ -3237,7 +3241,7 @@ Transfix,True,New York City,Logistics,24.0,4/29/2020,https://www.freightwaves.co
 Yoco,False,Cape Town,Finance,,4/29/2020,https://disrupt-africa.com/2020/04/sa-fintech-startup-yoco-to-retrench-staff-as-covid-19-impacts-revenues/,23.0,Series B,South Africa,,,,
 TripAdvisor,True,Boston,Travel,900.0,4/28/2020,https://layoffs.fyi/2020/04/30/tripadvisor-laid-off-900-employees/,3.0,Post-IPO,United States,0.25,TRIP,NASDAQ,False
 Renmoney,False,Lagos,Finance,391.0,4/28/2020,https://techcabal.com/2020/04/28/tech-startups-recession/,,Unknown,Nigeria,0.5,,,
-Deliveroo,False,London,Food,367.0,4/28/2020,https://layoffs.fyi/2020/06/24/deliveroo-layoff-list-showcases-over-100-of-its-global-employees/,1500.0,Series G,United Kingdom,0.15,ROO.L,XLON,False
+Deliveroo,False,London,Food,367.0,4/28/2020,https://layoffs.fyi/2020/06/24/deliveroo-layoff-list-showcases-over-100-of-its-global-employees/,1500.0,Series G,United Kingdom,0.15,ROO.L,LSE,False
 App Annie,True,SF Bay Area,Data,80.0,4/28/2020,https://www.gamesindustry.biz/articles/2020-04-28-app-annie-lays-off-a-small-fraction-of-its-workforce,156.0,Unknown,United States,0.18,,,
 OpenX,True,Los Angeles,Marketing,35.0,4/28/2020,https://www.adexchanger.com/platforms/openx-cuts-staff-hours-and-executive-pay-in-response-to-reduced-marketer-spend/,70.0,Unknown,United States,0.15,,,
 PayJoy,True,SF Bay Area,Finance,27.0,4/28/2020,https://layoffs.fyi/2020/05/27/exclusive-fintech-startup-payjoy-laid-off-23-employees/,71.0,Series B,United States,0.25,,,
@@ -3279,7 +3283,7 @@ Swiggy,False,Bengaluru,Food,800.0,4/21/2020,https://entrackr.com/2020/04/exclusi
 Paytm,False,New Delhi,Finance,500.0,4/21/2020,https://hrnxt.com/news/paytm-to-lay-off-about-500-employees-after-a-performance-review/17875/2020/04/21/,2200.0,Unknown,India,,,,
 Lending Club,True,SF Bay Area,Finance,460.0,4/21/2020,https://www.cnbc.com/2020/04/21/lendingclub-cuts-30percent-of-workforce-as-covid-19-dampens-demand-for-loans.html,392.0,Post-IPO,United States,0.3,,,
 Houzz,True,SF Bay Area,Consumer,155.0,4/21/2020,https://techcrunch.com/2020/04/21/houzz-lays-off-155-employees-cuts-executive-salaries/,613.0,Series E,United States,0.1,,,
-Casper,True,New York City,Retail,78.0,4/21/2020,https://www.fastcompany.com/90494129/breaking-casper-lays-off-78-corporate-employees-winds-down-europe-business,339.0,Post-IPO,United States,0.21,CSPR-USD,CCC,False
+Casper,True,New York City,Retail,78.0,4/21/2020,https://www.fastcompany.com/90494129/breaking-casper-lays-off-78-corporate-employees-winds-down-europe-business,339.0,Post-IPO,United States,0.21,CSPR,NYSE,True
 RealSelf,True,Seattle,Healthcare,40.0,4/21/2020,https://www.geekwire.com/2020/cosmetic-treatment-review-startup-realself-cuts-staff-elective-medical-procedures-put-hold/,42.0,Series B,United States,0.13,,,
 Freshbooks,False,Toronto,Finance,38.0,4/21/2020,https://betakit.com/freshbooks-reduces-headcount-by-9-ceo-says-company-remains-in-growth-mode-despite-covid-19/,75.0,Series B,Canada,0.09,,,
 Patreon,True,SF Bay Area,Media,30.0,4/21/2020,https://techcrunch.com/2020/04/21/patreon-lays-off-13-of-workforce/,165.0,Series D,United States,0.13,,,
@@ -3331,7 +3335,7 @@ Tulip Retail,False,Toronto,Retail,14.0,4/15/2020,https://www.linkedin.com/posts/
 Trove Recommerce,True,SF Bay Area,Retail,13.0,4/15/2020,https://layoffs.fyi/2020/04/22/trove-recommerce-laid-off-13-employees/,34.0,Series C,United States,,,,
 Dude Solutions,True,Raleigh,Other,,4/15/2020,https://www.linkedin.com/pulse/some-great-people-impacted-c19-ed-roshitsh/?trackingId=0DmzbwQ3O78ObTV3BiRT9w%3D%3D,100.0,Acquired,United States,0.2,,,
 SweetEscape,False,Jakarta,Consumer,,4/15/2020,https://dealstreetasia.com/stories/sweetescape-layoffs-184295/,7.0,Series A,Indonesia,0.3,,,
-View,True,SF Bay Area,Energy,,4/15/2020,https://techcrunch.com/2020/04/15/view-the-dynamic-glass-company-that-raised-1-1-billion-from-softbank-in-2018-is-laying-people-off/,1800.0,Series H,United States,,VIEW,NASDAQ,False
+View,True,SF Bay Area,Energy,,4/15/2020,https://techcrunch.com/2020/04/15/view-the-dynamic-glass-company-that-raised-1-1-billion-from-softbank-in-2018-is-laying-people-off/,1800.0,Series H,United States,,VIEW,NASDAQ,True
 The RealReal,True,SF Bay Area,Retail,235.0,4/14/2020,https://techcrunch.com/2020/04/14/the-real-real-layoffs-furloughs/,358.0,Post-IPO,United States,0.1,REAL,NASDAQ,False
 TouchBistro,False,Toronto,Food,131.0,4/14/2020,https://betakit.com/touchbistro-furloughs-131-employees-as-restaurants-hit-hard-by-covid-19-pandemic/,224.0,Series E,Canada,0.23,,,
 Envoy,True,SF Bay Area,HR,58.0,4/14/2020,https://www.forbes.com/sites/alexandrawilson1/2020/04/15/smart-office-startup-envoy-furloughs-and-lays-off-30-of-employees-cuts-salaries-of-others/#e0729a7b94cf,59.0,Series B,United States,0.3,,,
@@ -3417,7 +3421,7 @@ PerkSpot,True,Chicago,HR,10.0,4/6/2020,https://www.americaninno.com/chicago/inno
 Bitfarms,False,Quebec,Crypto,,4/6/2020,https://coingeek.com/job-losses-loom-at-bitfarms-due-to-coronavirus/,25.0,Post-IPO,Canada,,BITF,NASDAQ,False
 Hopper,True,Boston,Travel,,4/6/2020,https://www.americaninno.com/boston/inno-news-boston/travel-booking-app-hopper-announces-layoffs-amid-coronavirus-crisis/,183.0,Series D,United States,,,,
 Mapbox,True,Washington D.C.,Data,,4/6/2020,LinkedIn,227.0,Series C,United States,,,,
-Astra,True,SF Bay Area,Aerospace,40.0,4/5/2020,https://www.cnbc.com/2020/04/05/rocket-startup-astra-trims-staff-to-survive-pandemic-until-next-year.html,100.0,Unknown,United States,0.25,AZN,NASDAQ,False
+Astra,True,SF Bay Area,Aerospace,40.0,4/5/2020,https://www.cnbc.com/2020/04/05/rocket-startup-astra-trims-staff-to-survive-pandemic-until-next-year.html,100.0,Unknown,United States,0.25,ASTR,NASDAQ,False
 Iflix,False,Kuala Lumpur,Consumer,50.0,4/4/2020,https://technode.global/2020/04/07/iflix-job-cuts-coronavirus/,348.0,Unknown,Malaysia,0.12,,,
 Gympass,False,Sao Paulo,Fitness,467.0,4/3/2020,https://forbes.com.br/negocios/2020/04/exclusivo-gympass-desliga-um-terco-dos-colaboradores/,300.0,Series D,Brazil,0.33,,,
 Sojern,True,SF Bay Area,Marketing,300.0,4/3/2020,https://www.adweek.com/programmatic/sojern-lays-off-50-of-staff-as-coronavirus-cuts-through-the-travel-industry/,162.0,Series D,United States,0.5,,,
@@ -3525,10 +3529,10 @@ ZipRecruiter,True,Los Angeles,Recruiting,400.0,3/29/2020,https://www.wsj.com/art
 Amplero,True,Seattle,Marketing,17.0,3/29/2020,https://www.geekwire.com/2020/canary-coal-mine-seattle-marketing-tech-startup-amplero-shuts-lays-off-17-employees/,25.0,Series B,United States,1.0,,,
 Polarr,True,SF Bay Area,Consumer,10.0,3/29/2020,https://medium.com/@derekzhyan/drawing-a-blank-18068b4aff1d,13.0,Series A,United States,,,,
 TravelTriangle,False,Gurugram,Travel,250.0,3/28/2020,https://entrackr.com/2020/03/exclusive-traveltriangle-lays-off-250-employees-covid-crisis/,47.0,Series D,India,0.5,,,
-WeWork,True,New York City,Real Estate,250.0,3/28/2020,https://www.reuters.com/article/wework-layoffs/wework-cuts-about-250-more-jobs-to-reduce-costs-source-idUSL4N2BL0DJ,2250.0,Series H,United States,,WEWKQ,OTCMKTS,False
+WeWork,True,New York City,Real Estate,250.0,3/28/2020,https://www.reuters.com/article/wework-layoffs/wework-cuts-about-250-more-jobs-to-reduce-costs-source-idUSL4N2BL0DJ,2250.0,Series H,United States,,WEWKQ,OTCMKTS,True
 Rent the Runway,True,New York City,Retail,,3/28/2020,https://www.theverge.com/2020/3/28/21198042/rent-the-runway-lays-off-all-retail-employees-due-to-coronavirus-uncertainty,541.0,Series F,United States,,RENT,NASDAQ,False
 OneWeb,False,London,Aerospace,451.0,3/27/2020,https://spacenews.com/oneweb-files-for-chapter-11-bankruptcy/,3000.0,Unknown,United Kingdom,0.85,,,
-Bird,True,Los Angeles,Transportation,406.0,3/27/2020,https://layoffs.fyi/2020/03/30/bird-lays-off-over-400-employees,623.0,Series D,United States,0.3,BRDS,NYSE,False
+Bird,True,Los Angeles,Transportation,406.0,3/27/2020,https://layoffs.fyi/2020/03/30/bird-lays-off-over-400-employees,623.0,Series D,United States,0.3,BRDS,NYSE,True
 HOOQ,False,Singapore,Consumer,250.0,3/27/2020,https://techcrunch.com/2020/03/27/streaming-service-hooq-files-for-liquidation/,95.0,Unknown,Singapore,1.0,,,
 Everlane,True,SF Bay Area,Retail,227.0,3/27/2020,https://www.vice.com/en_ca/article/akw9ej/everlane-reassures-workers-then-lays-off-and-furloughs-hundreds,18.0,Unknown,United States,,,,
 DataRobot,True,Boston,Data,200.0,3/27/2020,https://www.americaninno.com/boston/inno-news-boston/datarobot-cuts-workforce-as-coronavirus-roils-the-startup-economy/,430.0,Series E,United States,,,,

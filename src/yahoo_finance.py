@@ -99,7 +99,8 @@ def join_trading_symbols_df(dataframe):
 def get_prices(stock, layoffdate):
     symbol = Ticker(stock)
     symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=7),
-                                  end=layoffdate + datetime.timedelta(days=6))
+                                  end=layoffdate + datetime.timedelta(days=7))
+    # print(symbolPrices)
     if symbolPrices.empty:
         raise Exception(f"Historical prices for {stock} not found.")
     symbolPrices.reset_index(level="symbol", inplace=True)
@@ -111,7 +112,7 @@ def get_prices(stock, layoffdate):
             dateToCheck += datetime.timedelta(days=1)
         layoffdateIndex = symbolPrices.index.get_loc(dateToCheck)
     # print(layoffdateIndex)
-    symbolPrices = symbolPrices.iloc[layoffdateIndex - 4:layoffdateIndex + 5]
+    symbolPrices = symbolPrices.iloc[layoffdateIndex - 4:layoffdateIndex + 4]
     # print(symbolPrices)
     symbolPrices["Date of Layoff"] = [layoffdate] * len(symbolPrices.index)
     return symbolPrices
@@ -128,6 +129,7 @@ def get_daily_returns_1wk(pricesdf):
     dateReturnMap["Ticker"] = pricesdf["symbol"].iloc[0]
     dateReturnMap["Date of Layoff"] = pricesdf["Date of Layoff"].iloc[0]
 
+    # pprint(dateReturnMap)
     return dateReturnMap
 
 
@@ -142,16 +144,16 @@ def get_returns_dataframe(dataframe):
             returns.append(dictEntry)
         except BaseException as e:
             print("Exception: " + str(e))
-            failed.append(ticker)
+            failed.append(dict([("Ticker", ticker), ("Date of Layoff", dataframe.iat[count, 5])]))
     returnsdf = pd.DataFrame.from_records(returns)
     colnames = ["Date of Layoff", "Ticker", "Stock Return On Closest Trading Date Post-Announcement (t)",
                 "Stock Return 3 Days Before t", "Stock Return 2 Days Before t", "Stock Return 1 Day Before t",
                 "Stock Return 1 Day After t", "Stock Return 2 Days After t",
                 "Stock Return 3 Days After t"]
     returnsdf = returnsdf[colnames]
-    failed = list(set(failed))
-    failed_df = pd.DataFrame(failed)
-    failed_df.to_csv(r"%s\data\tickersNoHistoricalPrices" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    failed_df = pd.DataFrame.from_records(failed)
+    failed_df.to_csv(r"%s\data\tickersNoHistoricalPrices.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                     index=False)
 
     return returnsdf
 
@@ -163,8 +165,10 @@ if '__main__' == __name__:
     df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
     # join_trading_symbols_df(df)
 
-    publicSample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] is not True)]
+    publicSample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False)]
+    # test = publicSample[publicSample["Ticker"] == "GPRO"]
     stockReturnsdf = get_returns_dataframe(publicSample)
+    # print(stockReturnsdf)
     stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
 
     df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
-      <change afterPath="$PROJECT_DIR$/src/fmp_find_tickers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/publicCompanyNoTicker.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyNoTicker.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/publicCompanyTickers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyTickers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/yahoo_finance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +41,7 @@
     "Python.fmp_find_tickers.executor": "Run",
     "Python.iex_api.executor": "Run",
     "Python.layoff_data_processor.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.yahoo_finance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -141,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="layoff_data_processor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/layoff_data_processor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.yahoo_finance" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.fmp_find_tickers" />
         <item itemvalue="Python.exchangeAbb" />
         <item itemvalue="Python.iex_api" />
-        <item itemvalue="Python.layoff_data_processor" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717380385182</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1717459434634</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717459434634</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

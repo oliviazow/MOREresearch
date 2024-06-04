@@ -15,7 +15,7 @@ Funding Circle,FCH.L,LSE,False
 Rivian,RIVN,NASDAQ,False
 Latch,LTCH,OTCMKTS,False
 Upwork,UPWK,NASDAQ,False
-Cue Health,HLTH,NASDAQCM,False
+Cue Health,HLTH,NASDAQ,False
 GoodRx,GDRX,NASDAQ,False
 HP,HP,NYSE,False
 Confluent,CFLT,NASDAQ,False
@@ -279,7 +279,7 @@ Astra,ASTR,NASDAQ,False
 Delivery Hero,DHER.DE,XETRA,False
 ContraFect,CFRXQ,OTCMKTS,False
 Natera,NTRA,NASDAQ,False
-Oportun,OPRT,NASDAQGs,False
+Oportun,OPRT,NASDAQ,False
 Matterport,MTTR,NASDAQ,False
 SoundHound,SOUN,NASDAQ,False
 StoneCo,STNE,NASDAQ,False
@@ -319,7 +319,7 @@ Zscaler,ZS,NASDAQ,False
 Expedia,EXPE,NASDAQ,False
 SQZ Biotech,SQZB,OTCMKTS,False
 WeWork,WEWKQ,OTCMKTS,True
-Akerna,KERNW,NASDAQGs,False
+Akerna,KERNW,NASDAQ,False
 Workday,WDAY,NASDAQ,False
 Teladoc Health,TDOC,NYSE,False
 Appgate,APGTQ,OTCMKTS,False
@@ -372,3 +372,30 @@ AppFolio,APPF,NASDAQ,False
 Analog Devices,ADI,NASDAQ,False
 888,EVOK.L,LSE,False
 Sonos,SONO,NASDAQ,False
+Akili,AKLI,NASDAQ,False
+Alteryx,AYX,NYSE,True
+Avaya,AVYA,NYSE,True
+Boxed,BOXD,NYSE,True
+DeepVerge,DVRG.L,LSE,True
+Homology,FIXX,NASDAQ,False
+Instacart,CART,NASDAQ,False
+IronNet,IRNT,NYSE,True
+Kape,KAPE.L,LSE,True
+Laybuy,LBY.AX,ASX,True
+LiveTiles,LVT.AX,ASX,True
+LiveVox,LVOX,NASDAQ,True
+Cloudera,CLDR,NYSE,True
+Momentive,MNTV,NASDAQ,True
+Nearmap,NEA.AX,ASX,True
+Openpay,OPY.AX,ASX,True
+Otonomo,OTMO,NASDAQ,True
+Qualtrics,XM,NASDAQ,True
+Redbubble,RBL.AX,ASX,False
+Rubius,RUBY,NASDAQ,True
+Pallaydyne AI,PDYN,NASDAQ,False
+GeneDx,WGX,NASDAQ,False
+Splunk,SPLK,NASDAQ,True
+TCR2,TCRR,NASDAQ,True
+Tricida,TCDA,NASDAQ,True
+Whispir,WSP.AX,ASX,True
+Zymergen,ZY,NASDAQ,True

@@ -1,5 +1,6 @@
 /docs/$IEX.docx
 /src/iex_api.py
+/src/fmp_api.py
 
 *.ini
 */*.ini

@@ -133,6 +133,7 @@ def get_daily_returns_1wk(pricesdf):
 
 def get_returns_dataframe(dataframe):
     returns = []
+    failed = []
     tickers = dataframe["Ticker"].tolist()
     for count, ticker in enumerate(tickers):
         print(ticker)
@@ -141,12 +142,16 @@ def get_returns_dataframe(dataframe):
             returns.append(dictEntry)
         except BaseException as e:
             print("Exception: " + str(e))
+            failed.append(ticker)
     returnsdf = pd.DataFrame.from_records(returns)
     colnames = ["Date of Layoff", "Ticker", "Stock Return On Closest Trading Date Post-Announcement (t)",
                 "Stock Return 3 Days Before t", "Stock Return 2 Days Before t", "Stock Return 1 Day Before t",
                 "Stock Return 1 Day After t", "Stock Return 2 Days After t",
                 "Stock Return 3 Days After t"]
     returnsdf = returnsdf[colnames]
+    failed = list(set(failed))
+    failed_df = pd.DataFrame(failed)
+    failed_df.to_csv(r"%s\data\tickersNoHistoricalPrices" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
 
     return returnsdf
 
@@ -154,14 +159,13 @@ def get_returns_dataframe(dataframe):
 if '__main__' == __name__:
     # get_and_save_tickers()
     df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
-    # df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
-    join_trading_symbols_df(df)
+    # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
+    df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
+    # join_trading_symbols_df(df)
 
-    # publicSample = df[(df["Stage"] == "Post-IPO") & (df["IsUS"]) & (df["Ticker"].notna())]
-    # test = publicSample.head(5)
-    # stockReturnsdf = get_returns_dataframe(test)
-    # # stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    #
-    # df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
-    # df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    publicSample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] is not True)]
+    stockReturnsdf = get_returns_dataframe(publicSample)
+    stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+
+    df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
+    df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))

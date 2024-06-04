@@ -12,12 +12,17 @@ def get_jsonparsed_data(url):
     return json.loads(data)
 
 
-df = pd.read_csv(r"%s\data\publicCompanyNoTicker.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-companiesToSearch = df["Company"].tolist()
-companyTickerMap = {}
-for co in companiesToSearch:
-    co = co.replace(" ", "-")
-    currentUrl = f"https://financialmodelingprep.com/api/v3/search-name?query={co}&limit=10&apikey={fmp_api_key}"
-    companyTickerMap[co] = get_jsonparsed_data(currentUrl)
+def find_tickers():
+    df = pd.read_csv(r"%s\data\publicCompanyNoTicker.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    companiesToSearch = df["Company"].tolist()
+    companyTickerMap = {}
+    for co in companiesToSearch:
+        co = co.replace(" ", "-")
+        currentUrl = f"https://financialmodelingprep.com/api/v3/search-name?query={co}&limit=10&apikey={fmp_api_key}"
+        companyTickerMap[co] = get_jsonparsed_data(currentUrl)
 
-pprint(companyTickerMap)
+    return companyTickerMap
+
+
+if '__main__' == __name__:
+    find_tickers()

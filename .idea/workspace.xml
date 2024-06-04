@@ -8,11 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/layoffData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataWithReturns.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/publicCompanyNoTicker.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyNoTicker.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/publicCompanyTickers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyTickers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/tickersNoHistoricalPrices.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/tickersNoHistoricalPrices.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fmp_find_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fmp_find_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fmp_find_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fmp_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/yahoo_finance.py" afterDir="false" />
     </list>
@@ -39,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.exchangeAbb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fmp_find_tickers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iex_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.layoff_data_processor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yahoo_finance.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olivi/Documents/moreResearch&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.exchangeAbb.executor": "Run",
+    "Python.fmp_find_tickers.executor": "Run",
+    "Python.fmp_search (1).executor": "Run",
+    "Python.iex_api.executor": "Run",
+    "Python.layoff_data_processor.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.yahoo_finance.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/olivi/Documents/moreResearch",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="MOREreaserch" sdk-home="$PROJECT_DIR$/venv/Scripts/python.exe" is-module-sdk="true" working-directory="$PROJECT_DIR$">
@@ -75,7 +75,7 @@
       <recent name="G:\My Drive\Family.Shared\Georgetown\MOREreaserch\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yahoo_finance">
+  <component name="RunManager" selected="Python.fmp_search (1)">
     <configuration name="exchangeAbb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fmp_find_tickers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fmp_search (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fmp_find_tickers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fmp_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iex_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fmp_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iex_api.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\olivi\PycharmProjects\MOREreaserch\src\fmp_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fmp_search (1)" />
         <item itemvalue="Python.yahoo_finance" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.fmp_find_tickers" />
+        <item itemvalue="Python.fmp_search" />
         <item itemvalue="Python.exchangeAbb" />
-        <item itemvalue="Python.iex_api" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717515789988</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1717538058259</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717538058259</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,5 +363,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit from o.zhao.0001@gmail.com" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit from o.zhao.0001@gmail.com" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/yahoo_finance.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

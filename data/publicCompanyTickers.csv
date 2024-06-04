@@ -19,12 +19,12 @@ Cue Health,HLTH,NASDAQ,False
 GoodRx,GDRX,NASDAQ,False
 HP,HP,NYSE,False
 Confluent,CFLT,NASDAQ,False
-MissFresh,MF,NASDAQ,False
+MissFresh,MF,NASDAQ,True
 Superloop,SLC.AX,ASX,False
 23andMe,ME,NASDAQ,False
 E Inc.,EINC,TSX,True
 Phunware,PHUN,NASDAQ,False
-AppHarvest,APPHW,NASDAQ,False
+AppHarvest,APPHW,NASDAQ,True
 SecureWorks,SCWX,NASDAQ,False
 Vacasa,VCSA,NASDAQ,False
 SiriusXM,LSXMA,NASDAQ,False
@@ -68,13 +68,13 @@ HubSpot,HUBS,NYSE,False
 Logitech,LOGI,NASDAQ,False
 Rigetti Computing,RGTI,NASDAQ,False
 Jumia,JMIA,NYSE,False
-Xero,XRO,ASX,False
+Xero,XRO.AX,ASX,False
 Playtika,PLTK,NASDAQ,False
 Grab,GRAB,NASDAQ,False
 Megaport,MP1.XA,ASX,False
 Apple,AAPL,NASDAQ,False
 Tencent,0700.HK,HK,False
-Babylon,BBLN,NYSE,False
+Babylon,BBLN,NYSE,True
 GoDaddy,GDDY,NYSE,False
 Pinterest,PINS,NYSE,False
 Juniper Networks,JNPR,NYSE,False
@@ -141,7 +141,7 @@ Sonder,SOND,NASDAQ,False
 Sweetgreen,SG,NYSE,False
 PagerDuty,PD,NYSE,False
 Toast,TOST,NYSE,False
-Shift,SFT,NASDAQ,False
+Shift,SFT,NASDAQ,True
 DraftKings,DKNG,NASDAQ,False
 Carvana,CVNA,NYSE,False
 REE Automotive,REE,NASDAQ,False
@@ -200,7 +200,7 @@ Accolade,ACCD,NASDAQ,False
 10X Genomics,TXG,NASDAQ,False
 Marqeta,MQ,NASDAQ,False
 Ericsson,ERIC-B.ST,SSO,False
-Proterra,PTRA,NASDAQ,False
+Proterra,PTRA,NASDAQ,True
 Coherent,COHR,NYSE,False
 Lightspeed Commerce,LSPD,NYSE,False
 Boozt,BOK.F,FRA,False
@@ -215,7 +215,7 @@ Synlogic,SYBX,NASDAQ,False
 Criteo,CRTO,NASDAQ,False
 Ouster,OUST,NYSE,False
 Wallbox,WBX,NYSE,False
-Wejo,WEJOF,OTCMKTS,False
+Wejo,WEJO,NASDAQ,True
 Tesla,TSLA,NASDAQ,False
 Lenovo,0992.HK,HK,False
 Fisker,FSRN,OTCMKTS,False
@@ -245,7 +245,7 @@ VerticalScope,7E9.F,FRA,False
 Allbirds,BIRD,NASDAQ,False
 Cardlytics,CDLX,NASDAQ,False
 Cazoo,CZOO,NYSE,False
-Springbig,SBIGW,OTCMKTS,False
+Springbig,SBIG,NASDAQ,True
 Oatly,OTLY,NASDAQ,False
 Blend,BLND,NYSE,False
 Lucid Diagnostics,LUCD,NASDAQ,False
@@ -260,7 +260,7 @@ Dropbox,DBX,NASDAQ,False
 Selina,SLNA,NASDAQ,False
 Bill Com Holdings,BILL,NYSE,False
 Legible,READ.CN,CSE,False
-EQRx,EQRXW,NASDAQ,False
+EQRx,EQRX,NASDAQ,True
 Bilibili,BILI,NASDAQ,False
 nCino,NCNO,NASDAQ,False
 Acast,ACST,NASDAQ,False
@@ -307,7 +307,7 @@ Capital One,COF,NYSE,False
 Digimarc,DMRC,NASDAQ,False
 Yext,YEXT,NYSE,False
 Sage Therapeutics,SAGE,NASDAQ,False
-Tempo Automation,TMPOQ,OTCMKTS,False
+Tempo Automation,TMPO,NASDAQ,True
 HelloFresh,HFG.DE,XETRA,False
 TuSimple,TSPH,OTCMKTS,False
 Illumina,ILMN,NASDAQ,False
@@ -319,7 +319,7 @@ Zscaler,ZS,NASDAQ,False
 Expedia,EXPE,NASDAQ,False
 SQZ Biotech,SQZB,OTCMKTS,False
 WeWork,WEWKQ,OTCMKTS,True
-Akerna,KERNW,NASDAQ,False
+Akerna,KERN,NASDAQ,True
 Workday,WDAY,NASDAQ,False
 Teladoc Health,TDOC,NYSE,False
 Appgate,APGTQ,OTCMKTS,False
@@ -390,10 +390,10 @@ Nearmap,NEA.AX,ASX,True
 Openpay,OPY.AX,ASX,True
 Otonomo,OTMO,NASDAQ,True
 Qualtrics,XM,NASDAQ,True
-Redbubble,RBL.AX,ASX,False
+Redbubble,RBL.AX,ASX,True
 Rubius,RUBY,NASDAQ,True
 Pallaydyne AI,PDYN,NASDAQ,False
-GeneDx,WGX,NASDAQ,False
+GeneDx,WGS,NASDAQ,False
 Splunk,SPLK,NASDAQ,True
 TCR2,TCRR,NASDAQ,True
 Tricida,TCDA,NASDAQ,True

@@ -92,7 +92,8 @@ def clean_exchange_names():
 
 def join_trading_symbols_df(dataframe):
     tradingDf = pd.read_csv(r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    joinedDf = pd.merge(dataframe, tradingDf, how="left", on="Company")
+    tradingDf["Stage"] = ["Post-IPO"] * len(tradingDf.index)
+    joinedDf = pd.merge(dataframe, tradingDf, how="left", on=["Company", "Stage"])
     joinedDf.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
 
 
@@ -146,14 +147,16 @@ def get_returns_dataframe(dataframe, layoffdate_col):
             print("Exception: " + str(e))
             failed.append(dict([("Ticker", ticker), ("Date of Layoff", dataframe.iat[count, layoffdate_col])]))
     returnsdf = pd.DataFrame.from_records(returns)
+    failed_df = pd.DataFrame.from_records(failed)
+    failed_df.to_csv(r"%s\data\tickersNoHistoricalPrices.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                     index=False)
+    if returnsdf.empty:
+        return None
     colnames = ["Date of Layoff", "Ticker", "Stock Return On Closest Trading Date Post-Announcement (t)",
                 "Stock Return 3 Days Before t", "Stock Return 2 Days Before t", "Stock Return 1 Day Before t",
                 "Stock Return 1 Day After t", "Stock Return 2 Days After t",
                 "Stock Return 3 Days After t"]
     returnsdf = returnsdf[colnames]
-    failed_df = pd.DataFrame.from_records(failed)
-    failed_df.to_csv(r"%s\data\tickersNoHistoricalPrices.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
-                     index=False)
 
     return returnsdf
 
@@ -178,8 +181,10 @@ if '__main__' == __name__:
     # test = publicSample[publicSample["Ticker"] == "GPRO"]
     stockReturnsdf = get_returns_dataframe(dfDifference, 0)
 
-    df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
-    df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),index=False)
-    stockReturnsdf = pd.concat([completedReturns, stockReturnsdf])
-    stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
-                          index=False)
+    if stockReturnsdf is not None:
+        df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
+        df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                  index=False)
+        stockReturnsdf = pd.concat([completedReturns, stockReturnsdf])
+        stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                              index=False)

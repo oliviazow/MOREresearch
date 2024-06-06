@@ -1,6 +1,8 @@
 /docs/$IEX.docx
 /src/iex_api.py
 /src/fmp_api.py
+/docs/credentials.json
+/docs/authorized_user.json
 
 *.ini
 */*.ini

@@ -6,6 +6,7 @@ import datetime
 from yahooquery import Ticker
 from exchangeAbb import abb_reversed
 
+
 def find_ticker_and_exchange(name):
     try:
         data = yq.search(name)
@@ -165,26 +166,34 @@ if '__main__' == __name__:
     # get_and_save_tickers()
     df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
-    df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
+    if "/" in df["Date of Layoff"].iat[0]:
+        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
+    elif "-" in df["Date of Layoff"].iat[0]:
+        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df["Date of Layoff"]]
     # join_trading_symbols_df(df)
 
     publicSample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False)]
+
+    # Trying to find stock returns for companies that haven't been found yet
     completedReturns = pd.read_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     completedReturns["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
                                           completedReturns["Date of Layoff"]]
-    completedReturnsTickerDate = completedReturns[["Date of Layoff","Ticker"]]
+    completedReturnsTickerDate = completedReturns[["Date of Layoff", "Ticker"]]
     publicSampleTickerDate = publicSample[["Date of Layoff", "Ticker"]]
     dfDifference = pd.merge(publicSampleTickerDate, completedReturnsTickerDate, how="left",
                             on=["Date of Layoff", "Ticker"], indicator=True)
     dfDifference = dfDifference[dfDifference["_merge"] == "left_only"]
     dfDifference.drop(columns=["_merge"], inplace=True)
-    # test = publicSample[publicSample["Ticker"] == "GPRO"]
+    #
+    # test = publicSample[publicSample["Ticker"] == "CRM"]
+    # stockReturnsdf = get_returns_dataframe(test, 5)
+
     stockReturnsdf = get_returns_dataframe(dfDifference, 0)
 
     if stockReturnsdf is not None:
         df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
         df.to_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
                   index=False)
-        stockReturnsdf = pd.concat([completedReturns, stockReturnsdf])
+        # stockReturnsdf = pd.concat([completedReturns, stockReturnsdf])
         stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
                               index=False)

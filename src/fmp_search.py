@@ -33,7 +33,6 @@ def find_companies_to_search():
     publicCompanyTickers = pd.read_csv(r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(),
                                                                                                            os.pardir)))
     publicCompanyTickersDelisted = publicCompanyTickers[publicCompanyTickers["Stock Delisted"]]
-
     return publicCompanyTickersDelisted
 
 

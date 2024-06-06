@@ -112,7 +112,6 @@ Cimpress,CMPR,NASDAQ,False
 Fiverr,FVRR,NYSE,False
 Microsoft,MSFT,NASDAQ,False
 AudioCodes,AUDC,NASDAQ,False
-NanoString,NSTGQ,OTCMKTS,False
 Zoom,ZM,NASDAQ,False
 Fate Therapeutics,FATE,NASDAQ,False
 F5,FFIV,NASDAQ,False
@@ -168,7 +167,6 @@ PagSeguro,PAGS,NYSE,False
 Bird,BRDS,NYSE,True
 XP,XP,NASDAQ,False
 Fortinet,FTNT,NASDAQ,False
-Pear Therapeutics,PEARQ,OTCMKTS,False
 Cyren,CYRNQ,OTCMKTS,False
 Better Therapeutics,BTTX,OTCMKTS,False
 Life360,LIFX,OTCMKTS,False
@@ -392,7 +390,7 @@ Otonomo,OTMO,NASDAQ,True
 Qualtrics,XM,NASDAQ,True
 Redbubble,RBL.AX,ASX,True
 Rubius,RUBY,NASDAQ,True
-Pallaydyne AI,PDYN,NASDAQ,False
+Palladyne AI,PDYN,NASDAQ,False
 GeneDx,WGS,NASDAQ,False
 Splunk,SPLK,NASDAQ,True
 TCR2,TCRR,NASDAQ,True

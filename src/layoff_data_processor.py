@@ -71,6 +71,8 @@ def convert2dict(data):
                 record["Source"] = val
             elif "$ Raised (mm)" == columnIdNameMap[_id]:
                 record["Dollars Raised (mil)"] = val
+            elif "List of Employees Laid Off" == columnIdNameMap[_id]:
+                record["List of Employees Laid Off"] = val
             elif "Stage" == columnIdNameMap[_id]:
                 record["Stage"] = stageIdNameMap[val]
             elif "Country" == columnIdNameMap[_id]:
@@ -89,5 +91,7 @@ if '__main__' == __name__:
     df = convert2df(data)
     df["Company"] = df["Company"].apply(lambda x: x.strip())
     df.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
+
     publicCos = df[df["Stage"] == "Post-IPO"][["Company"]].drop_duplicates()
-    publicCos.to_csv(r"%s\data\publicCompanies.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
+    publicCos.to_csv(r"%s\data\publicCompanies.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                     index=False)

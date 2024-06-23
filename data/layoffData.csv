@@ -8,7 +8,7 @@ Singularity 6,True,Los Angeles,Other,36.0,2024-05-15,https://twitter.com/sweetpo
 Mainvest,True,Boston,Finance,,2024-05-14,https://mainvest.notion.site/Investor-Support-Hub-45c61ca735dd4daf8203c28d8945f9ff,3.0,Unknown,United States,1.0,,,,
 Indeed,True,Austin,HR,1000.0,2024-05-13,https://www.indeed.com/press/releases/a-message-from-our-ceo-chris-hyams-2?co=US,5.0,Acquired,United States,0.08,https://docs.google.com/spreadsheets/d/11pw38vkuXKudOZs0YiXBFnOS2tQ476pg3FA_qTLLM0k/edit#gid=0,,,
 Motional,True,Pittsburgh,Transportation,550.0,2024-05-10,https://techcrunch.com/2024/05/10/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/,,Unknown,United States,0.4,,,,
-Rivian,True,Los Angeles,Transportation,120.0,2024-05-10,https://www.sfchronicle.com/tech/article/tech-layoffs-google-rivian-19451076.php,10700.0,Post-IPO,United States,,,RIVN,NASDAQ,False
+Rivian,True,Los Angeles,Transportation,120.0,2024-05-10,https://www.sfchronicle.com/tech/article/tech-layoffs-google-rivian-19451076.php,10700.0,Post-IPO,United States,0.01,,RIVN,NASDAQ,False
 Google,True,SF Bay Area,Consumer,57.0,2024-05-10,https://www.sfchronicle.com/tech/article/tech-layoffs-google-rivian-19451076.php,26.0,Post-IPO,United States,,,GOOG,NASDAQ,False
 Vacasa,True,Portland,Travel,800.0,2024-05-09,https://skift.com/2024/05/09/vacasa-told-employees-about-layoffs-restructuring-and-leadership-changes/,834.0,Post-IPO,United States,0.13,,VCSA,NASDAQ,False
 PrepLadder,False,New Delhi,Education,145.0,2024-05-08,https://inc42.com/buzz/unacademys-prepladder-lays-off-145-employees-in-sales-strategy-rejig/,,Acquired,India,0.25,,,,
@@ -1061,7 +1061,7 @@ Insider,True,New York City,Media,,2023-04-20,https://www.thedailybeast.com/insid
 Iress,False,Melbourne,Finance,,2023-04-20,https://www.moneymanagement.com.au/news/people-products/iress-announces-management-restructure-and-job-cuts,,Unknown,Australia,0.1,,,,
 Lenovo,True,Raleigh,Hardware,,2023-04-20,https://www.channelweb.co.uk/news/4112502/lenovo-layoffs-confirmed-response-pc-downturn-report,850.0,Post-IPO,United States,,,0992.HK,HK,False
 F5,True,Seattle,Security,623.0,2023-04-19,https://www.reuters.com/technology/software-firm-f5-layoff-9-staff-trims-fiscal-revenue-guidance-2023-04-19/,,Post-IPO,United States,0.09,,FFIV,NASDAQ,False
-WalkMe,True,SF Bay Area,Other,112.0,2023-04-19,https://www.calcalistech.com/ctechnews/article/byc3z4pgn,307.0,Post-IPO,United States,0.1,,WKME,NASDAQ,False
+WalkMe,True,SF Bay Area,Other,112.0,2023-04-17,https://www.calcalistech.com/ctechnews/article/byc3z4pgn,307.0,Post-IPO,United States,0.1,,WKME,NASDAQ,False
 Opendoor,True,SF Bay Area,Real Estate,560.0,2023-04-18,https://www.inman.com/2023/04/18/opendoor-lays-off-22-of-its-workforce-in-latest-round-of-cuts/,1900.0,Post-IPO,United States,0.22,,OPEN,NASDAQ,False
 Noon,False,Riyadh,Retail,340.0,2023-04-18,https://www.bloomberg.com/news/articles/2023-04-18/amazon-s-middle-east-rival-noon-cuts-10-of-jobs-to-pare-costs?leadSource=uverify%20wall,,Unknown,Saudi Arabia,0.1,,,,
 Culture Amp,False,Melbourne,HR,90.0,2023-04-18,https://www.startupdaily.net/topic/business/hr-unicorn-culture-amp-is-the-latest-tech-company-to-shed-jobs-cutting-90-roles/,257.0,Series F,Australia,0.09,,,,
@@ -1326,7 +1326,7 @@ CommerceHub,True,Albany,Retail,371.0,2023-02-14,https://www.bizjournals.com/alba
 Dropp,False,Berlin,Retail,60.0,2023-02-14,https://www.businessinsider.de/gruenderszene/business/dropp-insolvenz-betrieb-eingestellt-arive/,2.0,Unknown,Germany,1.0,,,,
 HackerEarth,True,SF Bay Area,HR,,2023-02-14,https://inc42.com/buzz/prime-venture-backed-hackerearth-trims-workforce-introduces-pay-cut-globally/,11.0,Series B,United States,0.08,,,,
 PhableCare,False,Bengaluru,Healthcare,,2023-02-14,https://inc42.com/buzz/exclusive-hundreds-of-layoffs-delayed-salaries-is-kalaari-backed-phablecare-the-latest-startup-to-bite-the-dust/,40.0,Series B,India,0.7,,,,
-Udemy,True,SF Bay Area,Education,,2023-02-14,https://about.udemy.com/udemy-news/a-message-from-gregg-coccari-ceo-of-udemy/,311.0,Post-IPO,United States,0.1,,UDMY,NASDAQ,False
+Udemy,True,SF Bay Area,Education,200.0,2023-02-14,https://about.udemy.com/udemy-news/a-message-from-gregg-coccari-ceo-of-udemy/,311.0,Post-IPO,United States,0.1,,UDMY,NASDAQ,False
 Twilio,True,SF Bay Area,Other,1500.0,2023-02-13,https://www.cnbc.com/2023/02/13/twilio-layoffs-1500-employees-17percent-of-workforce.html,614.0,Post-IPO,United States,0.17,,TWLO,NYSE,False
 Electric,True,New York City,Other,141.0,2023-02-13,https://www.electric.ai/blog/open-letter-feb-2023,212.0,Series D,United States,0.25,,,,
 EMX Digital,True,New York City,Marketing,100.0,2023-02-13,https://www.businessinsider.com/big-village-bankruptcy-emx-digital-employees-furious-about-layoffs-severance-2023-2,,Unknown,United States,1.0,,,,
@@ -1531,7 +1531,7 @@ TikTok,True,Los Angeles,Consumer,,2023-01-20,https://www.businessinsider.com/tik
 Zappos,True,Las Vegas,Retail,,2023-01-20,https://www.reviewjournal.com/business/zappos-implements-another-round-of-layoffs-2715896/,62.0,Acquired,United States,,,,,
 Capital One,True,Washington D.C.,Finance,1100.0,2023-01-19,https://www.reuters.com/technology/capital-one-scraps-1100-tech-positions-source-2023-01-19/,,Post-IPO,United States,,,COF,NYSE,False
 Proterra,True,SF Bay Area,Transportation,300.0,2023-01-19,https://news.yahoo.com/proterra-cut-jobs-merge-electric-232932585.html,1200.0,Post-IPO,United States,,,PTRA,NASDAQ,True
-WeWork,True,New York City,Real Estate,300.0,2023-01-19,https://investors.wework.com/news-and-events/press-releases/financial-releases-details/2023/WeWork-Announces-Date-of-Fourth-Quarter-and-Full-Year-2022-Results-Conference-Call/default.aspx,22200.0,Post-IPO,United States,,,WEWKQ,OTCMKTS,True
+WeWork,True,New York City,Real Estate,300.0,2023-01-19,https://investors.wework.com/news-and-events/press-releases/financial-releases-details/2023/WeWork-Announces-Date-of-Fourth-Quarter-and-Full-Year-2022-Results-Conference-Call/default.aspx,22200.0,Post-IPO,United States,,,WE,NYSE,True
 Hubilo,True,SF Bay Area,Other,115.0,2023-01-19,https://inc42.com/buzz/hubilo-fires-35-of-its-workforce-in-second-round-of-layoffs-within-6-months/,153.0,Series B,United States,0.35,,,,
 Saks.com,True,New York City,Retail,100.0,2023-01-19,https://wwd.com/business-news/retail/saks-com-triggering-layoffs-1235484907/,965.0,Unknown,United States,0.05,,,,
 CS Disco,True,Austin,Legal,62.0,2023-01-19,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001625641/f8a9ad04-6c29-4631-b07d-b08d849fbcfa.pdf,233.0,Post-IPO,United States,0.09,,LAW,NYSE,False

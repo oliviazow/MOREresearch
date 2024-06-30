@@ -1,4 +1,4 @@
-Losing Money = Whether the company has generated net income or net loss according to most recent SEC quarterly filing
+Unprofitable = Whether the company has generated net income or net loss according to most recent SEC quarterly filing
 
 FOR LAYOFFS REASONS
 Macroeconomic conditions = Mention of higher interest rates, supply chain issues, inflation
@@ -8,10 +8,12 @@ Overhiring = Mention of extremely rapid growth in headcount or previous lack of 
 Definite business realignment = Mention of significant changes to core business model IN DETAIL OR mention of a "pivot" to a
     different market/consumer focus OR mention of SPECIFIC new priorities/developments that the layoffs are meant to bring to
     fruition
+Focus on _____ = Strategic goal of a round of layoffs. Sometimes overlaps with "definite business realignment," but can also be used
+    if the change isn't drastic enough to warrant that label.
 Business realignment = Vague mention of organizational/strategic changes (ex: "simplify organization and streamline operations"
     or "eliminate roles that don't align with business priorities" with no further specifics)
 Optimization = Mention of making the company leaner, eliminating duplicate roles, increasing efficiency, etc without mention of other
-    business changes. Very similar to business realignment
+    strategic changes. Very similar to business realignment
 Acute liquidity issues = Mention of liquidity being the biggest priority or concerns of running of out cash, needing new financing,
     or needing to preserve cash in the short term to continue operations (within a year)
 Reduced capital availability = Mention of "challenging capital environment," changing desires of the "investor community,"
@@ -19,7 +21,19 @@ Reduced capital availability = Mention of "challenging capital environment," cha
 Offshoring = Cutting jobs in one region in order to find cheaper labor in another region (usually firms cutting US/European jobs and
     looking to hire more elsewhere)
 Relocating = Closing down offices with attempts to move employees to another location, rather than only replacing them
-Post-acquisition restructuring =
+Post-acquisition restructuring = Mention of having to reorganize a business after being acquired or after acquiring another
+    company (usually to "reduce redundant roles")
+Market conditions = Mention of supply/demand trends specific to the market, rather than the overall economy. Also when the phrase
+    "market conditions" is used without any connection to macroeconomic conditions or supply/demand implications.
+Preserve cash = Mention of "extending cash runway," being prudent with liquidity/capital, or reducing burn rate (as well as the
+    explicit use of the phrase)
+Cut costs = Mention of needing to reduce operating expenses, restructuring the cost base, implement cost-efficient operations,
+    or anything along those lines.
+Chase profitability = Mention of achieving profitability or profitable growth specifically in layoff messaging. Includes measures
+    like positive adjusted EBITDA.
+Hit financial targets = Mention of aiming for financial goals that are not strictly profit-related (ex: Rule of 40)
+Regulatory requirements = Mention of (usually new) rules or regulations that would dampen sales or otherwise lower revenues/increase
+    expenses for the company
 
 
 Expansion = Mention of new projects/products, acquisitions, entering new markets, hiring more employees, etc. Can be recent past or

@@ -6,11 +6,21 @@ Lower demand = Mention of drop in sales, lower-than-expected public interest in 
 Overhiring = Mention of extremely rapid growth in headcount or previous lack of hiring restraint in layoff messaging (especially if
     company enjoyed pandemic boon)
 Definite business realignment = Mention of significant changes to core business model IN DETAIL OR mention of a "pivot" to a
-    different market/consumer focus OR mention of SPECIFIC new priorities/developments
+    different market/consumer focus OR mention of SPECIFIC new priorities/developments that the layoffs are meant to bring to
+    fruition
 Business realignment = Vague mention of organizational/strategic changes (ex: "simplify organization and streamline operations"
     or "eliminate roles that don't align with business priorities" with no further specifics)
-Acute liquidity issues = Mention of liquidity being the biggest priority or concerns of running of out cash or needing new financing
-    in the short term to continue operations (within a year)
+Optimization = Mention of making the company leaner, eliminating duplicate roles, increasing efficiency, etc without mention of other
+    business changes. Very similar to business realignment
+Acute liquidity issues = Mention of liquidity being the biggest priority or concerns of running of out cash, needing new financing,
+    or needing to preserve cash in the short term to continue operations (within a year)
+Reduced capital availability = Mention of "challenging capital environment," changing desires of the "investor community,"
+    or exact use of the phrase
+Offshoring = Cutting jobs in one region in order to find cheaper labor in another region (usually firms cutting US/European jobs and
+    looking to hire more elsewhere)
+Relocating = Closing down offices with attempts to move employees to another location, rather than only replacing them
+Post-acquisition restructuring =
 
 
-Expansion = Mention of new projects/products, acquisitions, entering new markets, hiring more employees, etc.
+Expansion = Mention of new projects/products, acquisitions, entering new markets, hiring more employees, etc. Can be recent past or
+    near future.

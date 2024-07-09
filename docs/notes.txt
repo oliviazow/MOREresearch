@@ -5,16 +5,22 @@ https://www.worldtimebuddy.com/
 Wish: Change 7/27/23 date to 8/1/23
 
 Can't get any info on Westwing, Wejo, Zalando, XP, Twitter on 1/5/23 (The Information has a crazy secure paywall), TaskUs on
-    6/21/2022, Splunk on 6/16/2020
+    6/21/2022, Splunk on 6/16/2020, Guidewire
 
 Unsure about Twist Bioscience publication time
 Unsure about SoundHound 1/5/2023 publication time
 Unsure about Smartsheet 2/16/2023 publication time
 Can't find Peloton 7/13/2023 publication time
 Unsure about PagSeguro 1/16/2023 publication time
+Can't find MariaDB 2/1/2023 publication time
+Can't find Mogo 3/27/2020 publication time
+Can't find Homepoint 11/17/2022 publication time
+Can't find Hashicorp 1/11/2023 publication time
 
 TCR2 8/31/2022 seems like it wasn't made public until 1/13/2023
 Pinterest 11/30/2022 seems like it wasn't reported until 12/5/2022
+Latch 5/10/2022 seems like it wasn't reported until 5/13/2022
+Jumia 11/21/2022 seems like it wasn't reported until 2/16/2023
 
 Not sure what to tag Sage Therapeutics 4/7/2020 as ("increasing competition" or "lower demand" or nothing at all)
 

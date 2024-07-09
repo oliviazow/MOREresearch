@@ -1,19 +1,22 @@
 Unprofitable = Whether the company has generated net income or net loss according to most recent SEC quarterly filing
 
 FOR LAYOFFS REASONS
-Macroeconomic conditions = Mention of higher interest rates, supply chain issues, inflation
+Macroeconomic conditions = Mention of higher interest rates, supply chain issues, inflation, recession, exchange rates, geopolitical
+    issues, economic uncertainty
 Lower demand = Mention of drop in sales, lower-than-expected public interest in product, slower job market (esp for hiring companies)
 Overhiring = Mention of extremely rapid growth in headcount or previous lack of hiring restraint in layoff messaging (especially if
     company enjoyed pandemic boon)
-Definite business realignment = Mention of significant changes to core business model IN DETAIL OR mention of a "pivot" to a
-    different market/consumer focus OR mention of SPECIFIC new priorities/developments that the layoffs are meant to bring to
-    fruition
+Definite business realignment = Mention of significant changes to business model IN DETAIL OR mention of a "pivot" to a
+    different market/consumer focus OR mention of SPECIFIC new priorities/developments that the layoffs are related to
 Focus on _____ = Strategic goal of a round of layoffs. Sometimes overlaps with "definite business realignment," but can also be used
     if the change isn't drastic enough to warrant that label.
 Business realignment = Vague mention of organizational/strategic changes (ex: "simplify organization and streamline operations"
     or "eliminate roles that don't align with business priorities" with no further specifics)
-Optimization = Mention of making the company leaner, eliminating duplicate roles, increasing efficiency, etc without mention of other
-    strategic changes. Very similar to business realignment
+Business review = (Even vaguer) mention of regular business review or similar repeated ordinary business measures. No implication of
+    a significant strategic change.
+Optimization = Mention of making the company leaner/more agile, eliminating duplicate roles, increasing efficiency, etc without
+    mention of other strategic changes. Very similar to business realignment, but only focusing on organizational efficiency (rather
+    than other business priorities)
 Acute liquidity issues = Mention of liquidity being the biggest priority or concerns of running of out cash, needing new financing,
     or needing to preserve cash in the short term to continue operations (within a year)
 Reduced capital availability = Mention of "challenging capital environment," changing desires of the "investor community,"

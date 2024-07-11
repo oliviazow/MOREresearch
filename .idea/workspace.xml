@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/layoffDataFull.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFull.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/layoffDataFull2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
@@ -35,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.exchangeAbb.executor": "Run",
-    "Python.fmp_find_tickers.executor": "Run",
-    "Python.fmp_search (1).executor": "Run",
-    "Python.get_spreadsheets.executor": "Run",
-    "Python.iex_api.executor": "Run",
-    "Python.layoff_data_processor.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.yahoo_finance.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/olivi/Documents/moreResearch",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.exchangeAbb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fmp_find_tickers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fmp_search (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_spreadsheets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iex_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.layoff_data_processor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yahoo_finance.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olivi/Documents/moreResearch&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="MOREreaserch" sdk-home="$PROJECT_DIR$/venv/Scripts/python.exe" is-module-sdk="true" working-directory="$PROJECT_DIR$">
@@ -388,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720568347595</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1720574749745</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1720574749745</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">

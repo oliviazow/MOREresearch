@@ -8,7 +8,6 @@ layoffDatadf = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.
 layoffDataWReturnsdf = pd.read_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(),
                                                                                                         os.pardir)))
 layoffDataFull = pd.read_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-layoffDataFull2 = pd.read_csv(r"%s\data\layoffDataFull2.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
 
 colnamesFull = ["Company", "IsUS", "Location HQ", "Industry", "Number Laid Off", "Date of Layoff", "Source",
                 "Dollars Raised (mil)", "Stage", "Country", "Percentage",
@@ -24,19 +23,13 @@ extraLayoffDetails = ["Job Positions Laid Off Desc", "Job Positions Laid Off Spe
                       "Reason Mentioned 2", "Reason Mentioned 3", "Unprofitable", "AI Mentioned", "AI Relation",
                       "Expansion Mentioned"]
 
-layoffDataFull2 = layoffDataFull2[colnamesFull]
-layoffDataFull2.to_csv(r"%s\data\layoffDataFull2.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
-                       index=False)
-
-layoffDataFull2 = layoffDataFull2.iloc[501:]
-for col in ["Unprofitable", "AI Mentioned", "Expansion Mentioned"]:
-    layoffDataFull2.loc[layoffDataFull2[col] == "Yes", col] = True
-    layoffDataFull2.loc[layoffDataFull2[col] == "No", col] = False
-    layoffDataFull2.loc[layoffDataFull2[col] == "no", col] = False
-    print(layoffDataFull2[col].unique())
-
-layoffDataFull = layoffDataFull.iloc[:498]
-layoffDataFull = pd.concat([layoffDataFull, layoffDataFull2])
+booleanCols = ["IsUS", "Unprofitable", "AI Mentioned", "Expansion Mentioned", "Announced Post-Trading Hours"]
+for col in booleanCols:
+    layoffDataFull.loc[layoffDataFull[col] == "No", col] = False
+    layoffDataFull.loc[layoffDataFull[col] == "Yes", col] = True
+    layoffDataFull.loc[layoffDataFull[col] == "FALSE", col] = False
+    layoffDataFull.loc[layoffDataFull[col] == "TRUE", col] = True
+    print(layoffDataFull[col].unique())
 
 layoffDataFull.to_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
                       index=False)

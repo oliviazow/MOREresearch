@@ -1,0 +1,19 @@
+'will continue focusing on generative ai solutions to augment work and '
+"satisfy clients' increasing interest in ai": "investing in ai",
+"utilizing ai in pre-existing services": "investing in ai",
+"invest in leveraging the company's generative ai capabilities": "investing in ai",
+"opportunities to enhance product/service": "ai as opportunity",
+"hiring in ai": "investing in ai",
+"ai technologies replacing some roles": "ai replacing jobs",
+"issues in another ai-related divison": "issues with ai",
+"integrating generative ai into old products": "investing in ai",
+"speculation around roles being replaced by ai": "ai potentially replacing jobs",
+"winding down ai labs": "stepping away from ai",
+"made it difficult to differentiate now-discontinued product": "facing competition from ai",
+"new ai products": "investing in ai",
+"part of company product": "investing in ai",
+"reducing ai investment due to meaningful upfront costs and lengthy time
+horizon": "stepping away from ai",
+"key strategic growth area": "investing in ai",
+"planning to replace jobs with ai": "ai potentially replacing jobs",
+"pivot towards ai": "investing in ai"

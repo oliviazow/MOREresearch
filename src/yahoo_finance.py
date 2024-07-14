@@ -5,7 +5,7 @@ import yahooquery as yq
 import datetime
 from yahooquery import Ticker
 from exchangeAbb import abb_reversed
-
+from main import colnamesFull
 
 def find_ticker_and_exchange(name):
     try:
@@ -98,23 +98,27 @@ def join_trading_symbols_df(dataframe):
     joinedDf.to_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), index=False)
 
 
-def get_prices(stock, layoffdate):
+def get_prices(stock, layoffdate, ann_time):
     symbol = Ticker(stock)
-    symbolPrices = symbol.history(interval="1d", start=layoffdate - datetime.timedelta(days=7),
-                                  end=layoffdate + datetime.timedelta(days=7))
+    dateOfInt = layoffdate
+    if ann_time:
+        dateOfInt = layoffdate + datetime.timedelta(days=1)
+
+    symbolPrices = symbol.history(interval="1d", start=dateOfInt - datetime.timedelta(days=7),
+                                  end=dateOfInt + datetime.timedelta(days=7))
     # print(symbolPrices)
     if symbolPrices.empty:
         raise Exception(f"Historical prices for {stock} not found.")
     symbolPrices.reset_index(level="symbol", inplace=True)
-    if layoffdate in symbolPrices.index:
-        layoffdateIndex = symbolPrices.index.get_loc(layoffdate)
+    if dateOfInt in symbolPrices.index:
+        dateOfIntIndex = symbolPrices.index.get_loc(dateOfInt)
     else:
-        dateToCheck = layoffdate
+        dateToCheck = dateOfInt
         while dateToCheck not in symbolPrices.index:
             dateToCheck += datetime.timedelta(days=1)
-        layoffdateIndex = symbolPrices.index.get_loc(dateToCheck)
-    # print(layoffdateIndex)
-    symbolPrices = symbolPrices.iloc[layoffdateIndex - 4:layoffdateIndex + 4]
+        dateOfIntIndex = symbolPrices.index.get_loc(dateToCheck)
+    # print(dateOfIntIndex)
+    symbolPrices = symbolPrices.iloc[dateOfIntIndex - 4:dateOfIntIndex + 4]
     # print(symbolPrices)
     symbolPrices["Date of Layoff"] = [layoffdate] * len(symbolPrices.index)
     return symbolPrices
@@ -135,14 +139,15 @@ def get_daily_returns_1wk(pricesdf):
     return dateReturnMap
 
 
-def get_returns_dataframe(dataframe, layoffdate_col):
+def get_returns_dataframe(dataframe, layoffdate_col, ann_time_col):
     returns = []
     failed = []
     tickers = dataframe["Ticker"].tolist()
     for count, ticker in enumerate(tickers):
         print(ticker)
         try:
-            dictEntry = get_daily_returns_1wk(get_prices(ticker, dataframe.iat[count, layoffdate_col]))
+            dictEntry = get_daily_returns_1wk(get_prices(ticker, dataframe.iat[count, layoffdate_col],
+                                                         dataframe.iat[count, ann_time_col]))
             returns.append(dictEntry)
         except BaseException as e:
             print("Exception: " + str(e))
@@ -162,33 +167,21 @@ def get_returns_dataframe(dataframe, layoffdate_col):
     return returnsdf
 
 
-if '__main__' == __name__:
-    # get_and_save_tickers()
-    df = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
-    if "/" in df["Date of Layoff"].iat[0]:
-        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
-    elif "-" in df["Date of Layoff"].iat[0]:
-        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df["Date of Layoff"]]
-    # join_trading_symbols_df(df)
-
+def get_returns_not_yet_found(df):
     publicSample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False)]
 
     # Trying to find stock returns for companies that haven't been found yet
     completedReturns = pd.read_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     completedReturns["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
                                           completedReturns["Date of Layoff"]]
-    completedReturnsTickerDate = completedReturns[["Date of Layoff", "Ticker"]]
-    publicSampleTickerDate = publicSample[["Date of Layoff", "Ticker"]]
+    completedReturnsTickerDate = completedReturns[["Date of Layoff", "Ticker", "Announced Post-Trading Hours"]]
+    publicSampleTickerDate = publicSample[["Date of Layoff", "Ticker", "Announced Post-Trading Hours"]]
     dfDifference = pd.merge(publicSampleTickerDate, completedReturnsTickerDate, how="left",
-                            on=["Date of Layoff", "Ticker"], indicator=True)
+                            on=["Date of Layoff", "Ticker", "Announced Post-Trading Hours"], indicator=True)
     dfDifference = dfDifference[dfDifference["_merge"] == "left_only"]
     dfDifference.drop(columns=["_merge"], inplace=True)
-    #
-    # test = publicSample[publicSample["Ticker"] == "CRM"]
-    # stockReturnsdf = get_returns_dataframe(test, 5)
 
-    stockReturnsdf = get_returns_dataframe(dfDifference, 0)
+    stockReturnsdf = get_returns_dataframe(dfDifference, 0, 2)
 
     if stockReturnsdf is not None:
         df = pd.merge(df, stockReturnsdf, how="left", on=["Date of Layoff", "Ticker"])
@@ -197,3 +190,31 @@ if '__main__' == __name__:
         # stockReturnsdf = pd.concat([completedReturns, stockReturnsdf])
         stockReturnsdf.to_csv(r"%s\data\returnsTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
                               index=False)
+
+
+if '__main__' == __name__:
+    # get_and_save_tickers()
+    df = pd.read_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
+    if "/" in df["Date of Layoff"].iat[0]:
+        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in df["Date of Layoff"]]
+    elif "-" in df["Date of Layoff"].iat[0]:
+        df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df["Date of Layoff"]]
+    # join_trading_symbols_df(df)
+
+    sample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False) &
+                df["Announced Post-Trading Hours"] == True]
+    returned = get_returns_dataframe(sample, 5, 23)
+
+    dfWithoutLateAnn = df[(df["Announced Post-Trading Hours"] == False) | (df["Announced Post-Trading Hours"].isna())]
+    dfWithLateAnn = df[df["Announced Post-Trading Hours"] == True].drop(columns=[
+                "Stock Return On Closest Trading Date Post-Announcement (t)",
+                "Stock Return 3 Days Before t",
+                "Stock Return 2 Days Before t","Stock Return 1 Day Before t","Stock Return 1 Day After t",
+                "Stock Return 2 Days After t","Stock Return 3 Days After t"])
+    dfWithLateAnn = pd.merge(dfWithLateAnn, returned, how="left", on=["Date of Layoff", "Ticker"])
+    dfWithLateAnn = pd.concat([dfWithLateAnn, dfWithoutLateAnn])
+    dfWithLateAnn = dfWithLateAnn[colnamesFull]
+    dfWithLateAnn.to_csv(r"%s\data\layoffDataFullTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                         index=False)
+    # dfWithLateAnn = dfWithLateAnn[dfWithLateAnn["_merge"] == "right_only"]

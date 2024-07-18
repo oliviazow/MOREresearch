@@ -30,17 +30,6 @@ extraLayoffDetails = ["Job Positions Laid Off Desc", "Job Positions Laid Off Spe
 booleanCols = ["IsUS", "Unprofitable", "AI Mentioned", "Expansion Mentioned", "Announced Post-Trading Hours"]
 listedCols = ["Job Positions Laid Off Desc", "Job Positions Laid Off Specific", "AI Relation"]
 
-layoffDataFullTest = pd.read_csv(r"%s\data\layoffDataFullTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-if "/" in layoffDataFullTest["Date of Layoff"].iat[0]:
-    layoffDataFullTest["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in
-                                            layoffDataFullTest["Date of Layoff"]]
-elif "-" in layoffDataFullTest["Date of Layoff"].iat[0]:
-    layoffDataFullTest["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
-                                            layoffDataFullTest["Date of Layoff"]]
-dfCheck = pd.merge(layoffDataFull, layoffDataFullTest, how="left", on=colnamesFull, indicator=True)
-dfCheckFiltered = dfCheck[dfCheck["_merge"] != "both"]
-print(dfCheckFiltered)
-
 
 for col in listedCols:
     layoffDataFull[col] = [x.lower().split(", ") if type(x) is str else None for x in layoffDataFull[col]]

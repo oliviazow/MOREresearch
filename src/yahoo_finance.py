@@ -192,8 +192,16 @@ def get_returns_not_yet_found(df):
                               index=False)
 
 
+def get_financials(accts, ticker):
+    company = Ticker(ticker)
+    return company.get_financial_data(types=accts, frequency="q", trailing=False)
+
+
 if '__main__' == __name__:
     # get_and_save_tickers()
+    financials = ["NetIncome", "TotalRevenue", "BeginningCashPosition", "EndCashPosition", "NormalizedEBITDA"]
+    # Want to measure profitability (net income, positive cash flow, EBITDA), Year-over-year revenue
+
     df = pd.read_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     # df.drop(columns=["Ticker", "Exchange", "Stock Delisted"], inplace=True)
     if "/" in df["Date of Layoff"].iat[0]:
@@ -202,19 +210,8 @@ if '__main__' == __name__:
         df["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df["Date of Layoff"]]
     # join_trading_symbols_df(df)
 
-    sample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False) &
-                df["Announced Post-Trading Hours"] == True]
-    returned = get_returns_dataframe(sample, 5, 23)
-
-    dfWithoutLateAnn = df[(df["Announced Post-Trading Hours"] == False) | (df["Announced Post-Trading Hours"].isna())]
-    dfWithLateAnn = df[df["Announced Post-Trading Hours"] == True].drop(columns=[
-                "Stock Return On Closest Trading Date Post-Announcement (t)",
-                "Stock Return 3 Days Before t",
-                "Stock Return 2 Days Before t","Stock Return 1 Day Before t","Stock Return 1 Day After t",
-                "Stock Return 2 Days After t","Stock Return 3 Days After t"])
-    dfWithLateAnn = pd.merge(dfWithLateAnn, returned, how="left", on=["Date of Layoff", "Ticker"])
-    dfWithLateAnn = pd.concat([dfWithLateAnn, dfWithoutLateAnn])
-    dfWithLateAnn = dfWithLateAnn[colnamesFull]
-    dfWithLateAnn.to_csv(r"%s\data\layoffDataFullTest.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
-                         index=False)
-    # dfWithLateAnn = dfWithLateAnn[dfWithLateAnn["_merge"] == "right_only"]
+    sample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False)]
+    sample.reset_index(drop=True, inplace=True)
+    # print(sample.at[0, "Ticker"])
+    qResults = get_financials(financials, sample.at[0, "Ticker"])
+    print(qResults)

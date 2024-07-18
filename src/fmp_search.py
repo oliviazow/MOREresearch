@@ -39,4 +39,4 @@ def find_companies_to_search():
 if '__main__' == __name__:
     companiesToSearch = find_companies_to_search()
 
-    pprint(get_quote("PTRA"))
+    # pprint(get_quote("RIVN"))

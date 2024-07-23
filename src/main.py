@@ -8,13 +8,9 @@ layoffDatadf = pd.read_csv(r"%s\data\layoffData.csv" % os.path.normpath(os.path.
 layoffDataWReturnsdf = pd.read_csv(r"%s\data\layoffDataWithReturns.csv" % os.path.normpath(os.path.join(os.getcwd(),
                                                                                                         os.pardir)))
 layoffDataFull = pd.read_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-if "/" in layoffDataFull["Date of Layoff"].iat[0]:
-    layoffDataFull["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in
-                                        layoffDataFull["Date of Layoff"]]
-elif "-" in layoffDataFull["Date of Layoff"].iat[0]:
-    layoffDataFull["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
-                                        layoffDataFull["Date of Layoff"]]
-
+layoffDataFullSimpl = pd.read_csv(r"%s\data\layoffDataFullSimpl.csv" % os.path.normpath(os.path.join(os.getcwd(),
+                                                                                                     os.pardir)))
+# Column name lists
 colnamesFull = ["Company", "IsUS", "Location HQ", "Industry", "Number Laid Off", "Date of Layoff", "Source",
                 "Dollars Raised (mil)", "Stage", "Country", "Percentage",
                 "Job Positions Laid Off Desc", "Job Positions Laid Off Specific",
@@ -29,8 +25,27 @@ extraLayoffDetails = ["Job Positions Laid Off Desc", "Job Positions Laid Off Spe
                       "Expansion Mentioned"]
 booleanCols = ["IsUS", "Unprofitable", "AI Mentioned", "Expansion Mentioned", "Announced Post-Trading Hours"]
 listedCols = ["Job Positions Laid Off Desc", "Job Positions Laid Off Specific", "AI Relation"]
+layoffReasonCols = ["Reason Mentioned 1", "Reason Mentioned 2", "Reason Mentioned 3"]
 
+# Convert values into proper formats
+if "/" in layoffDataFull["Date of Layoff"].iat[0]:
+    layoffDataFull["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in
+                                        layoffDataFull["Date of Layoff"]]
+elif "-" in layoffDataFull["Date of Layoff"].iat[0]:
+    layoffDataFull["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
+                                        layoffDataFull["Date of Layoff"]]
+if "/" in layoffDataFullSimpl["Date of Layoff"].iat[0]:
+    layoffDataFullSimpl["Date of Layoff"] = [datetime.datetime.strptime(x, f"%m/%d/%Y").date() for x in
+                                             layoffDataFullSimpl["Date of Layoff"]]
+elif "-" in layoffDataFullSimpl["Date of Layoff"].iat[0]:
+    layoffDataFullSimpl["Date of Layoff"] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in
+                                             layoffDataFullSimpl["Date of Layoff"]]
 
+for col in list(set(extraLayoffDetails) - set(booleanCols)):
+    layoffDataFull[col] = [x.lower() if type(x) is str else x for x in layoffDataFull[col]]
+    layoffDataFullSimpl[col] = [x.lower() if type(x) is str else x for x in layoffDataFullSimpl[col]]
+
+# Turn listed column values into lists and grab unique values
 for col in listedCols:
     layoffDataFull[col] = [x.lower().split(", ") if type(x) is str else None for x in layoffDataFull[col]]
 

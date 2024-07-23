@@ -29,6 +29,7 @@ simplifierMap = {
     "Funding issues": "Debt and Financing",
     "Competition": "Competition",
     "Competition from generative AI": "Competition",
+    "Loss of market share": "Competition",
     "Ad tracking crackdown": "Market Conditions",
     "Market conditions": "Market Conditions",
     "Price war": "Market Conditions",

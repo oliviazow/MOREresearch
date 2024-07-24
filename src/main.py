@@ -26,6 +26,7 @@ extraLayoffDetails = ["Job Positions Laid Off Desc", "Job Positions Laid Off Spe
 booleanCols = ["IsUS", "Unprofitable", "AI Mentioned", "Expansion Mentioned", "Announced Post-Trading Hours"]
 listedCols = ["Job Positions Laid Off Desc", "Job Positions Laid Off Specific", "AI Relation"]
 layoffReasonCols = ["Reason Mentioned 1", "Reason Mentioned 2", "Reason Mentioned 3"]
+extraFinancialCols = ["Net Income (q)", "Net Cash Flow (q)", "EBITDA (q)", "Year-over-Year Revenue"]
 
 # Convert values into proper formats
 if "/" in layoffDataFull["Date of Layoff"].iat[0]:

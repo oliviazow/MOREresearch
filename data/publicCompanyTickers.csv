@@ -1,428 +1,428 @@
-Company,Ticker,Exchange,Stock Delisted
-PropertyGuru,PGRU,NYSE,False
-LivePerson,LPSN,NASDAQ,False
-NuScale Power,SMR,NYSE,False
-SenseTime,0020.HK,HK,False
-Affirm,AFRM,NASDAQ,False
-Warby Parker,WRBY,NYSE,False
-Enjoy,ENJY,NASDAQ,True
-Thoughtworks,TWKS,NASDAQ,False
-Oracle,ORCL,NYSE,False
-Roblox,RBLX,NYSE,False
-Otovo,OTOVO.OL,OSL,False
-Canoo,GOEV,NASDAQ,False
-Funding Circle,FCH.L,LSE,False
-Rivian,RIVN,NASDAQ,False
-Latch,LTCH,OTCMKTS,False
-Upwork,UPWK,NASDAQ,False
-Cue Health,HLTH,NASDAQ,False
-GoodRx,GDRX,NASDAQ,False
-HP,HP,NYSE,False
-Confluent,CFLT,NASDAQ,False
-MissFresh,MF,NASDAQ,True
-Superloop,SLC.AX,ASX,False
-23andMe,ME,NASDAQ,False
-E Inc.,EINC,TSX,True
-Phunware,PHUN,NASDAQ,False
-AppHarvest,APPHW,NASDAQ,True
-SecureWorks,SCWX,NASDAQ,False
-Vacasa,VCSA,NASDAQ,False
-SiriusXM,LSXMA,NASDAQ,False
-BioMarin,BMRN,NASDAQ,False
-Innovid,CTV,NYSE,False
-Getaround,GETR,NYSE,False
-Etsy,ETSY,NASDAQ,False
-Nu Ride Inc.,NRDE,OTCMKTS,False
-Everquote,EVER,NASDAQ,False
-Seagate,STX,NASDAQ,False
-Freshworks,FRSH,NASDAQ,False
-Eventbrite,EB,NYSE,False
-Synopsys,SNPS,NASDAQ,False
-Shopify,SHOP,NYSE,False
-Wayfair,W,NYSE,False
-SmileDirectClub,SDCCQ,OTCMKTS,False
-Intuit,ISRG,NASDAQ,False
-Kaltura,KLTR,NASDAQ,False
-Leafly,LFLY,NASDAQ,False
-Sinch,SINCH.ST,SSO,False
-Just Eat Takeaway,TKWY.AS,AMS,False
-ZoomInfo,ZI,NASDAQ,False
-UiPath,PATH,NYSE,False
-Taboola,TBLA,NASDAQ,False
-Century Therapeutics,IPSC,NASDAQ,False
-RingCentral,RNG,NYSE,False
-Mogo,MOGO,NASDAQ,False
-Volta,VLTA,NYSE,True
-Lemonade,LMND,NYSE,False
-IBM,IBM,NYSE,False
-Netflix,NFLX,NASDAQ,False
-VTEX,VTEX,NYSE,False
-The Arena Group,AREN,NYSEAmerican,False
-DigitalOcean,DOCN,NYSE,False
-Zebra Technologies,ZBRA,NASDAQ,False
-Palantir,PLTR,NYSE,False
-DHI Group,DHX,NYSE,False
-Take-Two Interactive,TTWO,NASDAQ,False
-Singular Genomics,OMIC,NASDAQ,False
-HubSpot,HUBS,NYSE,False
-Logitech,LOGI,NASDAQ,False
-Rigetti Computing,RGTI,NASDAQ,False
-Jumia,JMIA,NYSE,False
-Xero,XRO.AX,ASX,False
-Playtika,PLTK,NASDAQ,False
-Grab,GRAB,NASDAQ,False
-Megaport,MP1.XA,ASX,False
-Apple,AAPL,NASDAQ,False
-Tencent,0700.HK,HK,False
-Babylon,BBLN,NYSE,True
-GoDaddy,GDDY,NYSE,False
-Pinterest,PINS,NYSE,False
-Juniper Networks,JNPR,NYSE,False
-Bark,BARK,NYSE,False
-Lam Research,LRCX,NASDAQ,False
-Atlassian,TEAM,NASDAQ,False
-Similarweb,SMWB,NYSE,False
-NanoString Technologies,NSTGQ,OTCMKTS,False
-Starry,STRY,NYSE,True
-Autodesk,ADSK,NASDAQ,False
-Butterfly Network,BFLY,NYSE,False
-EverBridge,EVBG,NASDAQ,False
-Editas Medicine,EDIT,NASDAQ,False
-BlackLine,BL,NASDAQ,False
-Nutanix,NTNX,NASDAQ,False
-Spotify,SPOT,NYSE,False
-Medtronic,MDT,NYSE,False
-Doximity,DOCS,NYSE,False
-Presto,PRST,NASDAQ,False
-FuboTV,FUBO,NYSE,False
-SentinelOne,S,NYSE,False
-Smartsheet,SMAR,NYSE,False
-Riskified,RSKD,NYSE,False
-Pure Storage,PSTG,NYSE,False
-The RealReal,REAL,NASDAQ,False
-TechTarget,TTGT,NASDAQ,False
-NetApp,NTAP,NASDAQ,False
-Desktop Metal,DM,NYSE,False
-MariaDB,MRDB,NYSE,False
-Okta,OKTA,NASDAQ,False
-Pagaya,PGY,NASDAQ,False
-Enovix,ENVX,NASDAQ,False
-Peloton,PTON,NASDAQ,False
-Cimpress,CMPR,NASDAQ,False
-Fiverr,FVRR,NYSE,False
-Microsoft,MSFT,NASDAQ,False
-AudioCodes,AUDC,NASDAQ,False
-Zoom,ZM,NASDAQ,False
-Fate Therapeutics,FATE,NASDAQ,False
-F5,FFIV,NASDAQ,False
-Groupon,GRPN,NASDAQ,False
-Olo,OLO,NYSE,False
-SolarEdge,SEDG,NASDAQ,False
-Guardant Health,GH,NASDAQ,False
-Software AG,SOW.HM,HAM,False
-IAC,IAC,NASDAQ,False
-NCSoft,036570.KS,SEO,False
-MeridianLink,MLNK,NYSE,False
-Match Group,MTCH,NASDAQ,False
-CS Disco,LAW,NYSE,False
-Pear Therapeutics,PEARQ,OTCMKTS,False
-Invitae,NVTAQ,OTCMKTS,False
-Twist Bioscience,TWST,NASDAQ,False
-Micron,MU,NASDAQ,False
-Doma,DOMA,NYSE,False
-Vista Group,VGL.NZ,WEL,False
-Chewy,CHWY,NYSE,False
-AEye,AEYE,NASDAQ,False
-Markforged,MKFG,NYSE,False
-Absci,ABSI,NASDAQ,False
-Planet,PL,NYSE,False
-Sonder,SOND,NASDAQ,False
-Sweetgreen,SG,NYSE,False
-PagerDuty,PD,NYSE,False
-Toast,TOST,NYSE,False
-Shift,SFT,NASDAQ,True
-DraftKings,DKNG,NASDAQ,False
-Carvana,CVNA,NYSE,False
-REE Automotive,REE,NASDAQ,False
-Informatica,INFA,NYSE,False
-2U,TWOU,NASDAQ,False
-MakeMyTrip,MMYT,NASDAQ,False
-Sabre,SABR,NASDAQ,False
-Zip,ZIP.AX,ASX,False
-Payoneer,PAYO,NASDAQ,False
-Adobe,ADBE,NASDAQ,False
-Vicarious Surgical,RBOT,NYSE,False
-Robinhood,HOOD,NASDAQ,False
-Zuora,ZUO,NYSE,False
-Procore,PCOR,NYSE,False
-Twitter,TWTR,NYSE,True
-Tenable,TENB,NASDAQ,False
-Asana,ASAN,NYSE,False
-Core Scientific,CORZ,NASDAQ,False
-Bitfarms,BITF,NASDAQ,False
-Upstart,UPST,NASDAQ,False
-Definitive Healthcare,DH,NASDAQ,False
-Uber,UBER,NYSE,False
-PagSeguro,PAGS,NYSE,False
-Bird,BRDS,NYSE,True
-XP,XP,NASDAQ,False
-Fortinet,FTNT,NASDAQ,False
-Cyren,CYRNQ,OTCMKTS,False
-Better Therapeutics,BTTX,OTCMKTS,False
-Life360,LIFX,OTCMKTS,False
-Block,SQ,NYSE,False
-Stitch Fix,SFIX,NASDAQ,False
-Philips,PHG,NYSE,False
-NIO,NIO,NYSE,False
-Perion,PERI,NASDAQ,False
-Inspirato,ISPO,NASDAQ,False
-Twilio,TWLO,NYSE,False
-LiveRamp,RAMP,NYSE,False
-NCC Group,NCC.L,LSE,False
-Arm Holdings,ARM,NASDAQ,False
-Amdocs,DOX,NASDAQ,False
-Sezzle,SEZL,NASDAQ,False
-Outbrain,OB,NASDAQ,False
-Samsung,005930.KS,SEO,False
-LendingTree,TREE,NASDAQ,False
-TaskUs,TASK,NASDAQ,False
-New Work SE,NWSE.VI,VIE,False
-Skillz,SKLZ,NYSE,False
-Arrival,ARVLF,OTCMKTS,False
-TrueCar,TRUE,NASDAQ,False
-Adaptive Biotechnologies,ADPT,NASDAQ,False
-Varonis,VRNS,NASDAQ,False
-Intel,INTC,NASDAQ,False
-R8 Capital Investments,MODE.L,LSE,False
-Accolade,ACCD,NASDAQ,False
-10X Genomics,TXG,NASDAQ,False
-Marqeta,MQ,NASDAQ,False
-Ericsson,ERIC-B.ST,SSO,False
-Proterra,PTRA,NASDAQ,True
-Coherent,COHR,NYSE,False
-Lightspeed Commerce,LSPD,NYSE,False
-Boozt,BOK.F,FRA,False
-Xiaomi,1810.HK,HK,False
-Qualcomm,QCOM,NASDAQ,False
-Viant,DSP,NASDAQ,False
-BuzzFeed,BZFD,NASDAQ,False
-HashiCorp,HCP,NASDAQ,False
-Bakkt,BKKT,NYSE,False
-Elastic,ESTC,NYSE,False
-Synlogic,SYBX,NASDAQ,False
-Criteo,CRTO,NASDAQ,False
-Ouster,OUST,NYSE,False
-Wallbox,WBX,NYSE,False
-Wejo,WEJO,NASDAQ,True
-Tesla,TSLA,NASDAQ,False
-Lenovo,0992.HK,HK,False
-Fisker,FSRN,OTCMKTS,False
-Viasat,VSAT,NASDAQ,False
-Sprinklr,CXM,NYSE,False
-View,VIEW,NASDAQ,True
-Wix,WIX,NASDAQ,False
-Impinj,PI,NASDAQ,False
-Talis Biomedical,TLIS,NASDAQ,False
-Bukalapak,BUKA.JK,JKT,False
-BigBear.ai,BBAI,NYSE,False
-Goodfood,FOOD.TO,TOR,False
-Opendoor,OPEN,NASDAQ,False
-Lyft,LYFT,NASDAQ,False
-Beyond Meat,BYND,NASDAQ,False
-CarGurus,CARG,NASDAQ,False
-Kyndryl,KD,NYSE,False
-Luminar,LAZR,NASDAQ,False
-Banxa,BNXA.V,CDNX,False
-Sea Limited,SE,NYSE,False
-Rapid7,RPD,NASDAQ,False
-Enphase Energy,ENPH,NASDAQ,False
-Owlet,OWLT,NYSE,False
-Personalis,PSNL,NASDAQ,False
-Wish,WISH,NASDAQ,False
-VerticalScope,7E9.F,FRA,False
-Allbirds,BIRD,NASDAQ,False
-Cardlytics,CDLX,NASDAQ,False
-Cazoo,CZOO,NYSE,False
-Springbig,SBIG,NASDAQ,True
-Oatly,OTLY,NASDAQ,False
-Blend,BLND,NYSE,False
-Lucid Diagnostics,LUCD,NASDAQ,False
-Vimeo,VMEO,NASDAQ,False
-Sportradar,SRAD,NASDAQ,False
-GoPro,GPRO,NASDAQ,False
-Meta,META,NASDAQ,False
-TripAdvisor,TRIP,NASDAQ,False
-eBay,EBAY,NASDAQ,False
-Quanterix,QTRX,NASDAQ,False
-Dropbox,DBX,NASDAQ,False
-Selina,SLNA,NASDAQ,False
-Bill Com Holdings,BILL,NYSE,False
-Legible,READ.CN,CSE,False
-EQRx,EQRX,NASDAQ,True
-Bilibili,BILI,NASDAQ,False
-nCino,NCNO,NASDAQ,False
-Acast,ACST,NASDAQ,False
-Compass,COMP,NYSE,False
-Westwing,WEW.F,FRA,False
-SoFi,SOFI,NASDAQ,False
-Cisco,CSCO,NASDAQ,False
-Redfin,RDFN,NASDAQ,False
-WalkMe,WKME,NASDAQ,False
-PayPal,PYPL,NASDAQ,False
-Nerdy,NRDY,NYSE,False
-Titan Medical,TMDIF,OTCMKTS,False
-Pegasystems,PEGA,NASDAQ,False
-GitLab,GTLB,NASDAQ,False
-Astra,ASTR,NASDAQ,False
-Delivery Hero,DHER.DE,XETRA,False
-ContraFect,CFRXQ,OTCMKTS,False
-Natera,NTRA,NASDAQ,False
-Oportun,OPRT,NASDAQ,False
-Matterport,MTTR,NASDAQ,False
-SoundHound,SOUN,NASDAQ,False
-StoneCo,STNE,NASDAQ,False
-GoHealth,GOCO,NASDAQ,False
-LegalZoom,LZ,NASDAQ,False
-Amazon,AMZN,NASDAQ,False
-8x8,EGHT,NASDAQ,False
-AppLovin,APP,NASDAQ,False
-Akamai,AKAM,NASDAQ,False
-Codexis,CDXS,NASDAQ,False
-Cloudflare,NET,NYSE,False
-iRobot,IRBT,NASDAQ,False
-Edgio,EGIO,NASDAQ,False
-iCAD,ICAD,NASDAQ,False
-SWVL,SWVL,NASDAQ,False
-Snap,SNAP,NYSE,False
-iSpecimen,ISPC,NASDAQ,False
-Zalando,ZAL.DE,XETRA,False
-TomTom,0MKS.IL,IOB,False
-Dell,DELL,NYSE,False
-Quantum SI,QSI,NASDAQ,False
-Freightos,CRGO,NASDAQ,False
-Zillow,Z,NASDAQ,False
-Capital One,COF,NYSE,False
-Digimarc,DMRC,NASDAQ,False
-Yext,YEXT,NYSE,False
-Sage Therapeutics,SAGE,NASDAQ,False
-Tempo Automation,TMPO,NASDAQ,True
-HelloFresh,HFG.DE,XETRA,False
-TuSimple,TSPH,OTCMKTS,False
-Illumina,ILMN,NASDAQ,False
-Google,GOOG,NASDAQ,False
-Rent the Runway,RENT,NASDAQ,False
-DoorDash,DASH,NASDAQ,False
-Aurora Innovation,AUR,NASDAQ,False
-Zscaler,ZS,NASDAQ,False
-Expedia,EXPE,NASDAQ,False
-SQZ Biotech,SQZB,OTCMKTS,False
-WeWork,WEWKQ,OTCMKTS,True
-Akerna,KERN,NASDAQ,True
-Workday,WDAY,NASDAQ,False
-Teladoc Health,TDOC,NYSE,False
-Appgate,APGTQ,OTCMKTS,False
-DocuSign,DOCU,NASDAQ,False
-BM Technologies,BMTX,NYSE MKT,False
-Brightcove,BCOV,NASDAQ,False
-Xerox,XRX,NASDAQ,False
-Thinkific,THNC.TO,Toronto,False
-Coursera,COUR,NYSE,False
-Electronic Arts,EA,NASDAQ,False
-Blackbaud,BLKB,NASDAQ,False
-Roku,ROKU,NASDAQ,False
-Kogan,KGN.AX,ASX,False
-F-Secure,FSECURE.HE,HEL,False
-Coinbase,COIN,NASDAQ,False
-Jamf,JAMF,NASDAQ,False
-Guidewire,GWRE,NYSE,False
-Innoviz,INVZ,NASDAQ,False
-Yelp,YELP,NYSE,False
-Offerpad,OPAD,NYSE,False
-Kaspien,KSPN,OTCMKTS,True
-Marvell,MRVL,NASDAQ,False
-Storytel,DST.F,FRA,False
-Chegg,CHGG,NYSE,False
-Nikola,NKLA,NASDAQ,False
-Amplitude,AMPL,NASDAQ,False
-Rubicon Technologies,RBT,NYSE,False
-ZipRecruiter,ZIP,NYSE,False
-Bumble,BMBL,NASDAQ,False
-Udemy,UDMY,NASDAQ,False
-OnDeck,ENVA,NYSE,False
-Western Digital,WDC,NASDAQ,False
-Airbnb,ABNB,NASDAQ,False
-Domo,DOMO,NASDAQ,False
-EVgo,EVGO,NASDAQ,False
-SAP,SAP,NYSE,False
-Deliveroo,ROO.L,LSE,False
-Magnite,MGNI,NASDAQ,False
-Casper,CSPR,NYSE,True
-Aptiv,APTV,NYSE,False
-D2L,DTOL.TO,TSX,False
-Salesforce,CRM,NYSE,False
-Vroom,VRM,NASDAQ,False
-Nextdoor,KIND,NYSE,False
-Unity,U,NYSE,False
-Nevro,NVRO,NYSE,False
-ThredUp,TDUP,NASDAQ,False
-BigCommerce,BIGC,NASDAQ,False
-AppFolio,APPF,NASDAQ,False
-Analog Devices,ADI,NASDAQ,False
-888,EVOK.L,LSE,False
-Sonos,SONO,NASDAQ,False
-Akili,AKLI,NASDAQ,False
-Alteryx,AYX,NYSE,True
-Avaya,AVYA,NYSE,True
-Boxed,BOXD,NYSE,True
-DeepVerge,DVRG.L,LSE,True
-Homology,FIXX,NASDAQ,False
-Instacart,CART,NASDAQ,False
-IronNet,IRNT,NYSE,True
-Kape,KAPE.L,LSE,True
-Laybuy,LBY.AX,ASX,True
-LiveTiles,LVT.AX,ASX,True
-LiveVox,LVOX,NASDAQ,True
-Cloudera,CLDR,NYSE,True
-Momentive,MNTV,NASDAQ,True
-Nearmap,NEA.AX,ASX,True
-Openpay,OPY.AX,ASX,True
-Otonomo,OTMO,NASDAQ,True
-Qualtrics,XM,NASDAQ,True
-Redbubble,RBL.AX,ASX,True
-Rubius,RUBY,NASDAQ,True
-Palladyne AI,PDYN,NASDAQ,False
-GeneDx,WGS,NASDAQ,False
-Splunk,SPLK,NASDAQ,True
-TCR2,TCRR,NASDAQ,True
-Tricida,TCDA,NASDAQ,True
-Whispir,WSP.AX,ASX,True
-Zymergen,ZY,NASDAQ,True
-Hippo Insurance,HIPO,NYSE,False
-Quanergy Systems,QNGY,NYSE,True
-Homepoint,HMPT,NASDAQ,True
-Absolute Software,ABST.TO,TSX,True
-Lending Club,LC,NYSE,False
-Kleos Space,KSS.AX,ASX,True
-Berkeley Lights,BLI,NASDAQ,True
-JD.ID,JD,NASDAQ,False
-Lucid Motors,LCID,NASDAQ,False
-Frequency Therapeutics,KRRO,NASDAQ,False
-Castlight Health,CSLT,NYSE,True
-Root Insurance,ROOT,NASDAQ,False
-OpenText,OTX,NASDAQ,False
-New Relic,NEWR,NYSE,True
-Rubicon Project,MGNI,NASDAQ,False
-Acxiom,RAMP,NASDAQ,False
-Blue Apron,APRN,NYSE,True
-Science 37,SNCE,NASDAQ,True
-Babylon Health,BBLNF,OTCMKTS,False
-N-able Technologies,NABL,NYSE,False
-GoTo Group,GOTO.JK,IDX,False
-National Instruments,NATI,NASDAQ,True
-PagBank,PAGS,NYSE,False
-Neoleukin Therapeutics,NGNE,NASDAQ,False
-Lucira Health,LHDX,NASDAQ,True
-Sono Motors,SEVCF,OTCMKTS,False
-Embark Trucks,EMBK,NASDAQ,True
-Nubank,NU,NYSE,False
-Bally's Interactive,BALY,NYSE,False
+Company,Ticker,Exchange,Stock Delisted,cik
+PropertyGuru,PGRU,NYSE,False,1873331.0
+LivePerson,LPSN,NASDAQ,False,1102993.0
+NuScale Power,SMR,NYSE,False,1822966.0
+SenseTime,0020.HK,HK,False,
+Affirm,AFRM,NASDAQ,False,1820953.0
+Warby Parker,WRBY,NYSE,False,1504776.0
+Enjoy,ENJY,NASDAQ,True,
+Thoughtworks,TWKS,NASDAQ,False,1866550.0
+Oracle,ORCL,NYSE,False,1341439.0
+Roblox,RBLX,NYSE,False,1315098.0
+Otovo,OTOVO.OL,OSL,False,
+Canoo,GOEV,NASDAQ,False,1750153.0
+Funding Circle,FCH.L,LSE,False,
+Rivian,RIVN,NASDAQ,False,1874178.0
+Latch,LTCH,OTCMKTS,False,1826000.0
+Upwork,UPWK,NASDAQ,False,1627475.0
+Cue Health,HLTH,NASDAQ,False,1628945.0
+GoodRx,GDRX,NASDAQ,False,1809519.0
+HP,HP,NYSE,False,46765.0
+Confluent,CFLT,NASDAQ,False,1699838.0
+MissFresh,MF,NASDAQ,True,1851682.0
+Superloop,SLC.AX,ASX,False,
+23andMe,ME,NASDAQ,False,1804591.0
+E Inc.,EINC,TSX,True,
+Phunware,PHUN,NASDAQ,False,1665300.0
+AppHarvest,APPHW,NASDAQ,True,
+SecureWorks,SCWX,NASDAQ,False,1468666.0
+Vacasa,VCSA,NASDAQ,False,1874944.0
+SiriusXM,LSXMA,NASDAQ,False,1560385.0
+BioMarin,BMRN,NASDAQ,False,1048477.0
+Innovid,CTV,NYSE,False,1835378.0
+Getaround,GETR,NYSE,False,1839608.0
+Etsy,ETSY,NASDAQ,False,1370637.0
+Nu Ride Inc.,NRDE,OTCMKTS,False,
+Everquote,EVER,NASDAQ,False,1640428.0
+Seagate,STX,NASDAQ,False,1137789.0
+Freshworks,FRSH,NASDAQ,False,1544522.0
+Eventbrite,EB,NYSE,False,1475115.0
+Synopsys,SNPS,NASDAQ,False,883241.0
+Shopify,SHOP,NYSE,False,1594805.0
+Wayfair,W,NYSE,False,1616707.0
+SmileDirectClub,SDCCQ,OTCMKTS,False,1775625.0
+Intuit,ISRG,NASDAQ,False,1035267.0
+Kaltura,KLTR,NASDAQ,False,1432133.0
+Leafly,LFLY,NASDAQ,False,1785592.0
+Sinch,SINCH.ST,SSO,False,
+Just Eat Takeaway,TKWY.AS,AMS,False,
+ZoomInfo,ZI,NASDAQ,False,1794515.0
+UiPath,PATH,NYSE,False,1734722.0
+Taboola,TBLA,NASDAQ,False,1840502.0
+Century Therapeutics,IPSC,NASDAQ,False,1850119.0
+RingCentral,RNG,NYSE,False,1384905.0
+Mogo,MOGO,NASDAQ,False,1602842.0
+Volta,VLTA,NYSE,True,
+Lemonade,LMND,NYSE,False,1691421.0
+IBM,IBM,NYSE,False,51143.0
+Netflix,NFLX,NASDAQ,False,1065280.0
+VTEX,VTEX,NYSE,False,1793663.0
+The Arena Group,AREN,NYSEAmerican,False,894871.0
+DigitalOcean,DOCN,NYSE,False,1582961.0
+Zebra Technologies,ZBRA,NASDAQ,False,877212.0
+Palantir,PLTR,NYSE,False,1321655.0
+DHI Group,DHX,NYSE,False,1393883.0
+Take-Two Interactive,TTWO,NASDAQ,False,946581.0
+Singular Genomics,OMIC,NASDAQ,False,1850906.0
+HubSpot,HUBS,NYSE,False,1404655.0
+Logitech,LOGI,NASDAQ,False,1032975.0
+Rigetti Computing,RGTI,NASDAQ,False,1838359.0
+Jumia,JMIA,NYSE,False,1756708.0
+Xero,XRO.AX,ASX,False,
+Playtika,PLTK,NASDAQ,False,1828016.0
+Grab,GRAB,NASDAQ,False,1855612.0
+Megaport,MP1.XA,ASX,False,
+Apple,AAPL,NASDAQ,False,320193.0
+Tencent,0700.HK,HK,False,
+Babylon,BBLN,NYSE,True,
+GoDaddy,GDDY,NYSE,False,1609711.0
+Pinterest,PINS,NYSE,False,1506293.0
+Juniper Networks,JNPR,NYSE,False,1043604.0
+Bark,BARK,NYSE,False,1819574.0
+Lam Research,LRCX,NASDAQ,False,707549.0
+Atlassian,TEAM,NASDAQ,False,1650372.0
+Similarweb,SMWB,NYSE,False,1842731.0
+NanoString Technologies,NSTGQ,OTCMKTS,False,
+Starry,STRY,NYSE,True,
+Autodesk,ADSK,NASDAQ,False,769397.0
+Butterfly Network,BFLY,NYSE,False,1804176.0
+EverBridge,EVBG,NASDAQ,False,1437352.0
+Editas Medicine,EDIT,NASDAQ,False,1650664.0
+BlackLine,BL,NASDAQ,False,1666134.0
+Nutanix,NTNX,NASDAQ,False,1618732.0
+Spotify,SPOT,NYSE,False,1639920.0
+Medtronic,MDT,NYSE,False,1613103.0
+Doximity,DOCS,NYSE,False,1516513.0
+Presto,PRST,NASDAQ,False,1822145.0
+FuboTV,FUBO,NYSE,False,1484769.0
+SentinelOne,S,NYSE,False,1583708.0
+Smartsheet,SMAR,NYSE,False,1366561.0
+Riskified,RSKD,NYSE,False,1851112.0
+Pure Storage,PSTG,NYSE,False,1474432.0
+The RealReal,REAL,NASDAQ,False,1573221.0
+TechTarget,TTGT,NASDAQ,False,1293282.0
+NetApp,NTAP,NASDAQ,False,1002047.0
+Desktop Metal,DM,NYSE,False,1754820.0
+MariaDB,MRDB,NYSE,False,1929589.0
+Okta,OKTA,NASDAQ,False,1660134.0
+Pagaya,PGY,NASDAQ,False,1883085.0
+Enovix,ENVX,NASDAQ,False,1828318.0
+Peloton,PTON,NASDAQ,False,1639825.0
+Cimpress,CMPR,NASDAQ,False,1262976.0
+Fiverr,FVRR,NYSE,False,1762301.0
+Microsoft,MSFT,NASDAQ,False,789019.0
+AudioCodes,AUDC,NASDAQ,False,1086434.0
+Zoom,ZM,NASDAQ,False,1585521.0
+Fate Therapeutics,FATE,NASDAQ,False,1434316.0
+F5,FFIV,NASDAQ,False,1048695.0
+Groupon,GRPN,NASDAQ,False,1490281.0
+Olo,OLO,NYSE,False,1431695.0
+SolarEdge,SEDG,NASDAQ,False,1419612.0
+Guardant Health,GH,NASDAQ,False,1576280.0
+Software AG,SOW.HM,HAM,False,
+IAC,IAC,NASDAQ,False,1800227.0
+NCSoft,036570.KS,SEO,False,
+MeridianLink,MLNK,NYSE,False,1834494.0
+Match Group,MTCH,NASDAQ,False,891103.0
+CS Disco,LAW,NYSE,False,1625641.0
+Pear Therapeutics,PEARQ,OTCMKTS,False,1835567.0
+Invitae,NVTAQ,OTCMKTS,False,
+Twist Bioscience,TWST,NASDAQ,False,1581280.0
+Micron,MU,NASDAQ,False,723125.0
+Doma,DOMA,NYSE,False,1722438.0
+Vista Group,VGL.NZ,WEL,False,
+Chewy,CHWY,NYSE,False,1766502.0
+AEye,AEYE,NASDAQ,False,1362190.0
+Markforged,MKFG,NYSE,False,1816613.0
+Absci,ABSI,NASDAQ,False,1672688.0
+Planet,PL,NYSE,False,1836833.0
+Sonder,SOND,NASDAQ,False,1819395.0
+Sweetgreen,SG,NYSE,False,1477815.0
+PagerDuty,PD,NYSE,False,1568100.0
+Toast,TOST,NYSE,False,1650164.0
+Shift,SFT,NASDAQ,True,
+DraftKings,DKNG,NASDAQ,False,1883685.0
+Carvana,CVNA,NYSE,False,1690820.0
+REE Automotive,REE,NASDAQ,False,1843588.0
+Informatica,INFA,NYSE,False,1868778.0
+2U,TWOU,NASDAQ,False,1459417.0
+MakeMyTrip,MMYT,NASDAQ,False,1495153.0
+Sabre,SABR,NASDAQ,False,1597033.0
+Zip,ZIP.AX,ASX,False,1617553.0
+Payoneer,PAYO,NASDAQ,False,1845815.0
+Adobe,ADBE,NASDAQ,False,796343.0
+Vicarious Surgical,RBOT,NYSE,False,1812173.0
+Robinhood,HOOD,NASDAQ,False,1783879.0
+Zuora,ZUO,NYSE,False,1423774.0
+Procore,PCOR,NYSE,False,1611052.0
+Twitter,TWTR,NYSE,True,
+Tenable,TENB,NASDAQ,False,1660280.0
+Asana,ASAN,NYSE,False,1477720.0
+Core Scientific,CORZ,NASDAQ,False,
+Bitfarms,BITF,NASDAQ,False,1812477.0
+Upstart,UPST,NASDAQ,False,1647639.0
+Definitive Healthcare,DH,NASDAQ,False,1861795.0
+Uber,UBER,NYSE,False,1543151.0
+PagSeguro,PAGS,NYSE,False,1712807.0
+Bird,BRDS,NYSE,True,1861449.0
+XP,XP,NASDAQ,False,1787425.0
+Fortinet,FTNT,NASDAQ,False,1262039.0
+Cyren,CYRNQ,OTCMKTS,False,
+Better Therapeutics,BTTX,OTCMKTS,False,1832415.0
+Life360,LIFX,OTCMKTS,False,1581760.0
+Block,SQ,NYSE,False,1512673.0
+Stitch Fix,SFIX,NASDAQ,False,1576942.0
+Philips,PHG,NYSE,False,313216.0
+NIO,NIO,NYSE,False,1736541.0
+Perion,PERI,NASDAQ,False,1338940.0
+Inspirato,ISPO,NASDAQ,False,1820566.0
+Twilio,TWLO,NYSE,False,1447669.0
+LiveRamp,RAMP,NYSE,False,733269.0
+NCC Group,NCC.L,LSE,False,
+Arm Holdings,ARM,NASDAQ,False,1973239.0
+Amdocs,DOX,NASDAQ,False,1062579.0
+Sezzle,SEZL,NASDAQ,False,1662991.0
+Outbrain,OB,NASDAQ,False,1454938.0
+Samsung,005930.KS,SEO,False,
+LendingTree,TREE,NASDAQ,False,1434621.0
+TaskUs,TASK,NASDAQ,False,1829864.0
+New Work SE,NWSE.VI,VIE,False,
+Skillz,SKLZ,NYSE,False,1801661.0
+Arrival,ARVLF,OTCMKTS,False,
+TrueCar,TRUE,NASDAQ,False,1327318.0
+Adaptive Biotechnologies,ADPT,NASDAQ,False,1478320.0
+Varonis,VRNS,NASDAQ,False,1361113.0
+Intel,INTC,NASDAQ,False,50863.0
+R8 Capital Investments,MODE.L,LSE,False,
+Accolade,ACCD,NASDAQ,False,1481646.0
+10X Genomics,TXG,NASDAQ,False,1770787.0
+Marqeta,MQ,NASDAQ,False,1522540.0
+Ericsson,ERIC-B.ST,SSO,False,
+Proterra,PTRA,NASDAQ,True,
+Coherent,COHR,NYSE,False,820318.0
+Lightspeed Commerce,LSPD,NYSE,False,1823306.0
+Boozt,BOK.F,FRA,False,
+Xiaomi,1810.HK,HK,False,
+Qualcomm,QCOM,NASDAQ,False,804328.0
+Viant,DSP,NASDAQ,False,1828791.0
+BuzzFeed,BZFD,NASDAQ,False,1828972.0
+HashiCorp,HCP,NASDAQ,False,1720671.0
+Bakkt,BKKT,NYSE,False,1820302.0
+Elastic,ESTC,NYSE,False,1707753.0
+Synlogic,SYBX,NASDAQ,False,1527599.0
+Criteo,CRTO,NASDAQ,False,1576427.0
+Ouster,OUST,NYSE,False,1816581.0
+Wallbox,WBX,NYSE,False,1866501.0
+Wejo,WEJO,NASDAQ,True,
+Tesla,TSLA,NASDAQ,False,1318605.0
+Lenovo,0992.HK,HK,False,
+Fisker,FSRN,OTCMKTS,False,
+Viasat,VSAT,NASDAQ,False,797721.0
+Sprinklr,CXM,NYSE,False,1569345.0
+View,VIEW,NASDAQ,True,1811856.0
+Wix,WIX,NASDAQ,False,1576789.0
+Impinj,PI,NASDAQ,False,1114995.0
+Talis Biomedical,TLIS,NASDAQ,False,1584751.0
+Bukalapak,BUKA.JK,JKT,False,
+BigBear.ai,BBAI,NYSE,False,1836981.0
+Goodfood,FOOD.TO,TOR,False,
+Opendoor,OPEN,NASDAQ,False,1801169.0
+Lyft,LYFT,NASDAQ,False,1759509.0
+Beyond Meat,BYND,NASDAQ,False,1655210.0
+CarGurus,CARG,NASDAQ,False,1494259.0
+Kyndryl,KD,NYSE,False,1867072.0
+Luminar,LAZR,NASDAQ,False,1758057.0
+Banxa,BNXA.V,CDNX,False,
+Sea Limited,SE,NYSE,False,1703399.0
+Rapid7,RPD,NASDAQ,False,1560327.0
+Enphase Energy,ENPH,NASDAQ,False,1463101.0
+Owlet,OWLT,NYSE,False,1816708.0
+Personalis,PSNL,NASDAQ,False,1527753.0
+Wish,WISH,NASDAQ,False,1822250.0
+VerticalScope,7E9.F,FRA,False,
+Allbirds,BIRD,NASDAQ,False,1653909.0
+Cardlytics,CDLX,NASDAQ,False,1666071.0
+Cazoo,CZOO,NYSE,False,1859639.0
+Springbig,SBIG,NASDAQ,True,1801602.0
+Oatly,OTLY,NASDAQ,False,1843586.0
+Blend,BLND,NYSE,False,1855747.0
+Lucid Diagnostics,LUCD,NASDAQ,False,1799011.0
+Vimeo,VMEO,NASDAQ,False,1837686.0
+Sportradar,SRAD,NASDAQ,False,1836470.0
+GoPro,GPRO,NASDAQ,False,1500435.0
+Meta,META,NASDAQ,False,1326801.0
+TripAdvisor,TRIP,NASDAQ,False,1526520.0
+eBay,EBAY,NASDAQ,False,1065088.0
+Quanterix,QTRX,NASDAQ,False,1503274.0
+Dropbox,DBX,NASDAQ,False,1467623.0
+Selina,SLNA,NASDAQ,False,1909417.0
+Bill Com Holdings,BILL,NYSE,False,1786352.0
+Legible,READ.CN,CSE,False,
+EQRx,EQRX,NASDAQ,True,1843762.0
+Bilibili,BILI,NASDAQ,False,1723690.0
+nCino,NCNO,NASDAQ,False,1902733.0
+Acast,ACST,NASDAQ,False,1444192.0
+Compass,COMP,NYSE,False,1563190.0
+Westwing,WEW.F,FRA,False,
+SoFi,SOFI,NASDAQ,False,1818874.0
+Cisco,CSCO,NASDAQ,False,858877.0
+Redfin,RDFN,NASDAQ,False,1382821.0
+WalkMe,WKME,NASDAQ,False,1847584.0
+PayPal,PYPL,NASDAQ,False,1633917.0
+Nerdy,NRDY,NYSE,False,1819404.0
+Titan Medical,TMDIF,OTCMKTS,False,840551.0
+Pegasystems,PEGA,NASDAQ,False,1013857.0
+GitLab,GTLB,NASDAQ,False,1653482.0
+Astra,ASTR,NASDAQ,False,1814329.0
+Delivery Hero,DHER.DE,XETRA,False,
+ContraFect,CFRXQ,OTCMKTS,False,
+Natera,NTRA,NASDAQ,False,1604821.0
+Oportun,OPRT,NASDAQ,False,1538716.0
+Matterport,MTTR,NASDAQ,False,1819394.0
+SoundHound,SOUN,NASDAQ,False,1840856.0
+StoneCo,STNE,NASDAQ,False,1745431.0
+GoHealth,GOCO,NASDAQ,False,1808220.0
+LegalZoom,LZ,NASDAQ,False,1286139.0
+Amazon,AMZN,NASDAQ,False,1018724.0
+8x8,EGHT,NASDAQ,False,1023731.0
+AppLovin,APP,NASDAQ,False,1751008.0
+Akamai,AKAM,NASDAQ,False,1086222.0
+Codexis,CDXS,NASDAQ,False,1200375.0
+Cloudflare,NET,NYSE,False,1477333.0
+iRobot,IRBT,NASDAQ,False,1159167.0
+Edgio,EGIO,NASDAQ,False,1391127.0
+iCAD,ICAD,NASDAQ,False,749660.0
+SWVL,SWVL,NASDAQ,False,1875609.0
+Snap,SNAP,NYSE,False,1564408.0
+iSpecimen,ISPC,NASDAQ,False,1558569.0
+Zalando,ZAL.DE,XETRA,False,
+TomTom,0MKS.IL,IOB,False,
+Dell,DELL,NYSE,False,1571996.0
+Quantum SI,QSI,NASDAQ,False,1816431.0
+Freightos,CRGO,NASDAQ,False,1927719.0
+Zillow,Z,NASDAQ,False,1617640.0
+Capital One,COF,NYSE,False,927628.0
+Digimarc,DMRC,NASDAQ,False,1438231.0
+Yext,YEXT,NYSE,False,1614178.0
+Sage Therapeutics,SAGE,NASDAQ,False,1597553.0
+Tempo Automation,TMPO,NASDAQ,True,1813658.0
+HelloFresh,HFG.DE,XETRA,False,
+TuSimple,TSPH,OTCMKTS,False,
+Illumina,ILMN,NASDAQ,False,1110803.0
+Google,GOOG,NASDAQ,False,1652044.0
+Rent the Runway,RENT,NASDAQ,False,1468327.0
+DoorDash,DASH,NASDAQ,False,1792789.0
+Aurora Innovation,AUR,NASDAQ,False,1828108.0
+Zscaler,ZS,NASDAQ,False,1713683.0
+Expedia,EXPE,NASDAQ,False,1324424.0
+SQZ Biotech,SQZB,OTCMKTS,False,1604477.0
+WeWork,WEWKQ,OTCMKTS,True,1813756.0
+Akerna,KERN,NASDAQ,True,1755953.0
+Workday,WDAY,NASDAQ,False,1327811.0
+Teladoc Health,TDOC,NYSE,False,1477449.0
+Appgate,APGTQ,OTCMKTS,False,
+DocuSign,DOCU,NASDAQ,False,1261333.0
+BM Technologies,BMTX,NYSE MKT,False,1725872.0
+Brightcove,BCOV,NASDAQ,False,1313275.0
+Xerox,XRX,NASDAQ,False,1770450.0
+Thinkific,THNC.TO,Toronto,False,
+Coursera,COUR,NYSE,False,1651562.0
+Electronic Arts,EA,NASDAQ,False,712515.0
+Blackbaud,BLKB,NASDAQ,False,1280058.0
+Roku,ROKU,NASDAQ,False,1428439.0
+Kogan,KGN.AX,ASX,False,
+F-Secure,FSECURE.HE,HEL,False,
+Coinbase,COIN,NASDAQ,False,1679788.0
+Jamf,JAMF,NASDAQ,False,1721947.0
+Guidewire,GWRE,NYSE,False,1528396.0
+Innoviz,INVZ,NASDAQ,False,1835654.0
+Yelp,YELP,NYSE,False,1345016.0
+Offerpad,OPAD,NYSE,False,1825024.0
+Kaspien,KSPN,OTCMKTS,True,795212.0
+Marvell,MRVL,NASDAQ,False,1835632.0
+Storytel,DST.F,FRA,False,
+Chegg,CHGG,NYSE,False,1364954.0
+Nikola,NKLA,NASDAQ,False,1731289.0
+Amplitude,AMPL,NASDAQ,False,1866692.0
+Rubicon Technologies,RBT,NYSE,False,1862068.0
+ZipRecruiter,ZIP,NYSE,False,1617553.0
+Bumble,BMBL,NASDAQ,False,1830043.0
+Udemy,UDMY,NASDAQ,False,1607939.0
+OnDeck,ENVA,NYSE,False,1529864.0
+Western Digital,WDC,NASDAQ,False,106040.0
+Airbnb,ABNB,NASDAQ,False,1559720.0
+Domo,DOMO,NASDAQ,False,1505952.0
+EVgo,EVGO,NASDAQ,False,1821159.0
+SAP,SAP,NYSE,False,1000184.0
+Deliveroo,ROO.L,LSE,False,
+Magnite,MGNI,NASDAQ,False,1595974.0
+Casper,CSPR,NYSE,True,
+Aptiv,APTV,NYSE,False,1521332.0
+D2L,DTOL.TO,TSX,False,
+Salesforce,CRM,NYSE,False,1108524.0
+Vroom,VRM,NASDAQ,False,1580864.0
+Nextdoor,KIND,NYSE,False,1846069.0
+Unity,U,NYSE,False,1810806.0
+Nevro,NVRO,NYSE,False,1444380.0
+ThredUp,TDUP,NASDAQ,False,1484778.0
+BigCommerce,BIGC,NASDAQ,False,1626450.0
+AppFolio,APPF,NASDAQ,False,1433195.0
+Analog Devices,ADI,NASDAQ,False,6281.0
+888,EVOK.L,LSE,False,1403708.0
+Sonos,SONO,NASDAQ,False,1314727.0
+Akili,AKLI,NASDAQ,False,1850266.0
+Alteryx,AYX,NYSE,True,1689923.0
+Avaya,AVYA,NYSE,True,
+Boxed,BOXD,NYSE,True,
+DeepVerge,DVRG.L,LSE,True,
+Homology,FIXX,NASDAQ,False,1661998.0
+Instacart,CART,NASDAQ,False,1579091.0
+IronNet,IRNT,NYSE,True,
+Kape,KAPE.L,LSE,True,
+Laybuy,LBY.AX,ASX,True,
+LiveTiles,LVT.AX,ASX,True,
+LiveVox,LVOX,NASDAQ,True,1723648.0
+Cloudera,CLDR,NYSE,True,
+Momentive,MNTV,NASDAQ,True,
+Nearmap,NEA.AX,ASX,True,1195737.0
+Openpay,OPY.AX,ASX,True,791963.0
+Otonomo,OTMO,NASDAQ,True,
+Qualtrics,XM,NASDAQ,True,
+Redbubble,RBL.AX,ASX,True,
+Rubius,RUBY,NASDAQ,True,1709401.0
+Palladyne AI,PDYN,NASDAQ,False,
+GeneDx,WGS,NASDAQ,False,1818331.0
+Splunk,SPLK,NASDAQ,True,1353283.0
+TCR2,TCRR,NASDAQ,True,
+Tricida,TCDA,NASDAQ,True,
+Whispir,WSP.AX,ASX,True,
+Zymergen,ZY,NASDAQ,True,
+Hippo Insurance,HIPO,NYSE,False,1828105.0
+Quanergy Systems,QNGY,NYSE,True,
+Homepoint,HMPT,NASDAQ,True,
+Absolute Software,ABST.TO,TSX,True,
+Lending Club,LC,NYSE,False,1409970.0
+Kleos Space,KSS.AX,ASX,True,885639.0
+Berkeley Lights,BLI,NASDAQ,True,
+JD.ID,JD,NASDAQ,False,1549802.0
+Lucid Motors,LCID,NASDAQ,False,1811210.0
+Frequency Therapeutics,KRRO,NASDAQ,False,1703647.0
+Castlight Health,CSLT,NYSE,True,
+Root Insurance,ROOT,NASDAQ,False,1788882.0
+OpenText,OTX,NASDAQ,False,
+New Relic,NEWR,NYSE,True,1448056.0
+Rubicon Project,MGNI,NASDAQ,False,1595974.0
+Acxiom,RAMP,NASDAQ,False,733269.0
+Blue Apron,APRN,NYSE,True,1701114.0
+Science 37,SNCE,NASDAQ,True,1819113.0
+Babylon Health,BBLNF,OTCMKTS,False,1866390.0
+N-able Technologies,NABL,NYSE,False,1834488.0
+GoTo Group,GOTO.JK,IDX,False,
+National Instruments,NATI,NASDAQ,True,
+PagBank,PAGS,NYSE,False,1712807.0
+Neoleukin Therapeutics,NGNE,NASDAQ,False,
+Lucira Health,LHDX,NASDAQ,True,
+Sono Motors,SEVCF,OTCMKTS,False,
+Embark Trucks,EMBK,NASDAQ,True,
+Nubank,NU,NYSE,False,1691493.0
+Bally's Interactive,BALY,NYSE,False,1747079.0

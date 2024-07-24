@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffDataFullVerySimpl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFullVerySimpl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/publicCompanyTickers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/publicCompanyTickers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layoff_data_simplifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/layoff_data_simplifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sec_edgar_financials.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sec_edgar_financials.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <recent name="G:\My Drive\Family.Shared\Georgetown\MOREreaserch\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.layoff_data_simplifier">
+  <component name="RunManager" selected="Python.sec_edgar_financials">
     <configuration name="fmp_search (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
@@ -190,9 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sec_edgar_financials" />
         <item itemvalue="Python.layoff_data_simplifier" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.sec_edgar_financials" />
         <item itemvalue="Python.fmp_search (1)" />
         <item itemvalue="Python.yahoo_finance" />
       </list>

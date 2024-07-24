@@ -15,18 +15,18 @@ colnamesFull = ["Company", "IsUS", "Location HQ", "Industry", "Number Laid Off",
                 "Dollars Raised (mil)", "Stage", "Country", "Percentage",
                 "Job Positions Laid Off Desc", "Job Positions Laid Off Specific",
                 "Reason Mentioned 1", "Reason Mentioned 2", "Reason Mentioned 3", "Unprofitable", "AI Mentioned",
-                "AI Relation", "Expansion Mentioned", "Ticker", "Exchange", "Stock Delisted",
+                "AI Relation", "Expansion Mentioned", "cik", "Ticker", "Exchange", "Stock Delisted",
                 "Announced Post-Trading Hours", "Stock Return On Closest Trading Date Post-Announcement (t)",
                 "Stock Return 3 Days Before t",
-                "Stock Return 2 Days Before t","Stock Return 1 Day Before t","Stock Return 1 Day After t",
-                "Stock Return 2 Days After t","Stock Return 3 Days After t","List of Employees Laid Off"]
+                "Stock Return 2 Days Before t","Stock Return 1 Day Before t", "Stock Return 1 Day After t",
+                "Stock Return 2 Days After t","Stock Return 3 Days After t", "List of Employees Laid Off"]
 extraLayoffDetails = ["Job Positions Laid Off Desc", "Job Positions Laid Off Specific", "Reason Mentioned 1",
                       "Reason Mentioned 2", "Reason Mentioned 3", "Unprofitable", "AI Mentioned", "AI Relation",
                       "Expansion Mentioned"]
 booleanCols = ["IsUS", "Unprofitable", "AI Mentioned", "Expansion Mentioned", "Announced Post-Trading Hours"]
 listedCols = ["Job Positions Laid Off Desc", "Job Positions Laid Off Specific", "AI Relation"]
 layoffReasonCols = ["Reason Mentioned 1", "Reason Mentioned 2", "Reason Mentioned 3"]
-extraFinancialCols = ["Net Income (q)", "Net Cash Flow (q)", "EBITDA (q)", "Year-over-Year Revenue"]
+extraFinancialCols = ["cik", "Net Income (a)", "Net Cash Flow (a)", "Year-over-Year Revenue"]
 
 # Convert values into proper formats
 if "/" in layoffDataFull["Date of Layoff"].iat[0]:

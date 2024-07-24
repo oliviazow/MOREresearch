@@ -6,7 +6,7 @@ import datetime
 import json
 import requests
 # import dask.dataframe as dd
-
+from main import layoffDataFullSimpl
 
 def get_cik(ticker):
     with open(r"%s\data\company_tickers_exchange.json" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
@@ -44,18 +44,29 @@ def find_all_ciks():
 
 def edgar_financials_retrieval(cik):
     header = {
-        "User-Agent": "oz45@georgetown.edu"  # , # remaining fields are optional
-        #    "Accept-Encoding": "gzip, deflate",
-        #    "Host": "data.sec.gov"
+        "User-Agent": "oz45@georgetown.edu"
     }
-    url = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{str(cik).zfill(10)}.json"
+    url = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{str(cik).zfill(10)}.json/"
     company_facts = requests.get(url, headers=header).json()
-    # with open(r"%s\data\companyFacts.json" % os.path.normpath(os.path.join(os.getcwd(),
+    # with open(r"%s\data\companyFactsUSA.json" % os.path.normpath(os.path.join(os.getcwd(),
     #                                                                        os.pardir)), "w", encoding='utf-8') as f:
     #     json.dump(company_facts, f, ensure_ascii=False, indent=4)
-    test_df = pd.DataFrame(company_facts["facts"]["ifrs-full"]["IncreaseDecreaseInCashAndCashEquivalents"]["units"]
-                           ["SGD"])
-    print(test_df)
+    if not layoffDataFullSimpl[layoffDataFullSimpl["cik"] == cik].iat[0, 1]:
+        currency = [*company_facts["facts"]["ifrs-full"]["IncreaseDecreaseInCashAndCashEquivalents"]["units"].keys()][0]
+        cashDf = pd.DataFrame(company_facts["facts"]["ifrs-full"]["IncreaseDecreaseInCashAndCashEquivalents"]["units"]
+                              [currency])
+        revenueDf = pd.DataFrame(company_facts["facts"]["ifrs-full"]["Revenue"]["units"][currency])
+        incomeLossDf = pd.DataFrame(company_facts["facts"]["ifrs-full"]["ProfitLoss"]["units"][currency])
+    else:
+        cashDf = pd.DataFrame(company_facts["facts"]["us-gaap"]
+                              ["CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecrease"
+                               "IncludingExchangeRateEffect"]["units"]["USD"])
+        revenueDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["RevenueFromContractWithCustomerExcludingAssessedTax"]
+                                 ["units"]["USD"])
+        incomeLossDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["NetIncomeLoss"]["units"]["USD"])
+    print(cashDf)
+    print(revenueDf)
+    print(incomeLossDf)
 
 
 if '__main__' == __name__:
@@ -64,5 +75,6 @@ if '__main__' == __name__:
                                                                                                 os.pardir)))
     # financialsDf = dd.read_csv(r"%s\data\10K10Qdataset.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     # print(financialsDf[(financialsDf["cik"] == publicCos.at[0, "cik"]) & (financialsDf["companyFact"] == "Cash")])
-    edgar_financials_retrieval(int(publicCos.at[0, "cik"]))
+    # edgar_financials_retrieval(int(publicCos.at[0, "cik"])) # PropertyGuru
+    edgar_financials_retrieval(int(publicCos.at[5, "cik"])) # Warby Parker
 

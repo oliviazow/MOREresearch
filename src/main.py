@@ -11,7 +11,7 @@ layoffDataFull = pd.read_csv(r"%s\data\layoffDataFull.csv" % os.path.normpath(os
 layoffDataFullSimpl = pd.read_csv(r"%s\data\layoffDataFullSimpl.csv" % os.path.normpath(os.path.join(os.getcwd(),
                                                                                                      os.pardir)))
 # Column name lists
-colnamesFull = ["Company", "IsUS", "Location HQ", "Industry", "Number Laid Off", "Date of Layoff", "Source",
+colnamesFull = ["Company", "IsUS", "Location HQ", "Industry", "sic", "Number Laid Off", "Date of Layoff", "Source",
                 "Dollars Raised (mil)", "Stage", "Country", "Percentage",
                 "Job Positions Laid Off Desc", "Job Positions Laid Off Specific",
                 "Reason Mentioned 1", "Reason Mentioned 2", "Reason Mentioned 3", "Unprofitable", "AI Mentioned",

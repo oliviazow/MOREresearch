@@ -74,9 +74,10 @@ def edgar_financials_df_retrieval(cik):
                                  ["units"]["USD"])
         incomeLossDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["NetIncomeLoss"]["units"]["USD"])
     filingTimeDf = pd.DataFrame(company_filings["filings"]["recent"])
-    filingTimeDf = filingTimeDf["filingDate", "acceptanceDateTime", "form"]
-
-    print(filingTimeDf)
+    filingTimeDf = filingTimeDf[["accessionNumber", "acceptanceDateTime", "form"]]
+    filingTimeDf.rename(columns={"accessionNumber": "accn"}, inplace=True)
+    revenueDf = pd.merge(revenueDf, filingTimeDf, how="left", on=["accn", "form"])
+    incomeLossDf = pd.merge(incomeLossDf, filingTimeDf, how="left", on=["accn", "form"])
 
     return revenueDf, incomeLossDf
 
@@ -94,21 +95,31 @@ def get_sic(cik):
 
 def get_revenues_by_date(df, date, announced_post):
     dateCols = ["start", "end", "filed"]
-    if announced_post:  # not sure if i should get rid of this part
+    if announced_post:
         date += datetime.timedelta(days=1)
     for col in dateCols:
         df[col] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df[col]]
 
+    df["acceptanceDateTime"] = [datetime.datetime.strptime(str(x), f"%Y-%m-%dT%H:%M:%S.%fZ") if type(x) is str
+                                else x for x in df["acceptanceDateTime"]]
+
     if df[df["form"] == "20-F"].empty:
         df = df[(df["filed"] <= date) & (df["form"] == "10-Q")]
+        print(df)
         dateFloor = df.tail(1).iat[0, 1]  # 1 = col for end
         thisQ = df[df["start"] > (dateFloor - datetime.timedelta(days=120))]
+        print(thisQ)
         revThisYr = thisQ.iat[0, 2]  # 2 = col for value
         lastDateFloor = dateFloor - datetime.timedelta(days=360)  # gives date a little later than a year earlier
         df = df[df["end"] < lastDateFloor]  # looks for dates earlier than < but approx. 1yr ago
+        if df.empty:
+            return "N/A"
         lastDateFloor = df.tail(1).iat[0, 1]
         lastQ = df[df["start"] > (lastDateFloor - datetime.timedelta(days=120))]
+        print(lastQ)
         revLastYr = lastQ.iat[0, 2]
+        if revLastYr == 0:
+            return "N/A"
         yoyRev = (revThisYr/revLastYr) - 1
     else:
         df = df[df["filed"] <= date]
@@ -123,6 +134,8 @@ def get_revenues_by_date(df, date, announced_post):
 
 def get_net_income_by_date(df, date, announced_post):
     dateCols = ["start", "end", "filed"]
+    if announced_post:
+        date += datetime.timedelta(days=1)
     for col in dateCols:
         df[col] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df[col]]
 
@@ -138,29 +151,45 @@ def get_net_income_by_date(df, date, announced_post):
     return netIncomeLoss
 
 
-def add_to_dataset():
-    print("added")
+def add_to_layoff_df():
+    financialsList = []
+    ciks = layoffDataFullSimpl.loc[layoffDataFullSimpl["cik"].notna(), "cik"].head(5)
+    # ciks = [1874178, 1828318]
+    for c in ciks:
+        filteredDf = layoffDataFullSimpl[layoffDataFullSimpl["cik"] == c]
+        for count, date in enumerate(filteredDf["Date of Layoff"].tolist()):
+            dictEntry = dict.fromkeys(["Company", "cik", "Date of Layoff", "YoYRev", "NetIncomeLoss"])
+            dictEntry["Company"] = filteredDf.iat[0, 0]
+            dictEntry["cik"] = c
+            dictEntry["Date of Layoff"] = date
+            revenueDf, incomeLossDf = edgar_financials_df_retrieval(int(c))
+            dictEntry["YoYRev"] = get_revenues_by_date(revenueDf, date, filteredDf.iat[count, 24])
+            # announced post-trading hours = 24th column
+            dictEntry["NetIncomeLoss"] = get_net_income_by_date(incomeLossDf, date, filteredDf.iat[count, 24])
+            financialsList.append(dictEntry)
+
+    pprint(financialsList)
 
 
 if '__main__' == __name__:
-    testList = ["SFIX", "DHER.DE", "GOTO.JK", "0700.HK", "TKWY.AS", "ROO.L"]
     publicCos = pd.read_csv(r"%s\data\publicCompanyTickers.csv" % os.path.normpath(os.path.join(os.getcwd(),
                                                                                                 os.pardir)))
     # financialsDf = dd.read_csv(r"%s\data\10K10Qdataset.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(publicCos.at[0, "cik"])) # PropertyGuru
+    # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(publicCos.at[0, "cik"])) # PropertyGuru
     # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(publicCos.at[5, "cik"])) # Warby Parker
     # print(secRevenueDf)
 
-    # idx = layoffDataFullSimpl.index[layoffDataFullSimpl["Company"] == "Warby Parker"].tolist()[0]
+    # idx = layoffDataFullSimpl.index[layoffDataFullSimpl["Company"] == "Rivian"].tolist()[-2]
+    # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(layoffDataFullSimpl.at[idx, "cik"]))
     # print(get_revenues_by_date(secRevenueDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
     #       idx, "Announced Post-Trading Hours"]))
-    # print(get_net_income_by_date(secIncomeLossDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
-    #       idx, "Announced Post-Trading Hours"]))
-    #
+
     # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(publicCos.at[0, "cik"]))
     # idx = layoffDataFullSimpl.index[layoffDataFullSimpl["Company"] == "PropertyGuru"].tolist()[0]
     # print(get_revenues_by_date(secRevenueDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
     #       idx, "Announced Post-Trading Hours"]))
     # print(get_net_income_by_date(secIncomeLossDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
     #       idx, "Announced Post-Trading Hours"]))
+
+    add_to_layoff_df()
 

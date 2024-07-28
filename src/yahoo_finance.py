@@ -213,5 +213,5 @@ if '__main__' == __name__:
     sample = df[(df["Ticker"].notna()) & (df["Stock Delisted"] == False)]
     sample.reset_index(drop=True, inplace=True)
     # print(sample.at[0, "Ticker"])
-    qResults = get_financials(financials, sample.at[0, "Ticker"])
+    qResults = get_financials(financials, "PGRU")
     print(qResults)

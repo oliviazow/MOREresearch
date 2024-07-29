@@ -43,6 +43,31 @@ def find_all_ciks():
                               os.getcwd(), os.pardir)), index=False)
 
 
+def get_sic(cik):
+    header = {
+        "User-Agent": "oz45@georgetown.edu"
+    }
+    url = f"https://data.sec.gov/submissions/CIK{str(cik).zfill(10)}.json/"
+    company_filings = requests.get(url, headers=header).json()
+    sic = company_filings["sic"]
+    # sic_desc = company_filings["sicDescription"]
+    return sic
+
+
+def find_all_sics():
+    dictList = []
+    cikList = layoffDataFullSimpl[layoffDataFullSimpl["cik"].notna()]["cik"].unique().tolist()
+    for c in cikList:
+        dictEntry = dict.fromkeys(["cik", "sic"])
+        dictEntry["cik"] = int(c)
+        dictEntry["sic"] = get_sic(int(c))
+        dictList.append(dictEntry)
+        print(c)
+    cikSicDf = pd.DataFrame.from_records(dictList)
+    mergedDf = pd.merge(layoffDataFullSimpl, cikSicDf, how="left", on=["cik"])
+    mergedDf.to_csv()
+
+
 def edgar_financials_df_retrieval(cik):
     header = {
         "User-Agent": "oz45@georgetown.edu"
@@ -53,12 +78,12 @@ def edgar_financials_df_retrieval(cik):
     url = f"https://data.sec.gov/submissions/CIK{str(cik).zfill(10)}.json/"
     company_filings = requests.get(url, headers=header).json()
     # --------- save to local --------------------------------------------------------------------------------
-    # with open(r"%s\data\companyFactsUSA.json" % os.path.normpath(os.path.join(os.getcwd(),
-    #                                                                        os.pardir)), "w", encoding='utf-8') as f:
-    #     json.dump(company_facts, f, ensure_ascii=False, indent=4)
-    with open(r"%s\data\companyFilings.json" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), "w",
-              encoding="utf-8") as f:
-        json.dump(company_filings, f, ensure_ascii=False, indent=4)
+    with open(r"%s\data\sageTherapeutics.json" % os.path.normpath(os.path.join(os.getcwd(),
+                                                                           os.pardir)), "w", encoding='utf-8') as f:
+        json.dump(company_facts, f, ensure_ascii=False, indent=4)
+    # with open(r"%s\data\companyFilings.json" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)), "w",
+    #           encoding="utf-8") as f:
+    #     json.dump(company_filings, f, ensure_ascii=False, indent=4)
     # ---------------------------------------------------------------------------------------------------------
     if not layoffDataFullSimpl[layoffDataFullSimpl["cik"] == cik].iat[0, 1]:
         currency = [*company_facts["facts"]["ifrs-full"]["IncreaseDecreaseInCashAndCashEquivalents"]["units"].keys()][0]
@@ -70,8 +95,12 @@ def edgar_financials_df_retrieval(cik):
         cashDf = pd.DataFrame(company_facts["facts"]["us-gaap"]
                               ["CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecrease"
                                "IncludingExchangeRateEffect"]["units"]["USD"])
-        revenueDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["RevenueFromContractWithCustomerExcludingAssessedTax"]
-                                 ["units"]["USD"])
+        try:
+            revenueDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["RevenueFromContractWithCustomerExcluding"
+                                                                       "AssessedTax"]["units"]["USD"])
+        except KeyError as e:
+            revenueDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["Revenues"]["units"]["USD"])
+            print("Error: " + str(e))
         incomeLossDf = pd.DataFrame(company_facts["facts"]["us-gaap"]["NetIncomeLoss"]["units"]["USD"])
     filingTimeDf = pd.DataFrame(company_filings["filings"]["recent"])
     filingTimeDf = filingTimeDf[["accessionNumber", "acceptanceDateTime", "form"]]
@@ -80,17 +109,6 @@ def edgar_financials_df_retrieval(cik):
     incomeLossDf = pd.merge(incomeLossDf, filingTimeDf, how="left", on=["accn", "form"])
 
     return revenueDf, incomeLossDf
-
-
-def get_sic(cik):
-    header = {
-        "User-Agent": "oz45@georgetown.edu"
-    }
-    url = f"https://data.sec.gov/submissions/CIK{str(cik).zfill(10)}.json/"
-    company_filings = requests.get(url, headers=header).json()
-    sic = company_filings["sic"]
-    # sic_desc = company_filings["sicDescription"]
-    return sic
 
 
 def get_revenues_by_date(df, date, announced_post):
@@ -103,29 +121,38 @@ def get_revenues_by_date(df, date, announced_post):
     df["acceptanceDateTime"] = [datetime.datetime.strptime(str(x), f"%Y-%m-%dT%H:%M:%S.%fZ") if type(x) is str
                                 else x for x in df["acceptanceDateTime"]]
 
-    if df[df["form"] == "20-F"].empty:
+    if df[df["form"] == "20-F"].empty and df[df["form"] == "40-F"].empty:
         df = df[(df["filed"] <= date) & (df["form"] == "10-Q")]
-        print(df)
+        if df.empty:
+            return "N/A"
+        # print(df)
         dateFloor = df.tail(1).iat[0, 1]  # 1 = col for end
         thisQ = df[df["start"] > (dateFloor - datetime.timedelta(days=120))]
-        print(thisQ)
+        if thisQ.empty:
+            return "N/A"
         revThisYr = thisQ.iat[0, 2]  # 2 = col for value
         lastDateFloor = dateFloor - datetime.timedelta(days=360)  # gives date a little later than a year earlier
-        df = df[df["end"] < lastDateFloor]  # looks for dates earlier than < but approx. 1yr ago
+        df = df[df["end"] < lastDateFloor]  # looks for dates earlier than < approx. 1yr ago
         if df.empty:
             return "N/A"
         lastDateFloor = df.tail(1).iat[0, 1]
         lastQ = df[df["start"] > (lastDateFloor - datetime.timedelta(days=120))]
-        print(lastQ)
+        if lastQ.empty:
+            return "N/A"
+        # print(lastQ)
         revLastYr = lastQ.iat[0, 2]
         if revLastYr == 0:
             return "N/A"
         yoyRev = (revThisYr/revLastYr) - 1
     else:
         df = df[df["filed"] <= date]
+        if df.empty:
+            return "N/A"
         revThisYr = df.tail(1).iat[0, 2]
         lastDateFloor = df.tail(1).iat[0, 1] - datetime.timedelta(days=360)
         df = df[df["end"] < lastDateFloor]
+        if df.empty:
+            return "N/A"
         revLastYr = df.tail(1).iat[0, 2]
         yoyRev = (revThisYr/revLastYr) - 1
 
@@ -139,13 +166,17 @@ def get_net_income_by_date(df, date, announced_post):
     for col in dateCols:
         df[col] = [datetime.datetime.strptime(x, f"%Y-%m-%d").date() for x in df[col]]
 
-    if df[df["form"] == "20-F"].empty:
+    if df[df["form"] == "20-F"].empty and df[df["form"] == "40-F"].empty:
         df = df[(df["filed"] <= date) & (df["form"] == "10-Q")]
+        if df.empty:
+            return "N/A"
         dateFloor = df.tail(1).iat[0, 1]
         thisQ = df[df["start"] > (dateFloor - datetime.timedelta(days=120))]
         netIncomeLoss = thisQ.iat[0, 2]
     else:
         df = df[(df["filed"] <= date)]
+        if df.empty:
+            return "N/A"
         netIncomeLoss = df.iat[-1, 2]
 
     return netIncomeLoss
@@ -153,13 +184,13 @@ def get_net_income_by_date(df, date, announced_post):
 
 def add_to_layoff_df():
     financialsList = []
-    ciks = layoffDataFullSimpl.loc[layoffDataFullSimpl["cik"].notna(), "cik"].head(5)
+    ciks = layoffDataFullSimpl.loc[layoffDataFullSimpl["cik"].notna(), "cik"].tail(10)
     # ciks = [1874178, 1828318]
     for c in ciks:
         filteredDf = layoffDataFullSimpl[layoffDataFullSimpl["cik"] == c]
         for count, date in enumerate(filteredDf["Date of Layoff"].tolist()):
-            dictEntry = dict.fromkeys(["Company", "cik", "Date of Layoff", "YoYRev", "NetIncomeLoss"])
-            dictEntry["Company"] = filteredDf.iat[0, 0]
+            dictEntry = dict.fromkeys(["cik", "Date of Layoff", "YoYRev", "NetIncomeLoss"])
+            print(filteredDf.iat[0, 0])
             dictEntry["cik"] = c
             dictEntry["Date of Layoff"] = date
             revenueDf, incomeLossDf = edgar_financials_df_retrieval(int(c))
@@ -167,8 +198,9 @@ def add_to_layoff_df():
             # announced post-trading hours = 24th column
             dictEntry["NetIncomeLoss"] = get_net_income_by_date(incomeLossDf, date, filteredDf.iat[count, 24])
             financialsList.append(dictEntry)
-
     pprint(financialsList)
+    financialsDf = pd.DataFrame.from_records(financialsList)
+    mergedDf = pd.merge(layoffDataFullSimpl, financialsDf, how="left", on=["cik", "Date of Layoff"])
 
 
 if '__main__' == __name__:
@@ -179,7 +211,7 @@ if '__main__' == __name__:
     # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(publicCos.at[5, "cik"])) # Warby Parker
     # print(secRevenueDf)
 
-    # idx = layoffDataFullSimpl.index[layoffDataFullSimpl["Company"] == "Rivian"].tolist()[-2]
+    # idx = layoffDataFullSimpl.index[layoffDataFullSimpl["Company"] == "The RealReal"].tolist()[0]  # Bitfarms
     # secRevenueDf, secIncomeLossDf = edgar_financials_df_retrieval(int(layoffDataFullSimpl.at[idx, "cik"]))
     # print(get_revenues_by_date(secRevenueDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
     #       idx, "Announced Post-Trading Hours"]))
@@ -191,5 +223,6 @@ if '__main__' == __name__:
     # print(get_net_income_by_date(secIncomeLossDf, layoffDataFullSimpl.at[idx, "Date of Layoff"], layoffDataFullSimpl.at[
     #       idx, "Announced Post-Trading Hours"]))
 
-    add_to_layoff_df()
+    # add_to_layoff_df()
+    find_all_sics()
 

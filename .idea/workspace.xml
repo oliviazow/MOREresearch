@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sec_edgar_financials.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sec_edgar_financials.py" afterDir="false" />
@@ -43,7 +44,7 @@
     "Python.layoff_data_processor.executor": "Run",
     "Python.layoff_data_simplifier.executor": "Run",
     "Python.main.executor": "Run",
-    "Python.sec_edgar_financials.executor": "Debug",
+    "Python.sec_edgar_financials.executor": "Run",
     "Python.yahoo_finance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -460,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722201782297</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1722219650743</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722219650743</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">

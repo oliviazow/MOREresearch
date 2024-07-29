@@ -7,6 +7,7 @@ import json
 import requests
 # import dask.dataframe as dd
 from main import layoffDataFullSimpl
+from main import colnamesFull
 
 
 def get_cik(ticker):
@@ -58,14 +59,14 @@ def find_all_sics():
     dictList = []
     cikList = layoffDataFullSimpl[layoffDataFullSimpl["cik"].notna()]["cik"].unique().tolist()
     for c in cikList:
-        dictEntry = dict.fromkeys(["cik", "sic"])
-        dictEntry["cik"] = int(c)
-        dictEntry["sic"] = get_sic(int(c))
+        dictEntry = dict(cik=int(c), sic=get_sic(int(c)))
         dictList.append(dictEntry)
         print(c)
     cikSicDf = pd.DataFrame.from_records(dictList)
     mergedDf = pd.merge(layoffDataFullSimpl, cikSicDf, how="left", on=["cik"])
-    mergedDf.to_csv()
+    mergedDf = mergedDf[colnamesFull]
+    mergedDf.to_csv(r"%s\data\layoffDataFullSimpl.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+                    index=False)
 
 
 def edgar_financials_df_retrieval(cik):

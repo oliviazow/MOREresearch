@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
-      <change afterPath="$PROJECT_DIR$/data/2022-NAICS-to-SIC-Crosswalk.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aiie.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/industryExposure2Digit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/industryExposure3Digit.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/industryExposure2Digit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/industryExposure2Digit.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/industryExposure3Digit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/industryExposure3Digit.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/industry_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/industry_analysis.py" afterDir="false" />
@@ -490,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722305691280</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1722307303391</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722307303391</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">

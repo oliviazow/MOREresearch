@@ -61,25 +61,30 @@ def get_and_add_naics():
 
 def clean_aiie(digits=3):
     aiieDf = pd.read_csv(r"%s\data\aiie.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
-    aiieDf["NAICS 3 Digits"] = [float(x) // (10 ** (4 - digits)) for x in aiieDf["NAICS"]]
-    return aiieDf.groupby(by=["NAICS 3 Digits"])[["AIIE"]].mean().reset_index()
+    aiieDf[f"NAICS {digits} Digits"] = [float(x) // (10 ** (4 - digits)) for x in aiieDf["NAICS"]]
+    return aiieDf.groupby(by=[f"NAICS {digits} Digits"])[["AIIE"]].mean().reset_index()
 
 
 def assemble_industry_dataset(digits=3):
     aiieDf = clean_aiie(digits)
     if digits == 2:
         layoffDataFullSimpl["naics"] = [float(x) // 10 for x in layoffDataFullSimpl["naics"]]
+    else:
+        layoffDataFullSimpl["naics"] = [float(x) for x in layoffDataFullSimpl["naics"]]
     layoffsDfCount = layoffDataFullSimpl.groupby(by=["naics"])[["Company"]].count().reset_index()
     layoffsDfCompanySize = layoffDataFullSimpl.groupby(by=["naics"])[["Dollars Raised (mil)"]].mean().reset_index()
     layoffsDf = pd.merge(layoffsDfCount, layoffsDfCompanySize, how="left", on="naics")
-    mergedDf = pd.merge(layoffsDf, aiieDf, how="left", left_on="naics", right_on="NAICS 3 Digits")
+    mergedDf = pd.merge(layoffsDf, aiieDf, how="left", left_on="naics", right_on=f"NAICS {digits} Digits")
+    mergedDf.to_csv(fr"%s\data\industryExposure{digits}Digit.csv" % os.path.normpath(
+                                       os.path.join(os.getcwd(), os.pardir)), index=False)
     return mergedDf
 
 
 if "__main__" == __name__:
     print(clean_aiie())
+    print(assemble_industry_dataset(3))
     print(assemble_industry_dataset(2))
-    assemble_industry_dataset(3).to_csv(r"%s\data\industryExposure3Digit.csv" % os.path.normpath(
-                                       os.path.join(os.getcwd(), os.pardir)), index=False)
-    assemble_industry_dataset(2).to_csv(r"%s\data\industryExposure2Digit.csv" % os.path.normpath(
-        os.path.join(os.getcwd(), os.pardir)), index=False)
+    # assemble_industry_dataset(3).to_csv(r"%s\data\industryExposure3Digit.csv" % os.path.normpath(
+    #                                    os.path.join(os.getcwd(), os.pardir)), index=False)
+    # assemble_industry_dataset(2).to_csv(r"%s\data\industryExposure2Digit.csv" % os.path.normpath(
+    #     os.path.join(os.getcwd(), os.pardir)), index=False)

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca5b82f-b90a-47bd-ab60-1c50da227bff" name="Changes" comment="Commit from o.zhao.0001@gmail.com">
+      <change afterPath="$PROJECT_DIR$/src/industry_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/layoffDataFullSimpl.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IEX.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iex_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sec_edgar_financials.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sec_edgar_financials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     "Python.fmp_search (1).executor": "Run",
     "Python.get_spreadsheets.executor": "Run",
     "Python.iex_api.executor": "Run",
+    "Python.industry_analysis.executor": "Debug",
     "Python.layoff_data_processor.executor": "Run",
     "Python.layoff_data_simplifier.executor": "Run",
     "Python.main.executor": "Run",
@@ -76,8 +78,8 @@
       <recent name="G:\My Drive\Family.Shared\Georgetown\MOREreaserch\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sec_edgar_financials">
-    <configuration name="fmp_search (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.industry_analysis">
+    <configuration name="industry_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOREreaserch" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fmp_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/industry_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.industry_analysis" />
         <item itemvalue="Python.sec_edgar_financials" />
         <item itemvalue="Python.yahoo_finance" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.layoff_data_simplifier" />
-        <item itemvalue="Python.fmp_search (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722219650743</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Commit from o.zhao.0001@gmail.com">
+      <option name="closed" value="true" />
+      <created>1722220330195</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1722220330195</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -522,6 +532,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/industry_analysis.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

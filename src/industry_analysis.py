@@ -13,7 +13,7 @@ def get_digit(number, n):
 
 
 def get_naics(sic, digits=3):  # can only do 3 or 2
-    naicsSicCrosswalkDf = pd.read_csv(r"%s\data\2022-NAICS-to-SIC-Crosswalk.csv" %
+    naicsSicCrosswalkDf = pd.read_csv(r"%s\data\industry_analysis\2022-NAICS-to-SIC-Crosswalk.csv" %
                                       os.path.normpath(os.path.join(os.getcwd(), os.pardir)), encoding="latin1")
     naicsSicCrosswalkDf.drop(naicsSicCrosswalkDf[naicsSicCrosswalkDf["Related SIC Code"] == "Aux"].index, inplace=True)
     naicsSicCrosswalkDf.drop(naicsSicCrosswalkDf[naicsSicCrosswalkDf["2017 NAICS Code"] == "Added"].index, inplace=True)
@@ -55,12 +55,12 @@ def get_and_add_naics():
     mergedDf = pd.merge(layoffDataFullSimpl, sicNaicsDf, how="left", on=["sic"])
     mergedDf = mergedDf[colnamesFull]
     # print("cool")
-    mergedDf.to_csv(r"%s\data\layoffDataFullSimpl.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
+    mergedDf.to_csv(r"%s\data\industry_analysis\layoffDataFullSimpl.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)),
                     index=False)
 
 
 def clean_aiie(digits=3):
-    aiieDf = pd.read_csv(r"%s\data\aiie.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
+    aiieDf = pd.read_csv(r"%s\data\industry_analysis\aiie.csv" % os.path.normpath(os.path.join(os.getcwd(), os.pardir)))
     aiieDf[f"NAICS {digits} Digits"] = [float(x) // (10 ** (4 - digits)) for x in aiieDf["NAICS"]]
     return aiieDf.groupby(by=[f"NAICS {digits} Digits"])[["AIIE"]].mean().reset_index()
 
@@ -75,7 +75,7 @@ def assemble_industry_dataset(digits=3):
     layoffsDfCompanySize = layoffDataFullSimpl.groupby(by=["naics"])[["Dollars Raised (mil)"]].mean().reset_index()
     layoffsDf = pd.merge(layoffsDfCount, layoffsDfCompanySize, how="left", on="naics")
     mergedDf = pd.merge(layoffsDf, aiieDf, how="left", left_on="naics", right_on=f"NAICS {digits} Digits")
-    mergedDf.to_csv(fr"%s\data\industryExposure{digits}Digit.csv" % os.path.normpath(
+    mergedDf.to_csv(fr"%s\data\industry_analysis\industryExposure{digits}Digit.csv" % os.path.normpath(
                                        os.path.join(os.getcwd(), os.pardir)), index=False)
     return mergedDf
 
@@ -84,7 +84,7 @@ if "__main__" == __name__:
     print(clean_aiie())
     print(assemble_industry_dataset(3))
     print(assemble_industry_dataset(2))
-    # assemble_industry_dataset(3).to_csv(r"%s\data\industryExposure3Digit.csv" % os.path.normpath(
+    # assemble_industry_dataset(3).to_csv(r"%s\data\industry_analysis\industryExposure3Digit.csv" % os.path.normpath(
     #                                    os.path.join(os.getcwd(), os.pardir)), index=False)
-    # assemble_industry_dataset(2).to_csv(r"%s\data\industryExposure2Digit.csv" % os.path.normpath(
+    # assemble_industry_dataset(2).to_csv(r"%s\data\industry_analysis\industryExposure2Digit.csv" % os.path.normpath(
     #     os.path.join(os.getcwd(), os.pardir)), index=False)

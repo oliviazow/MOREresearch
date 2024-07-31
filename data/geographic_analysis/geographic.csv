@@ -1,0 +1,242 @@
+Locations,Count,Country,State,State ID,County,County Fips,lat,lng,AI Exposure - State,AI Exposure - County,Population - City,Density - City
+SF Bay Area,904,United States,California,CA,Not found,Not found,37.6538,-122.4196,1.028286,1.495010881,7748930,430.2
+New York City,370,United States,New York,NY,Queens,36081,40.6943,-73.9249,1.495785,0.8583537,18908608,11080.3
+Boston,160,United States,Massachusetts,MA,Suffolk,25025,42.3188,-71.0852,1.52209,2.108291,4328315,5319
+Bengaluru,155,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Los Angeles,137,United States,California,CA,Los Angeles,6037,34.1141,-118.4068,1.028286,1.266307,11922389,3184.7
+Seattle,136,United States,Washington,WA,King,53033,47.6211,-122.3244,1.08479,1.6137,3561397,3376.6
+London,119,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Berlin,85,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Tel Aviv,84,Israel,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Toronto,74,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Sao Paulo,67,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Austin,66,United States,Texas,TX,Travis,48453,30.3005,-97.7522,0.9305078,1.498222,1905945,1154.1
+Singapore,52,Singapore,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Chicago,48,United States,Illinois,IL,Cook,17031,41.8375,-87.6866,0.9887875,1.274891,8497759,4614.5
+Sydney,46,Australia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Jakarta,41,Indonesia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Mumbai,35,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Salt Lake City,32,United States,Utah,UT,Salt Lake,49035,40.7776,-111.9311,1.021964,1.33066,1173879,700.8
+Gurugram,32,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Washington D.C.,32,United States,District of Columbia,DC,District of Columbia,11001,38.9047,-77.0163,2.339433,2.339288,5116378,4235.7
+San Diego,31,United States,California,CA,San Diego,6073,32.8313,-117.1222,1.028286,1.175884,3046560,1639.7
+Denver,31,United States,Colorado,CO,Denver,8031,39.762,-104.8758,0.9809595,1.128774,2687458,1792.9
+Stockholm,29,Sweden,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Atlanta,28,United States,Georgia,GA,Fulton,13121,33.7628,-84.422,0.8129339,1.626205,5180179,1412.3
+Portland,23,United States,Oregon,OR,Multnomah,41051,45.5371,-122.65,0.7985942,1.144811,2095808,1868.8
+Vancouver,23,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Miami,22,United States,Florida,FL,Miami-Dade,12086,25.784,-80.2101,0.7379833,0.7300541,6080145,4758.9
+Lagos,22,Nigeria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+New Delhi,21,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Montreal,21,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Melbourne,20,Australia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Amsterdam,19,Netherlands,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Columbus,19,United States,Ohio,OH,Franklin,39049,39.9862,-82.9855,0.8504633,1.234073,1572546,1581
+Phoenix,18,United States,Arizona,AZ,Maricopa,4013,33.5722,-112.0892,0.9088002,0.9336246,4064275,1198.9
+Paris,17,France,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Boulder,16,United States,Colorado,CO,Boulder,8013,40.0248,-105.2524,0.9809595,1.936633,118090,1534.8
+Detroit,15,United States,Michigan,MI,Wayne,26163,42.3834,-83.1024,0.6779525,0.8454113,3725908,1772.2
+Philadelphia,14,United States,Pennsylvania,PA,Philadelphia,42101,40.0077,-75.1339,1.014222,1.808488,5683533,4578.4
+Nairobi,14,Kenya,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Pittsburgh,11,United States,Pennsylvania,PA,Allegheny,42003,40.4397,-79.9763,1.014222,1.611413,1749091,2118.5
+Oslo,11,Norway,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Minneapolis,11,United States,Minnesota,MN,Hennepin,27053,44.9635,-93.2678,1.151987,1.734048,2892569,3052.2
+Dallas,11,United States,Texas,TX,Dallas,48113,32.7935,-96.7667,0.9305078,1.262944,5830932,1478.7
+Beijing,11,China,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Raleigh,11,United States,North Carolina,NC,Wake,37183,35.8324,-78.6429,0.737784,1.231514,1163152,1210
+Dublin,10,Ireland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Tallinn,10,Estonia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+St. Louis,10,United States,Missouri,MO,St. Louis,29510,38.6359,-90.2451,0.9743246,1.473698,2130881,1864.3
+Lehi,9,United States,Utah,UT,Utah,49049,40.4136,-111.8725,1.021964,0.8748258,77110,1044.1
+Brisbane,9,Australia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Munich,8,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Shanghai,8,China,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Shenzen,8,China,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Auckland,8,New Zealand,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Sacramento,7,United States,California,CA,Sacramento,6067,38.5677,-121.4685,1.028286,1.056343,1957738,2049.4
+Barcelona,7,Spain,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Chennai,7,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Nashville,7,United States,Tennessee,TN,Davidson,47037,36.1715,-86.7842,0.5869446,1.07002,1177657,555.4
+Calgary,7,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Dubai,7,United Arab Emirates,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Santiago,6,Chile,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Copenhagen,6,Denmark,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Hamburg,6,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Stamford,6,United States,Connecticut,CT,Western Connecticut,9190,41.1039,-73.5585,1.154729,1.241433,135413,1389.9
+Charlotte,6,United States,North Carolina,NC,Mecklenburg,37119,35.2083,-80.8303,0.737784,0.9888068,1427444,1089.8
+Hong Kong,6,Hong Kong,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Las Vegas,6,United States,Nevada,NV,Clark,32003,36.2333,-115.2654,-0.0579104,-0.2982186,2248047,1755.1
+Ottawa,6,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Curitiba,6,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Buenos Aires,6,Argentina,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Baltimore,5,United States,Maryland,MD,Baltimore,24510,39.3051,-76.6144,1.151089,1.374542,2196524,2788.2
+Vienna,5,Austria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Tokyo,5,Japan,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Saskatoon,5,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Noida,5,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Helsinki,5,Finland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Belo Horizonte,5,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Mexico City,5,Mexico,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Boise,5,United States,Idaho,ID,Ada,16001,43.6005,-116.2308,0.4952719,0.8809481,449776,1072.4
+Reno,5,United States,Nevada,NV,Washoe,32031,39.5497,-119.8483,-0.0579104,-0.1714805,457702,940.5
+Waterloo,5,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Bogota,5,Colombia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Tampa Bay,4,United States,Florida,FL,Not found,Not found,27.94752,-82.45843,0.7379833,0.747048121,3175275,3727
+Manchester,4,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Ann Arbor,4,United States,Michigan,MI,Washtenaw,26161,42.2759,-83.731,0.6779525,1.264392,308983,1671.9
+Santa Barbara,4,United States,California,CA,Santa Barbara,6083,34.4285,-119.7202,1.028286,0.2667122,199023,1754.6
+Milwaukee,4,United States,Wisconsin,WI,Milwaukee,55079,43.0642,-87.9675,0.7248446,1.290862,1290940,2301.6
+Birmingham,4,United States,Alabama,AL,Jefferson,21111,33.5279,-86.7971,0.5171078,0.5960811,782111,526.4
+Kansas City,4,United States,Missouri,MO,Jackson,29095,39.1238,-94.5541,0.9743246,1.396885,1689556,620.7
+Luxembourg,4,Luxembourg,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Cincinnati,4,United States,Ohio,OH,Hamilton,39061,39.1413,-84.506,0.8504633,1.226418,1692702,1530.6
+Vilnius,3,Lithuania,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Krakow,3,Poland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Santa Fe,3,United States,New Mexico,NM,Santa Fe,35049,35.6619,-105.9819,0.9067282,0.3487642,93165,647.7
+Ibadan,3,Nigeria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Zurich,3,Switzerland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Edinburgh,3,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Indianapolis,3,United States,Indiana,IN,Marion,18097,39.7771,-86.1458,0.4297744,0.9747427,1729849,941.8
+Seoul,3,South Korea,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+San Antonio,3,United States,Texas,TX,Bexar,48029,29.4632,-98.5238,0.9305078,1.122901,2058444,1118.8
+Blumenau,3,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Logan,3,United States,Utah,UT,Cache,49005,41.7399,-111.8422,1.021964,0.9365196,121666,1142.4
+Non-U.S.,3,Seychelles,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Kuala Lumpur,3,Malaysia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Orlando,2,United States,Florida,FL,Orange,12095,28.4773,-81.337,0.7379833,0.2919726,1882705,1070.2
+Madrid,2,Spain,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Prague,2,Czech Republic,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Pune,2,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Cayman Islands,2,Cayman Islands,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Brno,2,Czech Republic,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Walldorf,2,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Karachi,2,Pakistan,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Norwalk,2,United States,California,CA,Los Angeles,6037,33.9069,-118.0829,1.028286,1.266307,101893,4052.7
+Charleston,2,United States,South Carolina,SC,Charleston,45019,32.8168,-79.9687,0.1655533,0.4847376,706884,503.3
+Haifa,2,Israel,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Bucharest,2,Romania,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Accra,2,Ghana,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Lexington,2,United States,Kentucky,KY,Fayette,21067,38.0423,-84.4587,0.4900968,0.3701144,321276,437
+Houston,2,United States,Texas,TX,Harris,48201,29.786,-95.3885,0.9305078,0.8219143,5970127,1384
+Zug,2,Switzerland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Nashua,2,United States,New Hampshire,NH,Hillsborough,12057,42.7491,-71.491,0.9080961,1.07121,245209,1138.8
+Madison,2,United States,Wisconsin,WI,Dane,55025,43.0822,-89.393,0.7248446,1.555875,451652,1268.3
+Wellington,2,New Zealand,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+New Haven,2,United States,Connecticut,CT,South Central Connecticut,9170,41.3113,-72.9246,1.154729,1.227185,565572,2804.1
+Karlsruhe,2,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Wilmington,2,United States,North Carolina,NC,New Hanover,37129,34.2099,-77.8866,0.737784,0.1449302,268625,878.3
+Durham,2,United States,North Carolina,NC,Durham,37063,35.9792,-78.9022,0.737784,1.553184,399616,950.8
+Grand Rapids,2,United States,Michigan,MI,Kent,26081,42.9619,-85.6562,0.6779525,0.3915974,609023,1708.2
+Bend,2,United States,Oregon,OR,Deschutes,41017,44.0563,-121.3095,0.7985942,0.3982899,111774,1108.2
+Guadalajara,2,Mexico,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Cairo,2,Egypt,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+San Luis Obispo,2,United States,California,CA,San Luis Obispo,6079,35.2669,-120.669,1.028286,-0.1660248,47529,1362.5
+Jerusalem,2,Israel,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Bristol,2,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Ho Chi Minh City,2,Vietnam,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Lahore,2,Pakistan,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Spokane,2,United States,Washington,WA,Spokane,53063,47.6671,-117.433,1.08479,0.9175941,456219,1279.8
+Joinville,2,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Lisbon,2,Portugal,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Missoula,2,United States,Montana,MT,Missoula,30063,46.8751,-114.0214,0.5933803,0.5355934,88780,828.8
+Hartford,1,United States,Connecticut,CT,Capitol,9110,41.7661,-72.6834,1.154729,1.530014,974684,2689.4
+Ghent,1,Belgium,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Yavne,1,Israel,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Xi'an,1,China,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Nashik,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Espoo,1,Finland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Fort Collins,1,United States,Colorado,CO,Larimer,8069,40.5477,-105.0656,0.9809595,0.4840733,335398,1142.2
+Salisbury,1,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Memphis,1,United States,Tennessee,TN,Shelby,47157,35.1087,-89.9663,0.5869446,0.3935514,1037998,824.8
+Corvallis,1,United States,Oregon,OR,Benton,53005,44.5698,-123.2779,0.7985942,-0.0566528,67187,1603.1
+Lodz,1,Poland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Abuja,1,Nigeria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Omaha,1,United States,Nebraska,NE,Douglas,31055,41.2627,-96.0529,0.8860975,1.371574,821345,1323.9
+St. Gallen,1,Switzerland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Leeds,1,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+,1,United States,Not found,#N/A,Not found,Not found,Not found,Not found,#N/A,Not found,Not found,Not found
+Jacksonville,1,United States,Florida,FL,Duval,12031,30.3322,-81.6749,0.7379833,0.6444117,1288298,491
+Kolkata,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Sandnes,1,Norway,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Evansville,1,United States,Indiana,IN,Vanderburgh,18163,37.9881,-87.5341,0.4297744,0.4927276,203661,953.2
+Ra'anana,1,Israel,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Ohio,1,United States,Ohio,OH,,,,,0.8504633,Not found,,
+Førde,1,Norway,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Alamosa,1,United States,Colorado,CO,Alamosa,8003,37.4752,-105.877,0.9809595,0.1445273,9792,478.7
+Chemnitz,1,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Colorado,1,United States,Colorado,CO,Not found,Not found,Not found,Not found,0.9809595,Not found,Not found,Not found
+Charlottesville,1,United States,Virginia,VA,,,38.0375,-78.4855,1.254353,,103760,1744.5
+Hangzhou,1,China,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Norfolk,1,United States,Virginia,VA,Norfolk,51710,36.8945,-76.259,1.254353,0.6091291,236973,1717.4
+Cluj-Napoca,1,Romania,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Riyadh,1,Saudi Arabia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Wrocław,1,Poland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Manila,1,Philippines,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Little Rock,1,United States,Arkansas,AR,Pulaski,5119,34.7256,-92.3577,0.2430259,1.009192,459409,649.4
+Cleveland,1,United States,Ohio,OH,Cuyahoga,39035,41.4764,-81.6805,0.8504633,1.340721,1680247,1839.6
+Monterrey,1,Mexico,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+New Hope,1,United States,Minnesota,MN,Hennepin,27053,45.0375,-93.3869,1.151987,1.734048,21620,1650.4
+Kyiv,1,Ukraine,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Geneva,1,Switzerland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Chester,1,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Warsaw,1,Poland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Linz,1,Austria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Kitchener,1,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Gydnia,1,Poland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Baton Rouge,1,United States,Louisiana,LA,East Baton Rouge,22033,30.442,-91.1311,0.5143613,0.8161277,635671,1001.4
+Albany,1,United States,New York,NY,Albany,36001,42.6664,-73.7987,1.495785,1.776388,590694,1798.3
+Milan,1,Italy,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Frankfurt,1,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Coimbra,1,Portugal,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Jersey City,1,United States,New Jersey,NJ,Hudson,34017,40.7184,-74.0686,1.116536,1.154533,287899,7537.2
+Kiel,1,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Providence,1,United States,Rhode Island,RI,Providence,44007,41.823,-71.4187,1.003802,1.247682,1290271,3979.7
+Oxford,1,United Kingdom,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Indore,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Patna,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Bismarck,1,United States,North Dakota,ND,Burleigh,38015,46.8143,-100.7694,0.5213218,0.2684921,99433,820.3
+Beau Vallon,1,Seychelles,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Utrecht,1,Netherlands,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Burlington,1,United States,North Carolina,NC,Alamance,37001,36.076,-79.4685,0.737784,-0.6217759,147415,726.6
+Gothenburg,1,Sweden,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Dover,1,United States,Delaware,DE,Kent,26081,39.161,-75.5202,0.9453681,0.3915974,130186,634.2
+Malmö,1,Sweden,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Eindhoven,1,Netherlands,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Athens,1,Greece,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Hyderabad,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Nebraska City,1,United States,Nebraska,NE,Otoe,31131,40.6762,-95.8613,0.8860975,-0.7501058,7257,563.4
+Trondheim,1,Norway,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Düsseldorf,1,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Brussels,1,Belgium,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+The Hague,1,Netherlands,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Budapest,1,Hungary,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Winnipeg,1,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Bangkok,1,Thailand,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Richmond,1,United States,Virginia,VA,Richmond,51760,37.5295,-77.4756,1.254353,1.484804,1073223,1463.7
+Porto Alegre,1,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Victoria,1,Seychelles,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Ferdericton,1,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Dakar,1,Senegal,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Florianópolis,1,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Louisville,1,United States,Kentucky,KY,Jefferson,21111,38.1663,-85.6485,0.4900968,0.5960811,963812,923.1
+Huntsville,1,United States,Alabama,AL,Madison,1089,34.6981,-86.6412,0.5171078,1.530059,349482,376.2
+Lima,1,Peru,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Malmo,1,Sweden,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Brasilia,1,Brazil,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Selangor,1,Malaysia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Manama,1,Bahrain,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Istanbul,1,Turkey,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Moscow,1,Russia,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Davenport,1,United States,Iowa,IA,Scott,19163,41.5565,-90.6053,0.6960925,0.4961033,281333,614
+Toulouse,1,France,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Montevideo,1,Uruguay,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Fayetteville,1,United States,Arkansas,AR,Washington,5143,36.0714,-94.1661,0.2430259,-0.0025898,394650,672.8
+Sofia,1,Bulgaria,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Cork,1,Ireland,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Ahmedabad,1,India,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Hanoi,1,Vietnam,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Dusseldorf,1,Germany,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Cape Town,1,South Africa,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Quebec,1,Canada,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+Yangon,1,Myanmar,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA,Not USA
+New Orleans,1,United States,Louisiana,LA,Orleans,22071,30.0687,-89.9288,0.5143613,0.9329381,932759,866.5

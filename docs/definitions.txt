@@ -41,3 +41,21 @@ Regulatory requirements = Mention of (usually new) rules or regulations that wou
 
 Expansion = Mention of new projects/products, acquisitions, entering new markets, hiring more employees, etc. Can be recent past or
     near future.
+
+
+FOR JOB POSITIONS IMPACTED
+Across the board = Mention of layoffs affecting all departments or mention of no specific department being heavily targeted
+Engineering = Includes all job titles that have the word "engineer", including software engineering
+Management = Mention of layoffs affecting management layers or leadership positions
+Recruiting = Also includes "talent acquisition"
+Job Positions Laid Off Desc and Job Positions Laid Off Specific can be duplicated if the language used was somewhat broad but still
+    somewhat specific, such as "r&d" or "go-to-market teams"
+Specific job titles are otherwise taken word-for-word from relevant sources
+
+FOR AI RELATION
+Pivot towards AI = Mention of the company recently increasing their focus on AI (can be in almost any way, as long as the
+    focus on AI is greater than earlier in the company's history)
+Part of company product = AI is a fundamental aspect of the company's product, and that is not a new development
+Key strategic growth area = Mention of the company wanting to increase their focus on AI
+New AI products = Mention of the company recently releasing new products that utilize AI
+Notable layoff target = Specific mention of the company targeting machine learning/AI researchers in the layoff

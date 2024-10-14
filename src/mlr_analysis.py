@@ -29,7 +29,9 @@ colnamesFull.insert(7, "Log(Number Laid Off)")
 colnamesFull.append("Year")
 ord_enc = OrdinalEncoder()
 layoffDataFullSimpl["Year_code"] = ord_enc.fit_transform(layoffDataFullSimpl[["Year"]])
-simplified_reasons = list(set(simplifierMap.values()))
+missing_reasons = ["business realignment", "definite business realignment", "automation", "optimization", "focus on ai",
+                   "ftx collapse", "covid-19"]
+simplified_reasons = list(set(simplifierMap.values())) + missing_reasons
 for reason in simplified_reasons:
     layoffDataFullSimpl[str(reason)] = np.where((layoffDataFullSimpl["Reason Mentioned 1"] == reason) |
                                                                (layoffDataFullSimpl["Reason Mentioned 2"] == reason) |

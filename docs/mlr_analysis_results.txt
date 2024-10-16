@@ -1,0 +1,139 @@
+1st Model:
+AI Mentioned: -0.0374
+Year_code: -0.0117
+Percentage: -0.0965
+Log(Number Laid Off): 0.0029
+capacity and demand: -0.0106
+regional market prioritization: 0.0344
+product and production: -0.0724
+facility and infrastructure: 0.0161
+liquidity and cash flow: -0.0198
+partnership and agreement: 0.0613
+regulatory and legal: -0.0759
+profitability and revenue: 0.0268
+industry relations: 0.0
+employee and hr: -0.0155
+rapid expansion: 0.0549
+market conditions: 0.0231
+geopolitical and macroeconomic conditions: -0.0127
+m&a activities: 0.019
+debt and financing: -0.0798
+competition: 0.0209
+business realignment: 0.0208
+definite business realignment: 0.034
+automation: 0.0
+optimization: 0.0353
+focus on ai: 0.0036
+ftx collapse: 0.0
+covid-19: -0.0143
+Mean squared error: 0.008793219960995555
+Root mean squared error: 0.09377217050380969
+Mean absolute error: 0.062215964267498994
+R2 Score: -0.0883722506884379
+
+2nd Model:
+AI Mentioned: 0.0075
+Post: 0.0219
+Post*AI: -0.0564
+Post*Percentage: -0.2134
+Percentage: 0.0537
+Log(Number Laid Off): 0.0028
+capacity and demand: -0.0092
+regional market prioritization: -0.019
+product and production: -0.0594
+facility and infrastructure: 0.0294
+liquidity and cash flow: -0.0054
+partnership and agreement: 0.0635
+regulatory and legal: -0.07
+profitability and revenue: 0.0259
+industry relations: 0.0
+employee and hr: -0.0249
+rapid expansion: 0.0542
+market conditions: 0.0219
+geopolitical and macroeconomic conditions: -0.0114
+m&a activities: 0.0251
+debt and financing: -0.0702
+competition: 0.0034
+business realignment: 0.0196
+definite business realignment: 0.0353
+automation: 0.0
+optimization: 0.0319
+focus on ai: 0.014
+ftx collapse: 0.0
+covid-19: 0.0016
+Mean squared error: 0.009104867758289626
+Root mean squared error: 0.0954194307166503
+Mean absolute error: 0.06453505366921895
+R2 Score: -0.1269461537714489
+
+Standard deviation: 0.1017146803563003
+
+3rd Model:
+AI Mentioned: -0.0075
+Year_code: -0.0033
+Percentage: 0.0849
+Log(Number Laid Off): -0.0015
+capacity and demand: 0.011
+regional market prioritization: -0.0534
+product and production: 0.097
+facility and infrastructure: -0.0187
+liquidity and cash flow: -0.0157
+partnership and agreement: -0.0125
+regulatory and legal: -0.0235
+profitability and revenue: -0.0112
+industry relations: 0.0
+employee and hr: -0.0193
+rapid expansion: -0.0134
+market conditions: -0.0058
+geopolitical and macroeconomic conditions: -0.007
+m&a activities: 0.1239
+debt and financing: 0.0182
+competition: -0.0045
+business realignment: 0.015
+definite business realignment: -0.0195
+automation: -0.0
+optimization: 0.0037
+focus on ai: 0.0304
+ftx collapse: 0.0
+covid-19: -0.034
+Mean squared error: 0.0031900262640341503
+Root mean squared error: 0.056480317492327806
+Mean absolute error: 0.040819238335108435
+R2 Score: -0.33249892849045337
+
+4th Model:
+AI Mentioned: 0.0151
+Post: 0.001
+Post*AI: -0.0316
+Post*Percentage: 0.026
+Percentage: 0.0663
+Log(Number Laid Off): -0.0022
+capacity and demand: 0.0108
+regional market prioritization: -0.0406
+product and production: 0.0984
+facility and infrastructure: -0.0147
+liquidity and cash flow: -0.0173
+partnership and agreement: -0.0135
+regulatory and legal: -0.0278
+profitability and revenue: -0.0112
+industry relations: -0.0
+employee and hr: -0.0224
+rapid expansion: -0.0114
+market conditions: -0.0041
+geopolitical and macroeconomic conditions: -0.0053
+m&a activities: 0.1225
+debt and financing: 0.018
+competition: -0.0012
+business realignment: 0.0163
+definite business realignment: -0.0184
+automation: 0.0
+optimization: 0.0036
+focus on ai: 0.0358
+ftx collapse: 0.0
+covid-19: -0.0204
+Mean squared error: 0.0032744929137737606
+Root mean squared error: 0.05722318510685822
+Mean absolute error: 0.04186529855122759
+R2 Score: -0.3677813089335771
+
+Standard deviation: 0.07157809104312075
